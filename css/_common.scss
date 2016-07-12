@@ -49,16 +49,22 @@ body {
 
 /*text styles*/
 h1 {
-    color:$dark-blue;
-    font-size:32px;
-    line-height:38px;
+    font-size:66px;
     text-transform: uppercase;
     font-weight:700;
     font-family: $armino;
+    
+    &.orange {
+        color:$orange;
+    }
+    
+    &.yellow {
+        color:$yellow;
+    }
 }
 
 h2 {
-    color:#414042;
+    color:$dark-grey;
     font-size:35px;
     line-height:33px;
     text-transform: uppercase;
@@ -75,11 +81,48 @@ h3 {
     font-family: $armino;
 }
 
+h4 {
+    font-size:25px;
+    text-transform:uppercase;
+    
+    &.white {
+        color:$white;
+    }
+}
+
 p {
     font-size:22px;
     line-height:25px;
     color:#58595B;
     font-family: $armino;
+    
+    &.orange {
+        color:$orange;
+    }
+}
+
+.bold {
+    font-weight:700;
+}
+
+.img-fluid-inline-block {
+    display:inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+.orange-top-border {
+    border-top:4px solid $orange;
+    width:100px;
+    margin-bottom:5px;
+}
+
+.white-underline {
+    border-bottom:1px solid $white;
+    width:50%;
+    margin:0 auto;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 
 
