@@ -1,0 +1,139 @@
+@import "_variables.scss";
+
+.footer {
+    padding:20px 20px;
+    background-color:$dark-blue;
+    
+    .logo {
+        margin-bottom:10px;
+        vertical-align:middle;
+        background-image:url("../images/logo.png");
+        background-position:-1px 0px;
+        width:70px;
+        height:70px;
+        display:inline-block;
+    
+        &:hover, &:focus {
+            background-position:-1px -71px;
+        }
+    }
+
+    .underline-wrapper {
+        width: 280px;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+        @media #{$md} {
+            width: 380px;
+        }
+        
+        .orange-underline {
+            border-bottom:2px solid $orange;
+        }
+
+        .circle {
+            width: 10px;
+            height: 10px;
+            background: $orange;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+            margin:0 auto;
+            margin-top:-5px;
+        }
+    }
+    
+    ul.nav {
+        display:inline-block;
+        margin-bottom:20px;
+
+        li {
+            list-style-type:none;
+            display:inline-block;
+            padding-right:10px;
+            
+            &:last-child {
+                padding-right:0px;
+            }
+            
+            a {
+                color:$white;
+                font-size:14px;
+                text-transform: uppercase;
+                font-weight:bold;
+                text-decoration:none;
+                padding-bottom:2px;
+                font-family: $armino;
+                letter-spacing:0.05em;
+
+                &:hover, &:focus, .active {
+                    border-bottom:2px solid $orange;
+                }
+            }
+        }
+    }
+    
+    .social-media-wrapper {
+        ul.social-media {
+            li {
+                display:inline-block;
+
+                a.behance, a.linkedin, a.vimeo, a.youtube {
+                    width:36px;
+                    height:36px;
+                    display:inline-block;
+                    background-image:url("../images/social-media-icons.png");
+                    background-repeat: no-repeat;
+
+                    &:hover, &:focus {
+                        background-image:url("../images/social-media-icons.png");
+                        background-repeat: no-repeat;
+                    }
+                    
+                }
+                a.behance {
+                    background-position:-1px -0px;
+                    margin-right:10px;
+
+                    &:hover, &:focus {
+                        background-position:-1px -38px;
+                    }
+                }
+
+                a.linkedin {
+                    background-position:-46px -0px;
+                    margin-right:10px;
+
+                    &:hover, &:focus {
+                        background-position:-46px -38px;
+                    }
+                }
+
+                a.vimeo {
+                    background-position:-93px -0px;
+                    margin-right:10px;
+
+                    &:hover, &:focus {
+                        background-position:-93px -38px;
+                    }
+                }
+
+                a.youtube {
+                    background-position:-141px -0px;
+
+                    &:hover, &:focus {
+                        background-position:-141px -38px;
+                    }
+                }
+            }
+        }
+    }
+    
+    p.copyright {
+        font-size:12px;
+        line-height:16px;
+        color:$white;
+        margin-bottom:20px;
+    }
+}
