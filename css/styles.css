@@ -205,8 +205,13 @@ p {
   margin-top: 10px;
   margin-bottom: 10px; }
 
+/* line 128, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_common.scss */
+.center-content {
+  justify-content: center;
+  align-items: center; }
+
 /*lightbox styles*/
-/* line 131, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_common.scss */
+/* line 136, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_common.scss */
 .background {
   background-color: rgba(0, 0, 0, 0.75);
   z-index: 9001;
@@ -218,21 +223,21 @@ p {
   overflow-y: auto;
   width: 100%;
   height: 100%; }
-  /* line 143, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_common.scss */
+  /* line 148, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_common.scss */
   .background .popup-wrapper {
     position: relative;
     z-index: 9002; }
-    /* line 147, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_common.scss */
+    /* line 152, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_common.scss */
     .background .popup-wrapper .popup {
       margin-left: auto;
       margin-right: auto;
       z-index: 9003;
       margin-top: 30px;
       position: relative; }
-      /* line 155, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_common.scss */
+      /* line 160, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_common.scss */
       .background .popup-wrapper .popup .popup-content .image-wrapper {
         display: block; }
-      /* line 159, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_common.scss */
+      /* line 164, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_common.scss */
       .background .popup-wrapper .popup .popup-content a.close-popup {
         background-color: #ffffff;
         border: 2px solid #1c1d21;
@@ -254,28 +259,28 @@ p {
         cursor: pointer;
         margin-top: 10px;
         margin-bottom: 10px; }
-        /* line 181, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_common.scss */
+        /* line 186, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_common.scss */
         .background .popup-wrapper .popup .popup-content a.close-popup:hover, .background .popup-wrapper .popup .popup-content a.close-popup:focus {
           background-color: #1c1d21;
           color: #ffffff; }
 
-/* line 191, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_common.scss */
+/* line 196, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_common.scss */
 .hide {
   display: none; }
 
-/* line 194, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_common.scss */
+/* line 199, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_common.scss */
 .show {
   display: block; }
 
 /*Responsive video*/
-/* line 199, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_common.scss */
+/* line 204, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_common.scss */
 .video-wrapper {
   position: relative;
   padding-bottom: 56.25%;
   /* 16:9 */
   padding-top: 25px;
   height: 0; }
-  /* line 205, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_common.scss */
+  /* line 210, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_common.scss */
   .video-wrapper iframe {
     position: absolute;
     top: 0;
@@ -294,79 +299,149 @@ p {
   padding: 30px 0px;
   margin-left: 30px; }
   /* line 8, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
-  .header .logo {
-    margin-left: 20px;
-    vertical-align: middle;
-    background-image: url("../img/logo.png");
-    width: 72px;
-    height: 69px;
-    display: inline-block;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    cursor: pointer; }
-    @media (max-width: 991px) {
-      /* line 8, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
-      .header .logo {
-        display: inline-block;
-        margin-bottom: 0px;
-        margin-left: 20px; } }
-  /* line 26, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
-  .header ul.nav {
-    display: inline-block;
-    margin-left: 10px; }
+  .header .nav-container {
+    justify-content: space-between;
+    align-items: center; }
+    /* line 12, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
+    .header .nav-container a.logo {
+      margin-left: 20px;
+      vertical-align: middle;
+      background-image: url("../img/logo.png");
+      width: 72px;
+      height: 69px;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 10px;
+      cursor: pointer; }
+      @media (min-width: 991px) {
+        /* line 12, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
+        .header .nav-container a.logo {
+          margin-bottom: 0px;
+          margin-left: 20px;
+          display: inline-block; } }
     /* line 30, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
-    .header ul.nav li {
-      list-style-type: none;
-      display: inline-block;
-      padding: 10px; }
-      /* line 35, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
-      .header ul.nav li a {
+    .header .nav-container nav.mobile-nav-button-container {
+      position: relative; }
+      /* line 33, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
+      .header .nav-container nav.mobile-nav-button-container button.mobile-nav {
+        font-size: 60px;
         color: #ffffff;
-        font-size: 16px;
-        text-transform: uppercase;
-        text-decoration: none;
-        padding-top: 2px;
-        font-family: "Arimo", Arial, Helvetica sans-serif;
-        letter-spacing: 0.05em;
-        cursor: pointer; }
-        /* line 45, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
-        .header ul.nav li a:hover, .header ul.nav li a:focus, .header ul.nav li a.active {
-          border-top: 2px solid #f26414; }
-  /* line 52, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
-  .header ul.social-media {
-    margin-top: 6px;
-    margin-right: 30px;
-    text-align: right; }
-    /* line 57, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
-    .header ul.social-media li {
-      display: inline-block; }
-      /* line 60, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
-      .header ul.social-media li a.behance, .header ul.social-media li a.linkedin, .header ul.social-media li a.vimeo, .header ul.social-media li a.youtube {
-        height: 26px;
-        display: inline-block;
-        background-image: url("../img/social-media-icons-white.png");
-        background-repeat: no-repeat;
-        cursor: pointer; }
-      /* line 68, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
-      .header ul.social-media li a.behance {
-        background-position: 0px 0px;
-        margin-right: 10px;
-        width: 41px; }
+        width: 50px;
+        position: absolute;
+        top: -50px;
+        right: 10px; }
+    /* line 43, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
+    .header .nav-container .nav-content-container {
+      position: relative; }
+      /* line 46, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
+      .header .nav-container .nav-content-container .nav-content {
+        text-align: right;
+        background-color: #343942;
+        width: 220px;
+        padding: 20px;
+        position: absolute;
+        top: -50px;
+        right: 0px;
+        height: 100vh;
+        z-index: 1000;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out; }
+    /* line 62, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
+    .header .nav-container ul.nav {
+      text-align: left;
+      margin-left: 0px;
+      margin-bottom: 25px;
+      display: block;
+      width: 100%; }
+      @media (min-width: 991px) {
+        /* line 62, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
+        .header .nav-container ul.nav {
+          display: inline-block;
+          margin-left: 10px; } }
       /* line 74, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
-      .header ul.social-media li a.linkedin {
-        background-position: -57px 0px;
-        margin-right: 10px;
-        width: 29px; }
-      /* line 80, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
-      .header ul.social-media li a.vimeo {
-        background-position: -101px 0px;
-        margin-right: 10px;
-        width: 31px; }
-      /* line 86, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
-      .header ul.social-media li a.youtube {
-        background-position: -143px 0px;
-        width: 38px; }
-  /* line 93, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
+      .header .nav-container ul.nav li {
+        padding: 0px;
+        padding-bottom: 15px;
+        display: block; }
+        @media (min-width: 991px) {
+          /* line 74, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
+          .header .nav-container ul.nav li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 10px; } }
+        /* line 85, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
+        .header .nav-container ul.nav li a {
+          color: #ffffff;
+          font-size: 16px;
+          text-transform: uppercase;
+          text-decoration: none;
+          padding-top: 2px;
+          font-family: "Arimo", Arial, Helvetica sans-serif;
+          letter-spacing: 0.05em;
+          cursor: pointer; }
+          /* line 95, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
+          .header .nav-container ul.nav li a:hover, .header .nav-container ul.nav li a:focus, .header .nav-container ul.nav li a.active {
+            color: #f26414; }
+            @media (min-width: 991px) {
+              /* line 95, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
+              .header .nav-container ul.nav li a:hover, .header .nav-container ul.nav li a:focus, .header .nav-container ul.nav li a.active {
+                color: #ffffff;
+                border-top: 2px solid #f26414; } }
+    /* line 107, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
+    .header .nav-container ul.social-media {
+      margin-right: 0px;
+      margin-top: 0px;
+      text-align: left;
+      width: 100%; }
+      @media (min-width: 991px) {
+        /* line 107, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
+        .header .nav-container ul.social-media {
+          margin-top: 6px;
+          margin-right: 30px;
+          text-align: right; } }
+      /* line 119, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
+      .header .nav-container ul.social-media li {
+        display: inline-block; }
+        /* line 123, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
+        .header .nav-container ul.social-media li a.behance, .header .nav-container ul.social-media li a.linkedin, .header .nav-container ul.social-media li a.vimeo, .header .nav-container ul.social-media li a.youtube {
+          height: 26px;
+          display: inline-block;
+          background-image: url("../img/social-media-icons-white.png");
+          background-repeat: no-repeat;
+          cursor: pointer; }
+        /* line 131, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
+        .header .nav-container ul.social-media li a.behance {
+          background-position: 0px 0px;
+          margin-right: 5px;
+          width: 41px; }
+          @media (min-width: 991px) {
+            /* line 131, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
+            .header .nav-container ul.social-media li a.behance {
+              margin-right: 10px; } }
+        /* line 141, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
+        .header .nav-container ul.social-media li a.linkedin {
+          background-position: -57px 0px;
+          margin-right: 5px;
+          width: 29px; }
+          @media (min-width: 991px) {
+            /* line 141, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
+            .header .nav-container ul.social-media li a.linkedin {
+              margin-right: 10px; } }
+        /* line 151, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
+        .header .nav-container ul.social-media li a.vimeo {
+          background-position: -101px 0px;
+          margin-right: 5px;
+          width: 31px; }
+          @media (min-width: 991px) {
+            /* line 151, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
+            .header .nav-container ul.social-media li a.vimeo {
+              margin-right: 10px; } }
+        /* line 161, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
+        .header .nav-container ul.social-media li a.youtube {
+          background-position: -143px 0px;
+          width: 38px; }
+  /* line 169, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_header.scss */
   .header .banner {
     padding: 70px 67px; }
 
@@ -464,13 +539,17 @@ p {
 /*colours*/
 /*media queries*/
 /*Google font*/
+/* line 4, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_home.scss */
+.home .web-ui-illustration {
+  margin: 0 auto; }
+
 /*colours*/
 /*media queries*/
 /*Google font*/
 /* line 5, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_portfolio.scss */
 .portfolio .underline-wrapper.portfolio-title {
   width: 280px; }
-  @media (max-width: 991px) {
+  @media (min-width: 991px) {
     /* line 5, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_portfolio.scss */
     .portfolio .underline-wrapper.portfolio-title {
       width: 210px; } }
@@ -577,5 +656,11 @@ p {
 /* line 9, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_contact.scss */
 .contact p.email {
   margin-top: 10px; }
+
+@media (min-width: 991px) {
+  /* line 13, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_contact.scss */
+  .contact .contact-illustration {
+    margin: 0 auto;
+    margin-bottom: 30px; } }
 
 /*# sourceMappingURL=styles.css.map */

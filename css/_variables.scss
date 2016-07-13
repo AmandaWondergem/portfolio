@@ -9,9 +9,9 @@ $orange:#f26414;
 
 /*media queries*/
 $xs-only:only screen and (max-width: 554px);
-$sm:only screen and (max-width: 767px);
-$md:only screen and (max-width: 991px);
-$lg:only screen and (max-width: 1199px);
+$sm:only screen and (min-width: 767px);
+$md:only screen and (min-width: 991px);
+$lg:only screen and (min-width: 1199px);
 
 /*Google font*/
 $armino:'Arimo', Arial, Helvetica sans-serif;

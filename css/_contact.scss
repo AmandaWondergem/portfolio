@@ -9,4 +9,11 @@
     p.email {
         margin-top:10px;
     }
+    
+    .contact-illustration {
+        @media#{$md} {
+            margin:0 auto;
+            margin-bottom:30px;
+        }
+    }
 }

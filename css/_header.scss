@@ -4,88 +4,165 @@
     background-color:$dark-blue;
     padding:30px 0px;
     margin-left:30px;
-
-    .logo {
-        margin-left:20px;
-        vertical-align:middle;
-        background-image:url("../img/logo.png");
-        width:72px;
-        height:69px;
-        display:inline-block;
-        margin:0 auto;
-        margin-bottom:10px;
-        cursor: pointer;
-
-        @media #{$md} {
-            display:inline-block;
-            margin-bottom:0px;
+    
+    .nav-container {
+        justify-content: space-between;
+        align-items:center;
+        
+        a.logo {
             margin-left:20px;
+            vertical-align:middle;
+            background-image:url("../img/logo.png");
+            width:72px;
+            height:69px;
+            display:block;
+            margin:0 auto;
+            margin-bottom:10px;
+            cursor: pointer;
+
+            @media #{$md} {
+                margin-bottom:0px;
+                margin-left:20px;
+                display:inline-block;
+            }
         }
-    }
-
-    ul.nav {
-        display:inline-block;
-        margin-left:10px;
-
-        li {
-            list-style-type:none;
-            display:inline-block;
-            padding:10px;
+        
+        nav.mobile-nav-button-container {
+            position:relative;
             
-            a {
+            button.mobile-nav {
+                font-size:60px;
                 color:$white;
-                font-size:16px;
-                text-transform: uppercase;
-                text-decoration:none;
-                padding-top:2px;
-                font-family: $armino;
-                letter-spacing:0.05em;
-                cursor: pointer;
+                width:50px;
+                position:absolute;
+                top: -50px;
+                right: 10px;
+            }
+        }
+        
+        .nav-content-container {
+            position:relative;
+            
+            .nav-content {
+                text-align:right;
+                background-color:#343942;
+                width:220px;
+                padding:20px;
+                position: absolute;
+                top: -50px;
+                right: 0px;
+                height: 100vh;
+                z-index:1000;
+                -webkit-transition: all 0.2s ease-in-out;
+                -moz-transition: all 0.2s ease-in-out;
+                transition: all 0.2s ease-in-out;
+            }
+        }
+        
+        ul.nav {
+            text-align:left;
+            margin-left:0px;
+            margin-bottom:25px;
+            display:block;
+            width:100%;
 
-                &:hover, &:focus, &.active {
-                    border-top:2px solid $orange;
+            @media #{$md} {
+                display:inline-block;
+                margin-left:10px;
+                width:auto;
+            }
+
+            li {
+                padding:0px;
+                padding-bottom:15px;
+                display:block;
+
+                @media #{$md} {
+                    list-style-type:none;
+                    display:inline-block;
+                    padding:10px;
+                }
+
+                a {
+                    color:$white;
+                    font-size:16px;
+                    text-transform: uppercase;
+                    text-decoration:none;
+                    padding-top:2px;
+                    font-family: $armino;
+                    letter-spacing:0.05em;
+                    cursor: pointer;
+
+                    &:hover, &:focus, &.active {
+                        color:$orange;
+
+                        @media #{$md} {
+                            color:$whit;;
+                            border-top:2px solid $orange;
+                        }
+                    }
                 }
             }
         }
-    }
 
-    ul.social-media {
-        margin-top:6px;
-        margin-right:30px;
-        text-align:right;
+        ul.social-media {
+            margin-right:0px;
+            margin-top:0px;
+            text-align:left;
+            width:100%;
 
-        li {
-            display:inline-block;
+            @media #{$md} {
+                margin-top:6px;
+                margin-right:30px;
+                text-align:right;
+            }
 
-            a.behance, a.linkedin, a.vimeo, a.youtube {
-                height:26px;
+            li {
                 display:inline-block;
-                background-image:url("../img/social-media-icons-white.png");
-                background-repeat: no-repeat;
-                cursor: pointer;
 
-            }
-            a.behance {
-                background-position:0px -0px;
-                margin-right:10px;
-                width:41px;
-            }
 
-            a.linkedin {
-                background-position:-57px -0px;
-                margin-right:10px;
-                width:29px;
-            }
+                a.behance, a.linkedin, a.vimeo, a.youtube {
+                    height:26px;
+                    display:inline-block;
+                    background-image:url("../img/social-media-icons-white.png");
+                    background-repeat: no-repeat;
+                    cursor: pointer;
 
-            a.vimeo {
-                background-position:-101px -0px;
-                margin-right:10px;
-                width:31px;
-            }
+                }
+                a.behance {
+                    background-position:0px -0px;
+                    margin-right:5px;
+                    width:41px;
 
-            a.youtube {
-                background-position:-143px -0px;
-                width:38px;
+                    @media #{$md} {
+                        margin-right:10px;
+                    }
+                }
+
+                a.linkedin {
+                    background-position:-57px -0px;
+                    margin-right:5px;
+                    width:29px;
+
+                    @media #{$md} {
+                        margin-right:10px;
+                    }
+                }
+
+                a.vimeo {
+                    background-position:-101px -0px;
+                    margin-right:5px;
+                    width:31px;
+
+                    @media #{$md} {
+                        margin-right:10px;
+                    }
+                }
+
+                a.youtube {
+                    background-position:-143px -0px;
+                    width:38px;
+                }
             }
         }
     }
