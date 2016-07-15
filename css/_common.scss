@@ -65,13 +65,17 @@ h1 {
 
 h2 {
     color:$dark-grey;
-    font-size:35px;
+    font-size:30px;
     line-height:33px;
     text-transform: uppercase;
     font-weight:700;
     font-family: $armino;
     letter-spacing:0.02em;
     margin-bottom:10px;
+    
+    @media #{$md} {
+        font-size:35px;
+    }
 }
 
 h3 {
@@ -82,8 +86,12 @@ h3 {
 }
 
 h4 {
-    font-size:25px;
+    font-size:20px;
     text-transform:uppercase;
+    
+    @media #{$md} {
+        font-size:25px;
+    }
     
     &.white {
         color:$white;
@@ -91,10 +99,15 @@ h4 {
 }
 
 p {
-    font-size:22px;
-    line-height:25px;
+    font-size:20px;
+    line-height:26px;
     color:#58595B;
     font-family: $armino;
+    
+    @media #{$md} {
+        font-size:22px;
+        line-height:30px;
+    }
     
     &.orange {
         color:$orange;
@@ -114,7 +127,11 @@ p {
 .orange-top-border {
     border-top:4px solid $orange;
     width:100px;
-    margin-bottom:5px;
+    margin-bottom:2px;
+    
+    @media #{$md} {
+        margin-bottom:2px;
+    }
 }
 
 .white-underline {
@@ -129,7 +146,6 @@ p {
     justify-content: center;
     align-items: center;
 }
-
 
 /*lightbox styles*/
 

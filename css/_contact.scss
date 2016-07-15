@@ -2,8 +2,13 @@
 
 .contact {
     .content {
-        padding-top:80px;
-        padding-bottom:80px;
+        padding-top:30px;
+        padding-bottom:30px;
+        
+        @media #{$md} {
+            padding-top:50px;
+            padding-bottom:50px;
+        }
     }
     
     p.email {
@@ -11,9 +16,11 @@
     }
     
     .contact-illustration {
-        @media#{$md} {
-            margin:0 auto;
-            margin-bottom:30px;
+        margin:0 auto;
+        margin-bottom:30px;
+        
+        @media #{$sm-down} {
+            margin-bottom:0px;
         }
     }
 }

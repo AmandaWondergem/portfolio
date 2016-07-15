@@ -1,11 +1,17 @@
 @import "_variables.scss";
 
 .footer {
-    padding:40px 40px;
+    padding-top:20px;
+    padding-bottom:20px;
     background-color:$white;
     background-image:url("../img/circle-bg-pattern.png");
     background-repeat: repeat;
     text-align:center;
+    
+    @media #{$md} {
+        padding-top:30px;
+        padding-bottom:30px;
+    }
     
     .logo {
         margin-bottom:10px;
@@ -20,8 +26,12 @@
     
     .orange-underline {
         border-bottom:1px solid $orange;
-        width:25%;
+        width:75%;
         margin:0 auto;
+        
+        @media #{$md} {
+            width:35%;
+        }
     }
     
     ul.nav {
