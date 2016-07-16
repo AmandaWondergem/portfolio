@@ -14,7 +14,13 @@
             content:"Open";
         }
     }
-    
+    .maxHeight{
+      transition : max-height 2s;
+      max-height: 10000px;
+    }
+    .zeroHeight{
+      max-height:0px !important;
+    }
     a.button {
         text-transform: uppercase;
         display:inline-block;

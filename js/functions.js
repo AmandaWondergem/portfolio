@@ -23,4 +23,11 @@ $(function(){
     }
     $(target).toggleClass(toggleClass);
   });
+  $('.toggle-link').click(function(){
+    $($(this).attr("data-toggle-class")).toggleClass("zeroHeight");
+    $(this).toggleClass("toggleOn");
+  });
+  $('.toggle-link').each(function(){
+    $($(this).attr("data-toggle-class")).addClass("maxHeight");
+  })
 })
