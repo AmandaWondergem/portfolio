@@ -1,6 +1,20 @@
 @import "_variables.scss";
 
 .portfolio {
+    a.toggle-link {
+        font-size:18px;
+        color:$orange;
+        padding-right:5px;
+        
+        &.closed span:before {
+            content:"Closed";
+        }
+        
+        &.open span:before {
+            content:"Open";
+        }
+    }
+    
     a.button {
         text-transform: uppercase;
         display:inline-block;
@@ -43,5 +57,35 @@
             background-position:-39px -0px;
             margin-top:-5px;
         }
+    }
+    
+    .more-content {
+        margin-top:50px;
+        margin-bottom:20px;
+    }
+    
+    .orange-border {
+        margin-top:30px;
+        border-top:2px solid $orange;
+        height:4px;
+    }
+    
+    .close-button {
+        color:$orange;
+        font-size: 50px;
+        -wekbit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+        
+        &:hover, &:focus {
+            color:$blue;
+        }
+    }
+    
+    .portfolio-content {
+        overflow:hidden;
+        -wekbit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        transition: all 0.2s ease;
     }
 }
