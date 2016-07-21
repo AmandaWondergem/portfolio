@@ -26,6 +26,9 @@ $(function(){
   $('.toggle-link').click(function(){
     $($(this).attr("data-toggle-class")).toggleClass("zeroHeight");
     $(this).toggleClass("open");
+    if($(this).hasClass("open")){
+      $("html, body").animate({ scrollTop: $($(this).attr("data-toggle-class")).offset().top }, 1000);
+    }
   });
   $('.toggle-link').each(function(){
     $($(this).attr("data-toggle-class")).addClass("maxHeight");
