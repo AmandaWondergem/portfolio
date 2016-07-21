@@ -122,5 +122,10 @@
     
     .portfolio-thumbail {
         margin:0 auto;
+        margin-bottom:25px;
+        
+        @media #{$md} {
+            margin-bottom:0;
+        }
     }
 }

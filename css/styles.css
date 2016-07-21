@@ -367,7 +367,7 @@ p {
         width: 220px;
         padding: 60px 20px;
         position: absolute;
-        top: -99px;
+        top: -129px;
         right: -15px;
         height: 100vh;
         z-index: 1000;
@@ -707,7 +707,12 @@ p {
 
 /* line 123, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_portfolio.scss */
 .portfolio .portfolio-thumbail {
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 25px; }
+  @media (min-width: 768px) {
+    /* line 123, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_portfolio.scss */
+    .portfolio .portfolio-thumbail {
+      margin-bottom: 0; } }
 
 /*colours*/
 /*media queries*/
