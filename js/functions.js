@@ -25,7 +25,7 @@ $(function(){
   });
   $('.toggle-link').click(function(){
     $($(this).attr("data-toggle-class")).toggleClass("zeroHeight");
-    $(this).toggleClass("toggleOn");
+    $(this).toggleClass("open");
   });
   $('.toggle-link').each(function(){
     $($(this).attr("data-toggle-class")).addClass("maxHeight");

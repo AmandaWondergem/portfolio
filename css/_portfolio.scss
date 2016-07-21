@@ -1,26 +1,47 @@
 @import "_variables.scss";
 
 .portfolio {
-    a.toggle-link {
+    a.see-project.toggle-link {
         font-size:18px;
         color:$orange;
-        padding-right:5px;
+        padding:10px 20px;
+        border:2px solid $orange;
+        cursor:pointer;
+        margin-top:20px;
+        display:inline-block;
+        text-transform: uppercase;
         
-        &.closed span:before {
-            content:"Closed";
+        span:before {
+            content:"See";
         }
+        
+        &:hover, &:focus {
+            color:$white;
+            background-color:$orange;
+        }
+        
+//        &.closed span:before {
+//            content:"See";
+//        }
         
         &.open span:before {
-            content:"Open";
+            content:"Close";
         }
     }
-    .maxHeight{
-      transition : max-height 2s;
-      max-height: 10000px;
+    
+    .maxHeight {
+        max-height: 1000px;
     }
-    .zeroHeight{
-      max-height:0px !important;
+    
+    .zeroHeight {
+        max-height:0px !important;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        line-height:0px;
+        padding-bottom:0px;
     }
+    
     a.button {
         text-transform: uppercase;
         display:inline-block;
@@ -90,8 +111,12 @@
     
     .portfolio-content {
         overflow:hidden;
-        -wekbit-transition: all 0.2s ease;
-        -moz-transition: all 0.2s ease;
-        transition: all 0.2s ease;
+        -wekbit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        
+        &.details {
+           padding-top:0px; 
+        }
     }
 }
