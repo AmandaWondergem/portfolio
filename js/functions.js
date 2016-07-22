@@ -19,7 +19,8 @@ $(function(){
     else {
       $(".background").hide();
       $("body").css("overflow","initial")
-      $(lastTarget).find('iframe').attr("src",$(lastTarget).find('iframe').attr("src"))
+      $(lastTarget).find('iframe').attr("src",$(lastTarget).find('iframe').attr("src"));
+      //somethign
     }
     $(target).toggleClass(toggleClass);
   });
