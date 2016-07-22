@@ -609,16 +609,10 @@ p {
   margin-top: 20px;
   display: inline-block;
   text-transform: uppercase; }
-  /* line 14, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_portfolio.scss */
-  .portfolio a.see-project.toggle-link span:before {
-    content: "See"; }
   /* line 18, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_portfolio.scss */
   .portfolio a.see-project.toggle-link:hover, .portfolio a.see-project.toggle-link:focus {
     color: #ffffff;
     background-color: #f26414; }
-  /* line 27, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_portfolio.scss */
-  .portfolio a.see-project.toggle-link.open span:before {
-    content: "Close"; }
 
 /* line 32, /Users/Amanda/self_promotion_material/branding/portfolio-website/portfolio-website/css/_portfolio.scss */
 .portfolio a.close {

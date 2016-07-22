@@ -11,9 +11,9 @@
         display:inline-block;
         text-transform: uppercase;
         
-        span:before {
-            content:"See";
-        }
+//        span:before {
+//            content:"See";
+//        }
         
         &:hover, &:focus {
             color:$white;
@@ -24,9 +24,9 @@
 //            content:"See";
 //        }
         
-        &.open span:before {
-            content:"Close";
-        }
+//        &.open span:before {
+//            content:"Close";
+//        }
     }
     
     a.close {

@@ -27,7 +27,7 @@ $(function(){
     $($(this).attr("data-toggle-class")).toggleClass("zeroHeight");
     $(this).toggleClass("open");
       if($(this).hasClass("open")){
-      $("html, body").animate({ scrollTop: $($(this).attr("data-toggle-class")).offset().top }, 1000);
+      $("html, body").animate({ scrollTop: $($(this).attr("data-toggle-class")).offset().top }, 800);
     }
   });
   $('.toggle-link').each(function(){
