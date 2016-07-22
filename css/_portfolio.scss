@@ -29,6 +29,24 @@
         }
     }
     
+    a.close {
+        background-image:url("../img/x-button.png");
+        display:block;
+        vertical-align: middle;
+        background-position:0px 0px;
+        width:21px;
+        height:21px;
+        margin-top:10px;
+        cursor: pointer;
+        -wekbit-transition: background-image 0.3s ease-in-out;
+        -moz-transition: background-image 0.3s ease-in-out;
+        transition: background-image 0.3s ease-in-out;
+        
+        &:hover, &:focus {
+            background-position:0px 0px;
+        }
+    }
+    
     .maxHeight {
         max-height: 1000px;
     }
@@ -87,7 +105,7 @@
     }
     
     .more-content {
-        margin-top:50px;
+        margin-top:25px;
         margin-bottom:20px;
     }
     
