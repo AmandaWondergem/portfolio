@@ -727,10 +727,19 @@ p {
 
 /* line 150, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
 .portfolio .explanation-text {
-  margin-top: 30px; }
+  margin-top: 50px; }
   /* line 153, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-  .portfolio .explanation-text p {
-    margin-top: 20px; }
+  .portfolio .explanation-text .text {
+    margin-top: 50px;
+    margin-bottom: 20px; }
+    @media (min-width: 768px) {
+      /* line 153, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
+      .portfolio .explanation-text .text {
+        margin-top: 0px;
+        margin-bottom: 0px; } }
+    /* line 162, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
+    .portfolio .explanation-text .text p {
+      margin-top: 10px; }
 
 /*colours*/
 /*media queries*/
