@@ -176,6 +176,11 @@ p {
             .popup-content {
                 .image-wrapper {
                     display:block;
+                    text-align:center;
+                }
+                
+                img {
+                    margin:0 auto;
                 }
 
                 a.close-popup {
