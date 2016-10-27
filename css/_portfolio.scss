@@ -1,6 +1,19 @@
 @import "_variables.scss";
 
 .portfolio {
+//    .bg-colour {
+//        padding-top:30px;
+//        padding-bottom:30px;    
+//        
+//        &:nth-child(odd) {
+//            background-color:$grey;
+//        }
+//        
+//        &:nth-child(even) {
+//            background-color:$white;
+//        }
+//    }
+    
     a.see-project.toggle-link {
         font-size:18px;
         color:$orange;
