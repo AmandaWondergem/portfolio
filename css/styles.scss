@@ -1,7 +1,11 @@
 @import "_reset";
 
-/*general styles*/
+@import "variables";
+
+/*global styles*/
 @import "common";
+@import "typography";
+@import "lightbox";
 @import "header";
 @import "footer";
 

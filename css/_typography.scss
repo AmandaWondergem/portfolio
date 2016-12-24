@@ -1,0 +1,74 @@
+h1 {
+    font-size:66px;
+    text-transform: uppercase;
+    font-weight:700;
+    font-family: $armino;
+    
+    &.orange {
+        color:$orange;
+    }
+    
+    &.yellow {
+        color:$yellow;
+    }
+}
+
+h2 {
+    color:$dark-grey;
+    font-size:30px;
+    line-height:33px;
+    text-transform: uppercase;
+    font-weight:700;
+    font-family: $armino;
+    letter-spacing:0.02em;
+    margin-bottom:10px;
+    
+    @media #{$md} {
+        font-size:35px;
+        line-height: 40px;
+    }
+}
+
+h3 {
+    font-size:26px;
+    font-weight:700;
+    line-height:26px;
+    font-family: $armino;
+}
+
+h4 {
+    font-size:20px;
+    text-transform:uppercase;
+    
+    @media #{$md} {
+        font-size:25px;
+    }
+    
+    &.white {
+        color:$white;
+    }
+}
+
+p {
+    font-size:20px;
+    line-height:26px;
+    color:#58595B;
+    font-family: $armino;
+    
+    @media #{$md} {
+        font-size:22px;
+        line-height:30px;
+    }
+    
+    &.orange {
+        color:$orange;
+    }
+}
+
+.bold {
+    font-weight:700;
+}
+
+.orange {
+    color:$orange;
+}

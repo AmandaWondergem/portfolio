@@ -1,12 +1,67 @@
-@import "_variables.scss";
-
 .home {
-    .illustration {
-        margin:0 auto;
-        margin-top:30px;
-        
-        @media #{$md} {
-            margin-top:0px;
+    .feature-work-wrapper {
+        display:flex;
+        justify-content: space-between;
+
+        a.featured-work {
+            width:48%;
+            position:relative;
+            cursor:pointer;
+
+            .overlay {
+                position:absolute;
+                top:0;
+                left:0;
+                width:100%;
+                height:100%;
+                background:rgba(0,170,178,.95);
+                text-align:center;
+                padding:40px;
+                opacity:0;
+                -webkit-transition: opacity 0.3s ease;
+                -moz-transition: opacity 0.3s ease;
+                transition: opacity 0.3s ease;
+                display:flex;
+                flex-direction:column;
+                justify-content:center;
+
+                h3 {
+                    letter-spacing:0.05em;
+                    color:$white;
+                    text-transform:uppercase;
+                    margin-bottom:10px;
+                }
+
+                p {
+                    color:$white;
+                }
+            }
+
+            &:hover, &:focus {
+                .overlay {
+                    opacity:1;
+                }
+            }
+        }
+    }
+
+    .skills-wrapper {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+
+        .text {
+            width:60%;
+        }
+
+        .illustration {
+            margin:0 auto;
+            margin-top:30px;
+
+            @media #{$md-up} {
+                margin:0;
+            }
         }
     }
 }
