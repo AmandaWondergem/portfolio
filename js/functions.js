@@ -35,6 +35,13 @@ $(function(){
   })
 })
 
+$(document).ready(function(){
+  $('.menu-xs').click(function(){
+    $(this).toggleClass('open');
+    $(".navi-container").toggleClass('open');
+  });
+});
+
 //$(function(){
 //  if (navigator.userAgent.match(/iPad/i))
 //  {
