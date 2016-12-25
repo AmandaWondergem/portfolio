@@ -4,7 +4,7 @@ $(function(){
   $('.popup-button').on('click',function(e){
     e.stopPropagation();
     var target = $(this).data('trigger');
-    var toggleClass = $(this).data('class');   
+    var toggleClass = $(this).data('class');
     lastClass = toggleClass || lastClass;
     lastTarget = target || lastTarget;
     if($(this).hasClass('background')){
@@ -34,3 +34,17 @@ $(function(){
     $($(this).attr("data-toggle-class")).addClass("maxHeight");
   })
 })
+
+//$(function(){
+//  if (navigator.userAgent.match(/iPad/i))
+//  {
+//      console.log("mobile");
+//      $(".overlay").addClass("device");
+//  } else if(navigator.userAgent.match(/Android|webOS|iPhone|iPod|Blackberry/i))
+//  {
+//      console.log("mobile");
+//      $(".overlay").addClass("device");
+//  } else {
+//      $(".overlay").removeClass("device");
+//  }
+//})

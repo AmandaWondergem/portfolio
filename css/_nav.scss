@@ -31,6 +31,7 @@ a.menu {
 .nav-container {
     justify-content: space-between;
     align-items:center;
+    display:none;
 
     a.logo {
         vertical-align:middle;
@@ -41,7 +42,7 @@ a.menu {
         margin-bottom:10px;
         cursor: pointer;
 
-        @media #{$md} {
+        @media #{$md-up} {
             margin-bottom:0px;
             margin-left:20px;
             display:inline-block;
@@ -95,7 +96,7 @@ a.menu {
         display:block;
         width:100%;
 
-        @media #{$sm} {
+        @media #{$sm-up} {
             display:inline-block;
             margin-left:10px;
             width:auto;
@@ -106,7 +107,7 @@ a.menu {
             padding-bottom:15px;
             display:block;
 
-            @media #{$md} {
+            @media #{$md-up} {
                 list-style-type:none;
                 display:inline-block;
                 padding:10px;
@@ -125,13 +126,13 @@ a.menu {
                 &:hover, &:focus, &.active {
                     color:$orange;
 
-                    @media #{$md} {
+                    @media #{$md-up} {
                         color:$white;
                     }
                 }
 
                 &.active {
-                    @media #{$md} {
+                    @media #{$md-up} {
                         &:after {
                             height:3px;
                             width:100%;
@@ -140,7 +141,7 @@ a.menu {
                     }
                 }
 
-                @media #{$md} {
+                @media #{$md-up} {
                     &:after {
                     content: '';
                     display: block;
@@ -168,7 +169,7 @@ a.menu {
         text-align:left;
         width:100%;
 
-        @media #{$md} {
+        @media #{$md-up} {
             margin-right:40px;
             text-align:right;
         }
@@ -190,7 +191,7 @@ a.menu {
                 margin-right:5px;
                 width:41px;
 
-                @media #{$md} {
+                @media #{$md-up} {
                     margin-right:10px;
                 }
             }
@@ -200,7 +201,7 @@ a.menu {
                 margin-right:5px;
                 width:29px;
 
-                @media #{$md} {
+                @media #{$md-up} {
                     margin-right:10px;
                 }
             }
@@ -210,7 +211,7 @@ a.menu {
                 margin-right:5px;
                 width:31px;
 
-                @media #{$md} {
+                @media #{$md-up} {
                     margin-right:10px;
                 }
             }

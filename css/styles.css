@@ -89,8 +89,7 @@ body {
   font-family: "Arimo", Arial, Helvetica sans-serif;
   position: relative;
   margin: 0;
-  min-height: 100%;
-  background-color: #1c1d21; }
+  min-height: 100%; }
 
 /* line 9, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
 .sr-only {
@@ -122,30 +121,30 @@ body {
 /* line 36, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
 .white-bg {
   background-color: #ffffff;
-  padding-top: 70px;
-  padding-bottom: 70px; }
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  @media (min-width: 768px) {
+    /* line 36, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
+    .white-bg {
+      padding-top: 70px;
+      padding-bottom: 70px; } }
 
-/* line 42, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
+/* line 47, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
 .grey-bg {
   background-color: #F2F2F2;
-  padding-top: 70px;
-  padding-bottom: 70px; }
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  @media (min-width: 768px) {
+    /* line 47, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
+    .grey-bg {
+      padding-top: 70px;
+      padding-bottom: 70px; } }
 
-/* line 48, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
+/* line 58, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
 .img-fluid-inline-block {
   display: inline-block;
   max-width: 100%;
   height: auto; }
-
-/* line 54, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
-.orange-top-border {
-  border-top: 4px solid #f26414;
-  width: 100px;
-  margin-bottom: 2px; }
-  @media (min-width: 768px) {
-    /* line 54, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
-    .orange-top-border {
-      margin-bottom: 2px; } }
 
 /* line 64, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
 .white-underline {
@@ -191,8 +190,13 @@ body {
     width: 100%;
     height: 100%; }
 
-@media (min-width: 1200px) {
+@media (max-width: 991px) {
   /* line 126, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
+  .container {
+    max-width: 100%; } }
+
+@media (min-width: 1200px) {
+  /* line 132, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
   .container {
     max-width: 1200px; } }
 
@@ -218,52 +222,62 @@ h2 {
   font-weight: 700;
   font-family: "Arimo", Arial, Helvetica sans-serif;
   letter-spacing: 0.02em;
-  margin-bottom: 10px; }
+  margin-bottom: 16px;
+  position: relative; }
   @media (min-width: 768px) {
     /* line 16, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
     h2 {
       font-size: 35px;
       line-height: 40px; } }
+  /* line 32, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
+  h2:after {
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: #f26414;
+    position: absolute;
+    bottom: -6px;
+    left: 0; }
 
-/* line 32, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
+/* line 43, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
 h3 {
   font-size: 26px;
   font-weight: 700;
   line-height: 26px;
   font-family: "Arimo", Arial, Helvetica sans-serif; }
 
-/* line 39, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
+/* line 50, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
 h4 {
   font-size: 20px;
   text-transform: uppercase; }
   @media (min-width: 768px) {
-    /* line 39, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
+    /* line 50, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
     h4 {
       font-size: 25px; } }
-  /* line 47, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
+  /* line 58, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
   h4.white {
     color: #ffffff; }
 
-/* line 52, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
+/* line 63, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
 p {
   font-size: 20px;
   line-height: 26px;
   color: #58595B;
   font-family: "Arimo", Arial, Helvetica sans-serif; }
   @media (min-width: 768px) {
-    /* line 52, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
+    /* line 63, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
     p {
       font-size: 22px;
       line-height: 30px; } }
-  /* line 63, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
+  /* line 74, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
   p.orange {
     color: #f26414; }
 
-/* line 68, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
+/* line 79, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
 .bold {
   font-weight: 700; }
 
-/* line 72, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
+/* line 83, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
 .orange {
   color: #f26414; }
 
@@ -356,8 +370,9 @@ p {
   /* line 31, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
   .header .nav-container {
     justify-content: space-between;
-    align-items: center; }
-    /* line 35, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+    align-items: center;
+    display: none; }
+    /* line 36, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
     .header .nav-container a.logo {
       vertical-align: middle;
       background-image: url("../img/logo.png");
@@ -367,15 +382,15 @@ p {
       margin-bottom: 10px;
       cursor: pointer; }
       @media (min-width: 768px) {
-        /* line 35, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+        /* line 36, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
         .header .nav-container a.logo {
           margin-bottom: 0px;
           margin-left: 20px;
           display: inline-block; } }
-    /* line 51, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+    /* line 52, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
     .header .nav-container nav.mobile-nav-button-container {
       position: relative; }
-      /* line 54, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+      /* line 55, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
       .header .nav-container nav.mobile-nav-button-container button.mobile-nav {
         font-size: 60px;
         color: #ffffff;
@@ -383,10 +398,10 @@ p {
         position: absolute;
         top: 15px;
         right: 15px; }
-    /* line 64, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+    /* line 65, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
     .header .nav-container .nav-content-container {
       position: relative; }
-      /* line 67, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+      /* line 68, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
       .header .nav-container .nav-content-container .nav-content {
         text-align: right;
         background-color: #343942;
@@ -400,14 +415,14 @@ p {
         -webkit-transition: all 0.2s ease-in-out;
         -moz-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out; }
-      /* line 82, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+      /* line 83, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
       .header .nav-container .nav-content-container .close-button {
         color: #ffffff;
         font-size: 50px;
         position: absolute;
         top: 0px;
         right: 5px; }
-    /* line 91, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+    /* line 92, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
     .header .nav-container ul.nav {
       text-align: left;
       margin-left: 0px;
@@ -415,23 +430,23 @@ p {
       display: block;
       width: 100%; }
       @media (min-width: 767px) {
-        /* line 91, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+        /* line 92, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
         .header .nav-container ul.nav {
           display: inline-block;
           margin-left: 10px;
           width: auto; } }
-      /* line 104, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+      /* line 105, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
       .header .nav-container ul.nav li {
         padding: 0px;
         padding-bottom: 15px;
         display: block; }
         @media (min-width: 768px) {
-          /* line 104, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+          /* line 105, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
           .header .nav-container ul.nav li {
             list-style-type: none;
             display: inline-block;
             padding: 10px; } }
-        /* line 115, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+        /* line 116, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
         .header .nav-container ul.nav li a {
           color: #ffffff;
           font-size: 16px;
@@ -441,21 +456,21 @@ p {
           letter-spacing: 0.05em;
           cursor: pointer;
           display: inline-block; }
-          /* line 125, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+          /* line 126, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
           .header .nav-container ul.nav li a:hover, .header .nav-container ul.nav li a:focus, .header .nav-container ul.nav li a.active {
             color: #f26414; }
             @media (min-width: 768px) {
-              /* line 125, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+              /* line 126, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
               .header .nav-container ul.nav li a:hover, .header .nav-container ul.nav li a:focus, .header .nav-container ul.nav li a.active {
                 color: #ffffff; } }
           @media (min-width: 768px) {
-            /* line 135, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+            /* line 136, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
             .header .nav-container ul.nav li a.active:after {
               height: 3px;
               width: 100%;
               background: #f26414; } }
           @media (min-width: 768px) {
-            /* line 144, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+            /* line 145, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
             .header .nav-container ul.nav li a:after {
               content: '';
               display: block;
@@ -466,59 +481,59 @@ p {
               -moz-transition: width .3s ease, background-color .3s ease;
               transition: width .3s ease, background-color .3s ease;
               margin-top: 4px; }
-            /* line 156, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+            /* line 157, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
             .header .nav-container ul.nav li a:hover:after, .header .nav-container ul.nav li a:focus:after {
               width: 100%;
               background: #f26414; } }
-    /* line 165, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+    /* line 166, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
     .header .nav-container ul.social-media {
       margin-right: 0px;
       margin-top: 0px;
       text-align: left;
       width: 100%; }
       @media (min-width: 768px) {
-        /* line 165, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+        /* line 166, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
         .header .nav-container ul.social-media {
           margin-right: 40px;
           text-align: right; } }
-      /* line 176, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+      /* line 177, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
       .header .nav-container ul.social-media li {
         display: inline-block; }
-        /* line 180, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+        /* line 181, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
         .header .nav-container ul.social-media li a.behance, .header .nav-container ul.social-media li a.linkedin, .header .nav-container ul.social-media li a.vimeo, .header .nav-container ul.social-media li a.youtube {
           height: 26px;
           display: inline-block;
           background-image: url("../img/social-media-icons-white.png");
           background-repeat: no-repeat;
           cursor: pointer; }
-        /* line 188, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+        /* line 189, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
         .header .nav-container ul.social-media li a.behance {
           background-position: 0px -0px;
           margin-right: 5px;
           width: 41px; }
           @media (min-width: 768px) {
-            /* line 188, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+            /* line 189, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
             .header .nav-container ul.social-media li a.behance {
               margin-right: 10px; } }
-        /* line 198, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+        /* line 199, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
         .header .nav-container ul.social-media li a.linkedin {
           background-position: -57px -0px;
           margin-right: 5px;
           width: 29px; }
           @media (min-width: 768px) {
-            /* line 198, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+            /* line 199, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
             .header .nav-container ul.social-media li a.linkedin {
               margin-right: 10px; } }
-        /* line 208, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+        /* line 209, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
         .header .nav-container ul.social-media li a.vimeo {
           background-position: -101px -0px;
           margin-right: 5px;
           width: 31px; }
           @media (min-width: 768px) {
-            /* line 208, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+            /* line 209, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
             .header .nav-container ul.social-media li a.vimeo {
               margin-right: 10px; } }
-        /* line 218, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
+        /* line 219, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
         .header .nav-container ul.social-media li a.youtube {
           background-position: -143px -0px;
           width: 38px; }
@@ -526,13 +541,12 @@ p {
     /* line 1, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_header.scss */
     .header {
       padding-top: 50px;
-      padding-bottom: 30px;
-      margin-left: 20px; } }
-  /* line 14, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_header.scss */
+      padding-bottom: 30px; } }
+  /* line 13, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_header.scss */
   .header .banner {
     padding: 20px; }
     @media (min-width: 768px) {
-      /* line 14, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_header.scss */
+      /* line 13, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_header.scss */
       .header .banner {
         padding: 70px 67px; } }
 
@@ -540,7 +554,7 @@ p {
 .footer {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #ffffff;
+  background-color: #fff;
   background-image: url("../img/circle-bg-pattern.png");
   background-repeat: repeat;
   text-align: center; }
@@ -637,59 +651,126 @@ p {
 /* line 2, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
 .home .feature-work-wrapper {
   display: flex;
-  justify-content: space-between; }
-  /* line 6, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+  justify-content: space-between;
+  flex-direction: column; }
+  @media (min-width: 768px) {
+    /* line 2, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+    .home .feature-work-wrapper {
+      flex-direction: row; } }
+  /* line 11, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
   .home .feature-work-wrapper a.featured-work {
-    width: 48%;
     position: relative;
-    cursor: pointer; }
-    /* line 11, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column; }
+    /* line 19, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+    .home .feature-work-wrapper a.featured-work:last-child {
+      margin-bottom: 0px; }
+    @media (min-width: 768px) {
+      /* line 11, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+      .home .feature-work-wrapper a.featured-work {
+        width: 48%;
+        margin-bottom: 0px; } }
+    /* line 28, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
     .home .feature-work-wrapper a.featured-work .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 170, 178, 0.95);
-      text-align: center;
-      padding: 40px;
-      opacity: 0;
-      -webkit-transition: opacity 0.3s ease;
-      -moz-transition: opacity 0.3s ease;
-      transition: opacity 0.3s ease;
       display: flex;
       flex-direction: column;
-      justify-content: center; }
-      /* line 28, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+      justify-content: center;
+      background-color: #58595B;
+      text-align: center;
+      padding: 60px 40px;
+      flex-grow: 1; }
+      @media (min-width: 992px) {
+        /* line 28, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+        .home .feature-work-wrapper a.featured-work .overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          padding: 40px;
+          background: rgba(0, 170, 178, 0.95);
+          opacity: 0;
+          -webkit-transition: opacity 0.3s ease;
+          -moz-transition: opacity 0.3s ease;
+          transition: opacity 0.3s ease; } }
+      /* line 51, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
       .home .feature-work-wrapper a.featured-work .overlay h3 {
         letter-spacing: 0.05em;
-        color: #ffffff;
+        color: #fff;
         text-transform: uppercase;
         margin-bottom: 10px; }
-      /* line 35, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+        /* line 57, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+        .home .feature-work-wrapper a.featured-work .overlay h3:after {
+          content: '';
+          display: block;
+          height: 3px;
+          width: 148px;
+          margin: 0 auto;
+          background-color: #fff;
+          -webskit-transition: width 0.25s ease-in-out, background-color 0.25s ease;
+          -moz-transition: width 0.25s ease-in-out, background-color 0.25s ease;
+          transition: width 0.25s ease-in-out, background-color 0.25s ease;
+          margin-top: 8px; }
+          @media (min-width: 992px) {
+            /* line 57, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+            .home .feature-work-wrapper a.featured-work .overlay h3:after {
+              width: 0;
+              background-color: transparent; } }
+      /* line 76, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
       .home .feature-work-wrapper a.featured-work .overlay p {
-        color: #ffffff; }
-    /* line 41, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+        color: #fff; }
+    /* line 82, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
     .home .feature-work-wrapper a.featured-work:hover .overlay, .home .feature-work-wrapper a.featured-work:focus .overlay {
       opacity: 1; }
+      /* line 85, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+      .home .feature-work-wrapper a.featured-work:hover .overlay h3:after, .home .feature-work-wrapper a.featured-work:focus .overlay h3:after {
+        -webkit-transition-delay: 0.2s;
+        -moz-transition-delay: 0.2s;
+        transition-delay: 0.2s;
+        width: 148px;
+        background-color: #fff; }
 
-/* line 48, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+/* line 97, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
 .home .skills-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%; }
-  /* line 54, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+  width: 100%;
+  flex-direction: column; }
+  @media (min-width: 768px) {
+    /* line 97, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+    .home .skills-wrapper {
+      flex-direction: row; } }
+  @media (min-width: 768px) {
+    /* line 110, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+    .home .skills-wrapper.switch-order .illustration {
+      order: 2; }
+    /* line 113, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+    .home .skills-wrapper.switch-order .text {
+      order: 1; } }
+  /* line 119, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
   .home .skills-wrapper .text {
-    width: 60%; }
-  /* line 58, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+    width: 100%; }
+    @media (min-width: 768px) {
+      /* line 119, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+      .home .skills-wrapper .text {
+        width: 45%; } }
+    @media (min-width: 992px) {
+      /* line 119, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+      .home .skills-wrapper .text {
+        width: 55%; } }
+  /* line 131, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
   .home .skills-wrapper .illustration {
     margin: 0 auto;
-    margin-top: 30px; }
-    @media screen and (min-width: 768px) and (max-width: 991px) {
-      /* line 58, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+    margin-bottom: 30px; }
+    @media (min-width: 768px) {
+      /* line 131, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
       .home .skills-wrapper .illustration {
-        margin: 0; } }
+        margin: 0;
+        text-align: left; } }
 
 /* line 15, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
 .portfolio a.see-project.toggle-link {
@@ -849,7 +930,7 @@ p {
   .portfolio .portfolio-item .portfolio-thumbnail {
     margin: 0 auto;
     margin-bottom: 25px; }
-    @media screen and (min-width: 768px) and (max-width: 991px) {
+    @media (min-width: 768px) {
       /* line 194, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
       .portfolio .portfolio-item .portfolio-thumbnail {
         margin: 0; } }
@@ -881,7 +962,7 @@ p {
   .contact .contact-wrapper .illustration {
     margin: 0 auto;
     margin-top: 30px; }
-    @media screen and (min-width: 768px) and (max-width: 991px) {
+    @media (min-width: 768px) {
       /* line 26, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
       .contact .contact-wrapper .illustration {
         margin: 0; } }

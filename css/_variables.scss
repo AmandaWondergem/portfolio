@@ -10,21 +10,9 @@ $orange:#f26414;
 /*media queries*/
 $xs-only:only screen and (max-width: 554px);
 $sm-down:only screen and (max-width: 767x);
-$sm:only screen and (min-width: 767px);
-$md:only screen and (min-width: 768px);
-$lg:only screen and (min-width: 992px);
+$sm-up:only screen and (min-width: 767px);
+$md-up:only screen and (min-width: 768px);
+$lg-up:only screen and (min-width: 992px);
 
 /*Google font*/
 $armino:'Arimo', Arial, Helvetica sans-serif;
-
-// Small devices (landscape phones, 544px and up)
-$sm-up:"screen and (min-width: 544px) and (max-width:767px)";
-
-// Medium devices (tablets, 768px and up)
-$md-up:"screen and (min-width: 768px) and (max-width:991px)";
-
-// Large devices (desktops, 992px and up)
-$lg-up:"screen and (min-width: 992px) and (max-width:1199px)";
-
-// Extra large devices (large desktops, 1200px and up)
-$xl:"screen and (min-width: 1200px)";

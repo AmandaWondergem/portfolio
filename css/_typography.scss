@@ -3,11 +3,11 @@ h1 {
     text-transform: uppercase;
     font-weight:700;
     font-family: $armino;
-    
+
     &.orange {
         color:$orange;
     }
-    
+
     &.yellow {
         color:$yellow;
     }
@@ -21,11 +21,22 @@ h2 {
     font-weight:700;
     font-family: $armino;
     letter-spacing:0.02em;
-    margin-bottom:10px;
-    
-    @media #{$md} {
+    margin-bottom:16px;
+    position:relative;
+
+    @media #{$md-up} {
         font-size:35px;
         line-height: 40px;
+    }
+
+    &:after {
+        content:"";
+        width:100px;
+        height:4px;
+        background-color:$orange;
+        position:absolute;
+        bottom:-6px;
+        left:0;
     }
 }
 
@@ -39,11 +50,11 @@ h3 {
 h4 {
     font-size:20px;
     text-transform:uppercase;
-    
-    @media #{$md} {
+
+    @media #{$md-up} {
         font-size:25px;
     }
-    
+
     &.white {
         color:$white;
     }
@@ -54,12 +65,12 @@ p {
     line-height:26px;
     color:#58595B;
     font-family: $armino;
-    
-    @media #{$md} {
+
+    @media #{$md-up} {
         font-size:22px;
         line-height:30px;
     }
-    
+
     &.orange {
         color:$orange;
     }

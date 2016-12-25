@@ -1,20 +1,19 @@
 .header {
     @import "nav";
-    
+
     background-color:$dark-blue;
     padding-top:50px;
     padding-bottom:20px;
-    
-    @media #{$md} {
+
+    @media #{$md-up} {
         padding-top:50px;
         padding-bottom:30px;
-        margin-left:20px;
     }
-    
+
     .banner {
         padding:20px;
-        
-        @media #{$md} {
+
+        @media #{$md-up} {
             padding:70px 67px;
         }
     }

@@ -157,7 +157,7 @@
             margin-top:50px;
             margin-bottom:20px;
 
-            @media #{$md} {
+            @media #{$md-up} {
                 margin-top:0px;
                 margin-bottom:0px;
             }
