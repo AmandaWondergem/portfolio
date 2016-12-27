@@ -16,8 +16,8 @@ a.logo {
 
     @media #{$md-up} {
         margin-bottom:0px;
-        margin-left:20px;
         display:inline-block;
+        width:77px;
     }
 }
 
@@ -87,15 +87,26 @@ a.menu-xs {
     height: 0%;
     opacity: 0;
     z-index:100;
-    -webkit-transition: opacity .3s, visibility .3s, height .3s;
-    -moz-transition: opacity .3s, visibility .3s, height .3s;
-    transition: opacity .3s, visibility .3s, height .3s;
+    -webkit-transition: opacity .35s ease, visibility .35s ease, height .35s ease;
+    -moz-transition: opacity .35s ease, visibility .35s ease, height .35s ease;
+    transition: opacity .35s ease, visibility .35s ease, height .35s ease;
     visibility: hidden;
 
     &.open {
         opacity: 0.97;
         visibility: visible;
         height: 100%;
+    }
+
+    @media #{$md-up} {
+        visibility:visible;
+        position:relative;
+        background-color:transparent;
+        opacity:1;
+        padding:0px;
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
     }
 
     ul.nav {
@@ -107,9 +118,11 @@ a.menu-xs {
         padding-bottom:25px;
         border-bottom:1px solid #fff;
 
-        @media #{$sm-up} {
-            display:inline-block;
-            margin-left:10px;
+        @media #{$md-up} {
+            margin-left:30px;
+            margin-bottom:0px;
+            border-bottom:none;
+            padding:0px;
             width:auto;
         }
 
@@ -119,12 +132,14 @@ a.menu-xs {
 
             &:last-child {
                 padding-bottom:0px;
+                padding-right:0px;
             }
 
             @media #{$md-up} {
                 list-style-type:none;
                 display:inline-block;
-                padding:10px;
+                padding-bottom:0px;
+                padding-right:15px;
             }
 
             a {
@@ -137,12 +152,15 @@ a.menu-xs {
                 cursor: pointer;
                 display:inline-block;
 
+                @media #{$md-up} {
+                    font-size:16px;
+                }
+
                 &:hover, &:focus, &.active {
                     color:$orange;
 
                     @media #{$md-up} {
                         color:$white;
-                        font-size:16px;
                     }
                 }
 
@@ -183,13 +201,17 @@ a.menu-xs {
         width:100%;
 
         @media #{$md-up} {
-            margin-right:40px;
             text-align:right;
+            width:auto;
         }
 
         li {
             display:inline-block;
             margin-right:15px;
+
+            @media #{$md-up} {
+                margin-right:0px;
+            }
 
             &:last-child {
                 margin-right:0px;
