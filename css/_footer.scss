@@ -34,12 +34,12 @@
 
     ul.nav {
         display:block;
-        margin:15px 15px;
+        margin:15px 0px;
 
         li {
             list-style-type:none;
             display:inline-block;
-            padding-right:10px;
+            padding-right:9px;
 
             &:last-child {
                 padding-right:0px;

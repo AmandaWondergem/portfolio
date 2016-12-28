@@ -36,22 +36,8 @@ $(function(){
 })
 
 $(document).ready(function(){
-  $('.menu-xs').click(function(){
+  $('.menu-btn-mobile').click(function(){
     $(this).toggleClass('open');
-    $(".navi-container").toggleClass('open');
+    $(".nav-container").toggleClass('open');
   });
 });
-
-//$(function(){
-//  if (navigator.userAgent.match(/iPad/i))
-//  {
-//      console.log("mobile");
-//      $(".overlay").addClass("device");
-//  } else if(navigator.userAgent.match(/Android|webOS|iPhone|iPod|Blackberry/i))
-//  {
-//      console.log("mobile");
-//      $(".overlay").addClass("device");
-//  } else {
-//      $(".overlay").removeClass("device");
-//  }
-//})

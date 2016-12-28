@@ -1,0 +1,48 @@
+.featured-work-banner {
+    background-color:$grey;
+    padding:40px 0px;
+
+    &.adventure-finder-banner {
+        padding:40px 0 0;
+    }
+
+    .wrapper {
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-flow:column wrap;
+
+        @media #{$md-up} {
+            flex-flow:row nowrap;
+        }
+
+        .text {
+            margin-bottom:30px;
+            text-align:center;
+
+            @media #{$md-up} {
+                order:2;
+                margin-bottom:0px;
+                text-align:left;
+            }
+        }
+
+        .img {
+            @media #{md-up} {
+                order:1;
+            }
+        }
+    }
+
+    h2 {
+        &:after {
+            left: 50%;
+            transform: translateX(-50%);
+
+            @media #{$md-up} {
+                left:0px;
+                transform: translateX(0%);
+            }
+        }
+    }
+}

@@ -52,56 +52,38 @@
     </script>
 
 </head>
-<html>
+
 <body>
    <!--HEADER-->
    <div class="header">
        <div class="container">
-           <div class="row nav-container">
-               <div class="col-md-6 col-xs-12 hidden-md-up">
-                   <nav class="navbar hidden-md-up pull-xs-right mobile-nav-button-container">
-                      <button class="navbar-toggler mobile-nav" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
-                        &#8411;
-                      </button>
-                    </nav>
-                   <a href="index.html" class="logo"></a>
-                   <div class="nav-content-container">
-                        <div class="collapse navbar-toggleable-sm nav-content pull-sm-right" id="exCollapsingNavbar">
-                            <button class="navbar-toggler close-button" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
-                            &#8855;
-                          </button>
-                           <ul class="nav pull-sm-left">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a class="active" href="javascript:void(0);">Portfolio</a></li>
-                                <li><a href="https://amandawondergem.wordpress.com/" target="_blank">Blog</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                            <ul class="social-media pull-sm-right">
-                                <li><a class="behance" href="http://www.behance.net/wondergemamandac31e" target="_blank" title="Behance"><span class="sr-only">Behance</span></a></li>
-                                <li><a class="linkedin" href="https://www.linkedin.com/in/amandawondergem" target="_blank" title="LinkedIn"><span class="sr-only">LinkedIn</span></a></li>
-                                <li><a class="vimeo" href="https://vimeo.com/amandawondergem" target="_blank" title="Vimeo"><span class="sr-only">Vimeo</span></a></li>
-                                <li><a class="youtube" href="http://www.youtube.com/channel/UCCeOnm4B_8i90XEo7fGClig/videos" target="_blank" title="YouTube"><span class="sr-only">YouTube</span></a></li>
-                            </ul>
-                       </div>
-                   </div>
-               </div>
-               <div class="col-md-7 col-xs-12 hidden-sm-down pull-sm-left">
-                   <a href="index.html" class="logo"></a>
-                   <ul class="nav">
-                        <li><a class="active" href="javascript:void(0);">Portfolio</a></li>
-                        <li><a href="https://amandawondergem.wordpress.com/" target="_blank">Blog</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-               </div>
-               <div class="col-md-5 col-xs-12 hidden-sm-down pull-md-right">
-                   <ul class="social-media pull-md-right">
-                        <li><a class="behance" href="http://www.behance.net/wondergemamandac31e" target="_blank" title="Behance"><span class="sr-only">Behance</span></a></li>
-                        <li><a class="linkedin" href="https://www.linkedin.com/in/amandawondergem" target="_blank" title="LinkedIn"><span class="sr-only">LinkedIn</span></a></li>
-                        <li><a class="vimeo" href="https://vimeo.com/amandawondergem" target="_blank" title="Vimeo"><span class="sr-only">Vimeo</span></a></li>
-                        <li><a class="youtube" href="http://www.youtube.com/channel/UCCeOnm4B_8i90XEo7fGClig/videos" target="_blank" title="YouTube"><span class="sr-only">YouTube</span></a></li>
-                    </ul>
-               </div>
-           </div>
+           <div class="row">
+              <div class="col-xs-12">
+                  <div class="logo-nav-wrapper">
+                      <a href="index.html" class="logo"></a>
+                      <a class="menu-btn-mobile hidden-md-up" href="javascript:void(0);">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                      </a>
+                      <div class="nav-container">
+                          <ul class="nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a class="active" href="javascript:void(0);">Portfolio</a></li>
+                            <li><a href="https://amandawondergem.wordpress.com/" target="_blank">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                         </ul>
+                         <ul class="social-media">
+                            <li><a class="behance" href="http://www.behance.net/wondergemamandac31e" target="_blank" title="Behance"><span class="sr-only">Behance</span></a></li>
+                            <li><a class="linkedin" href="https://www.linkedin.com/in/amandawondergem" target="_blank" title="LinkedIn"><span class="sr-only">LinkedIn</span></a></li>
+                            <li><a class="vimeo" href="https://vimeo.com/amandawondergem" target="_blank" title="Vimeo"><span class="sr-only">Vimeo</span></a></li>
+                            <li><a class="youtube" href="http://www.youtube.com/channel/UCCeOnm4B_8i90XEo7fGClig/videos" target="_blank" title="YouTube"><span class="sr-only">YouTube</span></a></li>
+                         </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
            <div class="row">
                <div class="col-xs-12 text-xs-center banner">
                    <img class="img-fluid-inline-block hidden-sm-down" src="img/visual-storytelling.png" alt="">
@@ -122,32 +104,15 @@
                     <div class="portfolio-item">
                         <img class="img-fluid portfolio-thumbail" src="img/portfolio/demo-reel.png" alt="">
                        <div class="text">
-                           <div class="orange-top-border"></div>
                            <h2>Demo Reel</h2>
                            <p>A collection of my best personal and commercial work.</p>
-                           <a class="toggle-link see-project" data-toggle-class="#demo-reel">See demo reel</a>
+                           <a class="see-project" href="portfolio-pages/demo-reel.html">View demo reel</a>
                        </div>
                     </div>
                 </div>
            </div>
          </div>
      </div>
-<!--
-       <div class="row grey-bg center-content portfolio-content details zeroHeight" id="demo-reel">
-           <div class="col-sm-10 col-sm-offset-1 col-xs-12 orange-border"></div>
-           <div class="col-sm-10 col-sm-offset-1 col-xs-12">
-               <a class="toggle-link close" data-toggle-class="#demo-reel"></a>
-           </div>
-           <div class="col-sm-10 col-sm-offset-1 col-xs-12 more-content">
-               <div class="video-wrapper">
-                    <div class="inner-video-wrapper">
-                       <img class="ratio" src="http://placehold.it/16x9"/>
-                        <iframe src="https://player.vimeo.com/video/167224444" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    </div>
-                </div>
-           </div>
-       </div>
--->
 
        <div class="portfolio-item-wrapper">
          <div class="container">
@@ -157,7 +122,7 @@
                        <div class="text">
                            <h2>Adventure Finder App</h2>
                            <p>People who love the outdoors are always seeking new adventures and destinations to discover. Designing an app that caters to this need to explore and share experiences will assist users with planning their next trip.</p>
-                           <a class="toggle-link see-project" data-toggle-class="#adventure-finder-app">See case study</a>
+                           <a class="toggle-link see-project" data-toggle-class="#adventure-finder-app">View case study</a>
                        </div>
                        <img class="img-fluid portfolio-thumbail" src="img/portfolio/adventure-finder-app.png" alt="">
                     </div>
@@ -165,89 +130,6 @@
            </div>
          </div>
      </div>
-
-<!--
-       <div class="row white-bg center-content portfolio-content details zeroHeight" id="adventure-finder-app">
-           <div class="col-sm-10 col-sm-offset-1 col-xs-12 orange-border"></div>
-           <div class="col-sm-10 col-sm-offset-1 col-xs-12">
-               <a class="toggle-link close" data-toggle-class="#adventure-finder-app"></a>
-           </div>
-           <div class="col-sm-10 col-sm-offset-1 col-xs-12 explanation-text">
-               <div class="row center-content">
-                   <div class="col-md-6 col-xs-12 text">
-                      <h3>The Challenge</h3>
-                       <p>Many outdoor enthusiasts hear about new places by word of mouth or by researching them online. How do you determine which places are good? Often times there will be ratings on Google, but then you also have to go the each individual site to find more about the new destination. This can be a tedious and time consuming process. The solution to this problem is combine all of this information into an app. Users can discover new adventure destinations, see ratings, view images and write reviews all in one place.</p>
-                   </div>
-                   <div class="col-md-6 col-xs-12">
-                       <img class="img-fluid" src="img/portfolio//adventure-finder-app-destination.jpg" alt="">
-                   </div>
-               </div>
-           </div>
-           <div class="col-sm-10 col-sm-offset-1 col-xs-12 explanation-text">
-               <div class="row center-content">
-                  <div class="col-md-6 col-xs-12 hidden-md-up text">
-                      <h3>The Process</h3>
-                       <p>I started with a flow chart of how the user may interact with the app, depending on if the user has an account already. If it is a new user, they start off by picking what type of adventure they are looking for (ie. hiking, canoeing, camping, etc.). From there, the user can view more details about specific locations. After the flow chart was thought out, I began designing screens and prototyping the app using InVision. This prototype gives a true feel of how the user would interact with the app.</p>
-                       <a class="toggle-link see-project" href="https://invis.io/PX8783MQR" target="_blank">See prototype</a>
-                   </div>
-                   <div class="col-md-6 col-xs-12">
-                       <a class="popup-button" href="javascript:void(0);" data-trigger=".camping-icon-animation-popup" data-class="show">
-                            <img class="img-fluid" src="img/portfolio/adventure-finder-app-user-flow.png" alt="" style="border:2px solid #f2f2f2;">
-                        </a>
-                   </div>
-                   <div class="col-md-6 col-xs-12 hidden-sm-down text">
-                      <h3>The Process</h3>
-                       <p>I started with a flow chart of how the user may interact with the app, depending on if the user has an account already. If it is a new user, they start off by picking what type of adventure they are looking for (ie. hiking, canoeing, camping, etc.). From there, the user can view more details about specific locations. After the flow chart was thought out, I began designing screens and prototyping the app using InVision. This prototype gives a true feel of how the user would interact with the app.</p>
-                       <a class="toggle-link see-project" href="https://invis.io/PX8783MQR" target="_blank">See prototype</a>
-                   </div>
-               </div>
-           </div>
-           <div class="col-sm-10 col-sm-offset-1 col-xs-12 explanation-text">
-               <div class="row center-content">
-                   <div class="col-md-6 col-xs-12 text">
-                      <h3>The Result</h3>
-                       <p>Throughout the thought process of designing the app, some useful features that came to mind to enhance the user experience include uploading pictures, adding the destination to their list and rating specific locations. There is also the option to view adventure locations near the user’s current GPS location. This option is useful if they are unfamiliar with the area and are looking for an adventure or if they are looking for something new to check out near where they live. The Adventure Finder app has all of the information in one place. This app will allow nature lovers to spend more time experiencing their adventures and less time finding and deciding upon them.</p>
-                   </div>
-                   <div class="col-md-6 col-xs-12">
-                       <img class="img-fluid" src="img/portfolio/adventure-finder-app-categories.png" alt="">
-                   </div>
-               </div>
-           </div>
-       </div>
--->
-
-      <div class="portfolio-item-wrapper">
-         <div class="container">
-             <div class="row">
-                <div class="col-xs-12">
-                    <div class="portfolio-item">
-                        <img class="img-fluid portfolio-thumbail" src="img/portfolio/adventure-finder-website-1.png" alt="">
-                       <div class="text">
-                           <h2>Adventure Finder App Website</h2>
-                           <p>The website for the Adventure Finder app provides details and more information about the app. It is the perfect tool for sharing on social media to promote the app and ultimately result helping people find their next adventure!</p>
-                           <a class="toggle-link see-project" data-toggle-class="#adventure-finder-website">See project</a>
-                       </div>
-                    </div>
-                </div>
-           </div>
-         </div>
-     </div>
-
-<!--
-       <div class="row grey-bg center-content portfolio-content details zeroHeight" id="adventure-finder-website">
-           <div class="col-sm-10 col-sm-offset-1 col-xs-12 orange-border"></div>
-           <div class="col-sm-10 col-sm-offset-1 col-xs-12">
-               <a class="toggle-link close" data-toggle-class="#adventure-finder-website"></a>
-           </div>
-           <div class="col-sm-10 col-sm-offset-1 col-xs-12 explanation-text">
-               <div class="row center-content">
-                   <div class=" col-sm-8 col-sm-offset-2 col-xs-12">
-                       <img class="img-fluid" src="img/portfolio/adventure-finder-website-2.png" alt="">
-                   </div>
-               </div>
-           </div>
-       </div>
--->
 
        <div class="portfolio-item-wrapper">
          <div class="container">
@@ -257,7 +139,7 @@
                        <div class="text">
                            <h2>Petcare app</h2>
                            <p>This app creates an easy way to keep all of the information about each pet in one place. Scheduling vet appointments has never been easier! There is even a reminder for when a pet is due for an annual check-up.</p>
-                           <a class="toggle-link see-project" data-toggle-class="#petcare-app">See project</a>
+                           <a class="toggle-link see-project" data-toggle-class="#petcare-app">View project</a>
                        </div>
                        <img class="img-fluid portfolio-thumbail" src="img/portfolio/petcare-app-1.png" alt="">
                     </div>
@@ -292,7 +174,7 @@
                        <div class="text">
                            <h2>A collection of icons</h2>
                            <p>Icons are great visuals for websites and apps. They communicate information quicker than words. Here are various themes of icons that I have designed.</p>
-                           <a class="toggle-link see-project" data-toggle-class="#icons">See all</a>
+                           <a class="toggle-link see-project" data-toggle-class="#icons">View all</a>
                        </div>
                     </div>
                 </div>
@@ -338,7 +220,7 @@
                        <div class="text">
                            <h2>Corbin Visual App Video</h2>
                            <p>I worked with Corbin Visual to create an animated explainer video to promote their app for smartphones. The theme around this video is “your project in your hands”. The video’s purpose is to not only promote the company’s app, but also to make clients feel more at ease when working on a project with Corbin Visual.</p>
-                           <a class="toggle-link see-project" data-toggle-class="#corbin-visual">See case study</a>
+                           <a class="toggle-link see-project" data-toggle-class="#corbin-visual">View case study</a>
                        </div>
                        <img class="img-fluid portfolio-thumbail" src="img/portfolio/corbin-visual.png" alt="">
                     </div>
@@ -407,7 +289,7 @@
                        <div class="text">
                            <h2>Camping icon animation</h2>
                            <p>This is a personal project, where I experimented with line animation. I love camping, so it was the perfect inspiration for this piece!</p>
-                           <a class="toggle-link see-project" data-toggle-class="#camping-icon-animation">See Project</a>
+                           <a class="toggle-link see-project" data-toggle-class="#camping-icon-animation">View Project</a>
                        </div>
                     </div>
                 </div>
@@ -441,7 +323,7 @@
                        <div class="text">
                            <h2>Get active commercial</h2>
                            <p>This commercial promotes a healthy, active lifestyle. For this piece, I focused on morphing techniques and transitions between scenes.</p>
-                           <a class="toggle-link see-project" data-toggle-class="#get-active">See Project</a>
+                           <a class="toggle-link see-project" data-toggle-class="#get-active">View Project</a>
                        </div>
                        <img class="img-fluid portfolio-thumbail" src="img/portfolio/get-active.png" alt="">
                     </div>
@@ -499,7 +381,7 @@
                     <li><a class="vimeo" href="https://vimeo.com/amandawondergem" target="_blank" title="Vimeo"><span class="sr-only">Vimeo</span></a></li>
                     <li><a class="youtube" href="http://www.youtube.com/channel/UCCeOnm4B_8i90XEo7fGClig/videos" target="_blank" title="YouTube"><span class="sr-only">YouTube</span></a></li>
                 </ul>
-                <p class="copyright">&copy;&nbsp;2016 Amanda Wondergem</p>
+                <p class="copyright">&copy;&nbsp;2017 Amanda Wondergem</p>
                 <div class="orange-underline"></div>
             </div>
         </div>

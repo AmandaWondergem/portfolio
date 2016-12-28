@@ -9,11 +9,11 @@
     overflow-y: auto;
     width: 100%;
     height:100%;
-    
+
     .popup-wrapper {
         position:relative;
         z-index:9002;
-        
+
         .popup {
             margin-left:auto;
             margin-right:auto;
@@ -26,7 +26,7 @@
                     display:block;
                     text-align:center;
                 }
-                
+
                 img {
                     margin:0 auto;
                 }
@@ -52,10 +52,64 @@
                     cursor: pointer;
                     margin-top:10px;
                     margin-bottom:10px;
-                    
+
                     &:hover, &:focus {
                         background-color:$dark-blue;
                         color:$white;
+                    }
+                }
+
+                .inner-content {
+                    width:100%;
+                    background-color:#fff;
+                    margin:0 auto;
+                    position:relative;
+
+                    @media #{$md-up} {
+                        width:80%;
+                    }
+
+                    a.close-btn {
+                        position:absolute;
+                        top:-20px;
+                        right:-20px;
+                        border-radius:50px;
+                        width:50px;
+                        height:50px;
+                        background-color:$orange;
+                        -webkit-transition: all 0.2s ease;
+                        -moz-transition: all 0.2s ease;
+                        transition: all 0.2s ease;
+
+                        span {
+                            width: 30px;
+                            height: 4px;
+                            background-color: #fff;
+                            border-radius: 8px;
+                            position: absolute;
+                            display: block;
+                            -webkit-transition: all 0.2s ease;
+                            -moz-transition: all 0.2s ease;
+                            transition: all 0.2s ease;
+                            top:21px;
+                            left: 11px;
+
+                            &:nth-child(1) {
+                                transform: rotate(-135deg);
+                            }
+
+                            &:nth-child(2) {
+                                transform: rotate(135deg);
+                            }
+                        }
+
+                        &:hover, &:focus {
+                            background-color: $grey;
+
+                            span {
+                                background-color:$orange
+                            }
+                        }
                     }
                 }
             }
