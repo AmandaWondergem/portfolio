@@ -1,3 +1,5 @@
+@import "portfolio-items";
+
 .portfolio {
 //    .bg-colour {
 //        padding-top:30px;
@@ -11,6 +13,46 @@
 //            background-color:$white;
 //        }
 //    }
+
+    .portfolio-content-wrapper {
+        margin-left:-15px;
+        margin-right:-15px;
+
+        .portfolio-item {
+            padding:15px;
+
+            &.x2 {
+                width:100%;
+                float:left;
+
+                @media #{$md-up} {
+                    width:50%;
+                }
+            }
+
+            &.x3 {
+                width:100%;
+                float:left;
+
+                @media #{$md-up} {
+                    width:33.33%;
+                }
+            }
+
+            &.x4 {
+                width:50%;
+                float:left;
+
+                @media #{$md-up} {
+                    width:25%;
+                }
+            }
+
+            &.full {
+                width:100%;
+            }
+        }
+    }
 
     a.see-project.toggle-link {
         font-size:18px;
@@ -224,6 +266,15 @@
 
             @media #{$md-up} {
                 width:33.33%;
+            }
+        }
+
+        &.x4 {
+            width:50%;
+            float:left;
+
+            @media #{$md-up} {
+                width:25%;
             }
         }
 
