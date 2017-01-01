@@ -243,7 +243,7 @@ h2 {
 h3 {
   font-size: 26px;
   font-weight: 700;
-  line-height: 26px;
+  line-height: 29px;
   font-family: "Arimo", Arial, Helvetica sans-serif; }
 
 /* line 50, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
@@ -794,9 +794,14 @@ a.portfolio-item {
     padding: 60px 40px;
     flex-grow: 1;
     width: 100%; }
+    @media (min-width: 767px) {
+      /* line 59, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
+      a.portfolio-item .overlay {
+        min-height: 229px; } }
     @media (min-width: 992px) {
       /* line 59, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
       a.portfolio-item .overlay {
+        height: auto;
         position: absolute;
         top: 0;
         left: 0;
@@ -810,13 +815,13 @@ a.portfolio-item {
         -webkit-transition: opacity 0.3s ease;
         -moz-transition: opacity 0.3s ease;
         transition: opacity 0.3s ease; } }
-    /* line 85, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
+    /* line 90, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
     a.portfolio-item .overlay h3 {
       letter-spacing: 0.05em;
       color: #fff;
       text-transform: uppercase;
       margin-bottom: 10px; }
-      /* line 91, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
+      /* line 96, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
       a.portfolio-item .overlay h3:after {
         content: '';
         display: block;
@@ -829,17 +834,17 @@ a.portfolio-item {
         transition: width 0.25s ease-in-out, background-color 0.25s ease;
         margin-top: 8px; }
         @media (min-width: 992px) {
-          /* line 91, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
+          /* line 96, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
           a.portfolio-item .overlay h3:after {
             width: 0;
             background-color: transparent; } }
-    /* line 110, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
+    /* line 115, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
     a.portfolio-item .overlay p {
       color: #fff; }
-  /* line 116, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
+  /* line 121, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
   a.portfolio-item:hover .overlay, a.portfolio-item:focus .overlay {
     opacity: 1; }
-    /* line 119, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
+    /* line 124, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
     a.portfolio-item:hover .overlay h3:after, a.portfolio-item:focus .overlay h3:after {
       -webkit-transition-delay: 0.15s;
       -moz-transition-delay: 0.15s;
@@ -949,9 +954,14 @@ a.portfolio-item {
     padding: 60px 40px;
     flex-grow: 1;
     width: 100%; }
+    @media (min-width: 767px) {
+      /* line 59, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
+      a.portfolio-item .overlay {
+        min-height: 229px; } }
     @media (min-width: 992px) {
       /* line 59, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
       a.portfolio-item .overlay {
+        height: auto;
         position: absolute;
         top: 0;
         left: 0;
@@ -965,13 +975,13 @@ a.portfolio-item {
         -webkit-transition: opacity 0.3s ease;
         -moz-transition: opacity 0.3s ease;
         transition: opacity 0.3s ease; } }
-    /* line 85, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
+    /* line 90, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
     a.portfolio-item .overlay h3 {
       letter-spacing: 0.05em;
       color: #fff;
       text-transform: uppercase;
       margin-bottom: 10px; }
-      /* line 91, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
+      /* line 96, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
       a.portfolio-item .overlay h3:after {
         content: '';
         display: block;
@@ -984,17 +994,17 @@ a.portfolio-item {
         transition: width 0.25s ease-in-out, background-color 0.25s ease;
         margin-top: 8px; }
         @media (min-width: 992px) {
-          /* line 91, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
+          /* line 96, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
           a.portfolio-item .overlay h3:after {
             width: 0;
             background-color: transparent; } }
-    /* line 110, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
+    /* line 115, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
     a.portfolio-item .overlay p {
       color: #fff; }
-  /* line 116, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
+  /* line 121, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
   a.portfolio-item:hover .overlay, a.portfolio-item:focus .overlay {
     opacity: 1; }
-    /* line 119, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
+    /* line 124, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
     a.portfolio-item:hover .overlay h3:after, a.portfolio-item:focus .overlay h3:after {
       -webkit-transition-delay: 0.15s;
       -moz-transition-delay: 0.15s;
@@ -1561,6 +1571,126 @@ a.see-project {
         .iconography-wrapper .stills .photo-wrapper.w38 {
           width: 38%; } }
 
+/* line 3, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_corbin-visual.scss */
+.corbin-visual h2:after {
+  background-color: #F0C054; }
+
+/* line 8, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_corbin-visual.scss */
+.corbin-visual .the-challenge, .corbin-visual .the-process {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 50px; }
+  @media (min-width: 768px) {
+    /* line 8, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_corbin-visual.scss */
+    .corbin-visual .the-challenge, .corbin-visual .the-process {
+      flex-direction: row; } }
+
+@media (min-width: 768px) {
+  /* line 21, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_corbin-visual.scss */
+  .corbin-visual .the-process .image-wrapper {
+    order: 1; } }
+
+@media (min-width: 768px) {
+  /* line 27, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_corbin-visual.scss */
+  .corbin-visual .the-process .text {
+    order: 2; } }
+
+/* line 34, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_corbin-visual.scss */
+.corbin-visual .image-wrapper {
+  width: 100%; }
+  @media (min-width: 768px) {
+    /* line 34, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_corbin-visual.scss */
+    .corbin-visual .image-wrapper {
+      width: 40%; } }
+
+/* line 42, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_corbin-visual.scss */
+.corbin-visual .text {
+  width: 100%;
+  margin-bottom: 20px; }
+  @media (min-width: 768px) {
+    /* line 42, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_corbin-visual.scss */
+    .corbin-visual .text {
+      width: 50%;
+      margin-bottom: 0px; } }
+
+/* line 2, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+.petcare-app .banner {
+  background-color: #12364D;
+  text-align: center;
+  padding: 40px 0px; }
+  @media (min-width: 768px) {
+    /* line 2, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+    .petcare-app .banner {
+      padding: 50px 0px; } }
+  /* line 11, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+  .petcare-app .banner img {
+    margin: 0 auto; }
+
+/* line 16, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+.petcare-app .info .wrapper {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  justify-content: space-between; }
+  @media (min-width: 768px) {
+    /* line 16, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+    .petcare-app .info .wrapper {
+      flex-flow: row nowrap; } }
+  /* line 26, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+  .petcare-app .info .wrapper .text {
+    margin-top: 30px; }
+    @media (min-width: 768px) {
+      /* line 26, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+      .petcare-app .info .wrapper .text {
+        width: 50%;
+        margin-right: 8%;
+        order: 1;
+        margin-top: 0px; } }
+  @media (min-width: 768px) {
+    /* line 37, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+    .petcare-app .info .wrapper .photo-wrapper {
+      width: 40%;
+      order: 2; } }
+  /* line 43, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+  .petcare-app .info .wrapper .photo-wrapper img {
+    margin: 0 auto; }
+
+/* line 49, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+.petcare-app .appointments .wrapper {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  margin-top: 60px; }
+  @media (min-width: 768px) {
+    /* line 49, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+    .petcare-app .appointments .wrapper {
+      flex-flow: row nowrap; } }
+  /* line 60, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+  .petcare-app .appointments .wrapper .text {
+    margin-top: 30px; }
+    @media (min-width: 768px) {
+      /* line 60, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+      .petcare-app .appointments .wrapper .text {
+        width: 60%;
+        order: 2;
+        margin-top: 0px; } }
+  @media (min-width: 768px) {
+    /* line 70, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+    .petcare-app .appointments .wrapper .photo-wrapper {
+      width: 20%;
+      order: 1;
+      margin-right: 8%; } }
+  /* line 77, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+  .petcare-app .appointments .wrapper .photo-wrapper img {
+    margin: 0 auto; }
+
+/* line 86, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+.petcare-app h2:after {
+  background-color: #41A8E9; }
+
 /* line 2, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
 .contact .content {
   padding-top: 30px;
@@ -1580,16 +1710,37 @@ a.see-project {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%; }
-  /* line 22, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
+  width: 100%;
+  flex-flow: column; }
+  @media (min-width: 992px) {
+    /* line 16, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
+    .contact .contact-wrapper {
+      flex-direction: row; } }
+  /* line 27, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
+  .contact .contact-wrapper .image-wrapper {
+    width: 100%;
+    margin-bottom: 40px; }
+    @media (min-width: 992px) {
+      /* line 27, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
+      .contact .contact-wrapper .image-wrapper {
+        width: 40%;
+        margin-bottom: 0px; } }
+    /* line 36, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
+    .contact .contact-wrapper .image-wrapper img {
+      margin: 0 auto; }
+  /* line 41, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
   .contact .contact-wrapper .text {
-    width: 57%; }
-  /* line 26, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
+    width: 100%; }
+    @media (min-width: 992px) {
+      /* line 41, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
+      .contact .contact-wrapper .text {
+        width: 50%; } }
+  /* line 49, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
   .contact .contact-wrapper .illustration {
     margin: 0 auto;
     margin-top: 30px; }
     @media (min-width: 768px) {
-      /* line 26, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
+      /* line 49, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
       .contact .contact-wrapper .illustration {
         margin: 0; } }
 

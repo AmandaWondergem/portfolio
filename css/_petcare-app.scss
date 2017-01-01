@@ -1,0 +1,90 @@
+.petcare-app {
+    .banner {
+        background-color:#12364D;
+        text-align:center;
+        padding:40px 0px;
+
+        @media #{$md-up} {
+            padding:50px 0px;
+        }
+
+        img {
+            margin:0 auto;
+        }
+    }
+
+    .info .wrapper {
+        display:flex;
+        align-items: center;
+        flex-flow:column wrap;
+        justify-content: space-between;
+
+        @media #{$md-up} {
+            flex-flow:row nowrap;
+        }
+
+        .text {
+            margin-top:30px;
+
+            @media #{$md-up} {
+                width:50%;
+                margin-right:8%;
+                order:1;
+                margin-top:0px;
+            }
+        }
+
+        .photo-wrapper {
+            @media #{$md-up} {
+                width:40%;
+                order:2;
+            }
+
+            img {
+                margin:0 auto;
+            }
+        }
+    }
+
+    .appointments .wrapper {
+        display:flex;
+        align-items: center;
+        flex-flow:column wrap;
+        justify-content: space-between;
+        margin-top:60px;
+
+        @media #{$md-up} {
+            flex-flow:row nowrap;
+        }
+
+        .text {
+            margin-top:30px;
+
+            @media #{$md-up} {
+                width:60%;
+                order:2;
+                margin-top:0px;
+            }
+        }
+
+        .photo-wrapper {
+            @media #{$md-up} {
+                width:20%;
+                order:1;
+                margin-right:8%;
+            }
+
+            img {
+                margin:0 auto;
+            }
+        }
+    }
+
+    h2 {
+//        text-transform:none;
+
+        &:after {
+            background-color:#41A8E9;
+        }
+    }
+}

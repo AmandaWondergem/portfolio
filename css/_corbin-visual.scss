@@ -1,0 +1,51 @@
+.corbin-visual {
+    h2 {
+        &:after {
+            background-color:#F0C054;
+        }
+    }
+
+    .the-challenge, .the-process {
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction:column;
+        margin-bottom:50px;
+
+        @media #{$md-up} {
+            flex-direction:row;
+        }
+    }
+
+    .the-process {
+        .image-wrapper {
+            @media #{$md-up} {
+                order:1;
+            }
+        }
+
+        .text {
+            @media #{$md-up} {
+                order:2;
+            }
+        }
+    }
+
+    .image-wrapper {
+        width:100%;
+
+        @media #{$md-up} {
+            width:40%;
+        }
+    }
+
+    .text {
+         width:100%;
+        margin-bottom:20px;
+
+        @media #{$md-up} {
+            width:50%;
+            margin-bottom:0px;
+        }
+    }
+}
