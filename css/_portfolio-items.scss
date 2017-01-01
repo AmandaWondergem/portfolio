@@ -7,10 +7,19 @@ a.portfolio-item {
     position:relative;
     cursor:pointer;
     text-decoration:none;
-    margin-bottom:30px;
     display: flex;
     flex-direction: column;
     padding:15px;
+    width:100%;
+    float:left;
+
+    @media #{$md-up} {
+        width:50%;
+    }
+
+    @media #{$xl-up} {
+        width:33.33%;
+    }
 
     &:last-child {
         margin-bottom:0px;
@@ -55,6 +64,7 @@ a.portfolio-item {
         text-align:center;
         padding:60px 40px;
         flex-grow:1;
+        width:100%;
 
         @media #{$lg-up} {
             position:absolute;

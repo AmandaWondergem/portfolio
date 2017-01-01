@@ -1,0 +1,41 @@
+.iconography-wrapper {
+    margin-bottom:45px;
+
+    .stills {
+        .photo-wrapper {
+            float:left;
+
+            &.w41 {
+                width:100%;
+
+               @media #{$md-up} {
+                   width:41%;
+               }
+            }
+
+           &.w59 {
+                width:100%;
+
+               @media #{$md-up} {
+                   width:59%;
+               }
+            }
+
+            &.w62 {
+                width:100%;
+
+               @media #{$md-up} {
+                   width:62%;
+               }
+            }
+
+           &.w38 {
+                width:100%;
+
+               @media #{$md-up} {
+                   width:38%;
+               }
+            }
+        }
+    }
+}

@@ -227,7 +227,7 @@
         display:flex;
         justify-content: space-between;
         align-items: center;
-        width:100%;
+//        width:100%;
 
         .text {
             width:50%;
@@ -270,10 +270,14 @@
         }
 
         &.x4 {
-            width:50%;
+            width:100%;
             float:left;
 
             @media #{$md-up} {
+                width:50%;
+            }
+
+            @media #{$xl-up} {
                 width:25%;
             }
         }
@@ -311,3 +315,4 @@ a.see-project {
 
 @import "featured-work-banner";
 @import "adventure-finder";
+@import "iconography";
