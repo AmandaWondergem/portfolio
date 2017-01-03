@@ -62,7 +62,7 @@
         display:flex;
         align-items: center;
         flex-flow:column wrap;
-        margin-top:60px;
+        margin-top:90px;
 
         @media #{$md-up} {
             flex-flow:row nowrap;
