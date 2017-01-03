@@ -1629,65 +1629,95 @@ a.see-project {
     margin: 0 auto; }
 
 /* line 16, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+.petcare-app .section {
+  position: relative; }
+  /* line 19, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+  .petcare-app .section .blue-bg {
+    background-color: #41A8E9;
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    z-index: 4; }
+    @media (min-width: 768px) {
+      /* line 19, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+      .petcare-app .section .blue-bg {
+        height: 40px;
+        top: 46%; } }
+    @media (min-width: 1200px) {
+      /* line 19, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+      .petcare-app .section .blue-bg {
+        height: 280px;
+        top: 38%; } }
+
+/* line 38, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
 .petcare-app .info .wrapper {
   display: flex;
   align-items: center;
   flex-flow: column wrap;
-  justify-content: space-between; }
+  justify-content: space-around;
+  margin-top: 50px;
+  z-index: 5;
+  position: relative; }
   @media (min-width: 768px) {
-    /* line 16, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+    /* line 38, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
     .petcare-app .info .wrapper {
       flex-flow: row nowrap; } }
-  /* line 26, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+  /* line 51, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
   .petcare-app .info .wrapper .text {
-    margin-top: 30px; }
+    margin-bottom: 30px; }
     @media (min-width: 768px) {
-      /* line 26, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+      /* line 51, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
       .petcare-app .info .wrapper .text {
-        width: 50%;
+        width: 40%;
         margin-right: 8%;
         order: 1;
-        margin-top: 0px; } }
+        margin-bottom: 0px; } }
   @media (min-width: 768px) {
-    /* line 37, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+    /* line 62, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
     .petcare-app .info .wrapper .photo-wrapper {
-      width: 40%;
+      width: 50%;
       order: 2; } }
-  /* line 43, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+  /* line 68, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
   .petcare-app .info .wrapper .photo-wrapper img {
     margin: 0 auto; }
 
-/* line 49, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+/* line 74, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
 .petcare-app .appointments .wrapper {
   display: flex;
   align-items: center;
   flex-flow: column wrap;
-  justify-content: space-between;
-  margin-top: 60px; }
+  justify-content: space-around;
+  margin: 50px;
+  z-index: 5;
+  position: relative; }
   @media (min-width: 768px) {
-    /* line 49, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+    /* line 74, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
     .petcare-app .appointments .wrapper {
       flex-flow: row nowrap; } }
-  /* line 60, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+  /* line 87, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
   .petcare-app .appointments .wrapper .text {
-    margin-top: 30px; }
+    margin-bottom: 30px; }
     @media (min-width: 768px) {
-      /* line 60, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+      /* line 87, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
       .petcare-app .appointments .wrapper .text {
-        width: 60%;
+        width: 50%;
         order: 2;
-        margin-top: 0px; } }
-  @media (min-width: 768px) {
-    /* line 70, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+        margin-bottom: 0px; } }
+  @media (min-width: 767px) {
+    /* line 97, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
     .petcare-app .appointments .wrapper .photo-wrapper {
-      width: 20%;
+      width: 70%; } }
+  @media (min-width: 768px) {
+    /* line 97, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+    .petcare-app .appointments .wrapper .photo-wrapper {
+      width: 30%;
       order: 1;
       margin-right: 8%; } }
-  /* line 77, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+  /* line 108, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
   .petcare-app .appointments .wrapper .photo-wrapper img {
     margin: 0 auto; }
 
-/* line 86, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
+/* line 117, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
 .petcare-app h2:after {
   background-color: #41A8E9; }
 
