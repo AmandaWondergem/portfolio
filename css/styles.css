@@ -168,6 +168,23 @@ body {
   display: block; }
 
 /*Responsive video*/
+/* line 85, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0; }
+  /* line 91, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 70%;
+    height: 70%;
+    margin: 0 auto; }
+
 /* line 102, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
 .video-wrapper {
   width: 100%;
@@ -1721,6 +1738,46 @@ a.see-project {
 /* line 117, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
 .petcare-app h2:after {
   background-color: #41A8E9; }
+
+/* line 2, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_outlander.scss */
+.outlander .mobile-mockup .wrapper {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+  z-index: 5;
+  position: relative; }
+  @media (min-width: 768px) {
+    /* line 2, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_outlander.scss */
+    .outlander .mobile-mockup .wrapper {
+      flex-flow: row nowrap; } }
+  /* line 15, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_outlander.scss */
+  .outlander .mobile-mockup .wrapper .text {
+    margin-bottom: 30px; }
+    @media (min-width: 768px) {
+      /* line 15, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_outlander.scss */
+      .outlander .mobile-mockup .wrapper .text {
+        width: 40%;
+        margin-right: 8%;
+        order: 1;
+        margin-bottom: 0px; } }
+  @media (min-width: 768px) {
+    /* line 26, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_outlander.scss */
+    .outlander .mobile-mockup .wrapper .photo-wrapper {
+      width: 50%;
+      order: 2; } }
+  /* line 32, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_outlander.scss */
+  .outlander .mobile-mockup .wrapper .photo-wrapper img {
+    margin: 0 auto; }
+
+/* line 38, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_outlander.scss */
+.outlander .desktop-mockup {
+  margin-top: 40px; }
+
+/* line 43, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_outlander.scss */
+.outlander h2:after {
+  background-color: #F67523; }
 
 /* line 2, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
 .contact .content {

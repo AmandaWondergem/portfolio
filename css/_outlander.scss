@@ -1,0 +1,47 @@
+.outlander {
+    .mobile-mockup .wrapper {
+        display:flex;
+        align-items: center;
+        flex-flow:column wrap;
+        justify-content: space-around;
+        margin-top:50px;
+        z-index:5;
+        position:relative;
+
+        @media #{$md-up} {
+            flex-flow:row nowrap;
+        }
+
+        .text {
+            margin-bottom:30px;
+
+            @media #{$md-up} {
+                width:40%;
+                margin-right:8%;
+                order:1;
+                margin-bottom:0px;
+            }
+        }
+
+        .photo-wrapper {
+            @media #{$md-up} {
+                width:50%;
+                order:2;
+            }
+
+            img {
+                margin:0 auto;
+            }
+        }
+    }
+
+    .desktop-mockup {
+        margin-top:40px;
+    }
+
+    h2 {
+        &:after {
+            background-color:#F67523;
+        }
+    }
+}
