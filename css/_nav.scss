@@ -18,6 +18,11 @@ a.logo {
     @media #{$md-up} {
         margin-bottom:0px;
         display:inline-block;
+        width:77px;
+    }
+
+    @media #{$lg-up} {
+        width:73px;
     }
 }
 
