@@ -1,0 +1,30 @@
+.records {
+    .yellow-border {
+        border-top:5px solid #EEB40F;
+    }
+
+    .the-challenge  {
+        background-color:#E5EBEC;
+        margin-top:10px;
+        padding:40px 0px;
+    }
+
+    .the-process {
+       background-color:#FBEECC;
+       margin-top:10px;
+       padding:40px 0px;
+    }
+
+    .the-result {
+        background-color:#E5EBEC;
+        margin-top:10px;
+        margin-bottom:10px;
+        padding:40px 0px;
+    }
+
+    h2 {
+        &:after {
+            background-color:#003946;
+        }
+    }
+}

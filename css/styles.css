@@ -1398,32 +1398,53 @@ a.see-project {
     .adventure-finder .the-process .wrapper {
       flex-flow: row nowrap; } }
   /* line 71, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+  .adventure-finder .the-process .wrapper .button-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    @media (min-width: 768px) {
+      /* line 71, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+      .adventure-finder .the-process .wrapper .button-wrapper {
+        flex-direction: column;
+        align-items: flex-start; } }
+    @media (min-width: 992px) {
+      /* line 71, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+      .adventure-finder .the-process .wrapper .button-wrapper {
+        flex-direction: row; }
+        /* line 84, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+        .adventure-finder .the-process .wrapper .button-wrapper a:first-child {
+          margin-right: 20px; } }
+  /* line 90, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
   .adventure-finder .the-process .wrapper .text {
     margin-top: 30px; }
     @media (min-width: 768px) {
-      /* line 71, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+      /* line 90, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
       .adventure-finder .the-process .wrapper .text {
         width: 50%;
         order: 2;
         margin-top: 0px; } }
   @media (min-width: 768px) {
-    /* line 81, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+    /* line 100, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
     .adventure-finder .the-process .wrapper .photo-wrapper {
       width: 40%;
       order: 1;
       margin-right: 8%; } }
-  /* line 88, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+  /* line 107, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
   .adventure-finder .the-process .wrapper .photo-wrapper img {
     margin: 0 auto; }
 
-/* line 94, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+/* line 113, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+.adventure-finder .sketches {
+  margin-top: 60px; }
+
+/* line 117, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
 .adventure-finder .the-result {
   background-color: #0E2E35;
   margin-top: 60px;
   display: flex;
   position: relative;
   overflow: hidden; }
-  /* line 101, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+  /* line 124, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
   .adventure-finder .the-result .triangle {
     height: 1000px;
     width: 1000px;
@@ -1431,21 +1452,21 @@ a.see-project {
     overflow: hidden;
     align-self: flex-end; }
     @media (min-width: 767px) {
-      /* line 101, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+      /* line 124, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
       .adventure-finder .the-result .triangle {
         height: 1600px;
         width: 1600px; } }
     @media (min-width: 768px) {
-      /* line 101, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+      /* line 124, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
       .adventure-finder .the-result .triangle {
         height: 1000px;
         width: 1000px; } }
     @media (min-width: 992px) {
-      /* line 101, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+      /* line 124, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
       .adventure-finder .the-result .triangle {
         height: 1600px;
         width: 1600px; } }
-    /* line 123, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+    /* line 146, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
     .adventure-finder .the-result .triangle:after {
       height: 100%;
       width: 100%;
@@ -1460,101 +1481,101 @@ a.see-project {
       background-color: #00AAB2;
       background-size: cover;
       bottom: -64%; }
-  /* line 140, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+  /* line 163, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
   .adventure-finder .the-result .wrapper {
     display: flex;
     align-items: center;
     flex-flow: column wrap; }
     @media (min-width: 768px) {
-      /* line 140, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+      /* line 163, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
       .adventure-finder .the-result .wrapper {
         flex-flow: row nowrap; } }
-  /* line 150, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+  /* line 173, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
   .adventure-finder .the-result .text {
     padding: 40px 0px; }
-    /* line 153, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+    /* line 176, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
     .adventure-finder .the-result .text h2, .adventure-finder .the-result .text p {
       color: #fff; }
     @media (min-width: 768px) {
-      /* line 150, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+      /* line 173, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
       .adventure-finder .the-result .text {
         width: 50%;
         order: 2;
         margin-top: 0px; } }
-  /* line 165, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+  /* line 188, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
   .adventure-finder .the-result .photo-wrapper img {
     margin: 0 auto; }
     @media (min-width: 768px) {
-      /* line 168, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+      /* line 191, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
       .adventure-finder .the-result .photo-wrapper img:first-child {
         display: none; } }
     @media (min-width: 992px) {
-      /* line 168, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+      /* line 191, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
       .adventure-finder .the-result .photo-wrapper img:first-child {
         display: block; } }
-    /* line 178, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+    /* line 201, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
     .adventure-finder .the-result .photo-wrapper img:last-child {
       display: none; }
       @media (min-width: 768px) {
-        /* line 178, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+        /* line 201, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
         .adventure-finder .the-result .photo-wrapper img:last-child {
           display: block; } }
       @media (min-width: 992px) {
-        /* line 178, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+        /* line 201, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
         .adventure-finder .the-result .photo-wrapper img:last-child {
           display: none; } }
   @media (min-width: 768px) {
-    /* line 164, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+    /* line 187, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
     .adventure-finder .the-result .photo-wrapper {
       width: 40%;
       order: 1;
       margin-right: 8%;
       align-self: flex-end; } }
 
-/* line 200, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+/* line 223, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
 .adventure-finder .the-website {
   background-color: #0E2E35;
   text-align: center;
   margin-top: 60px;
   padding: 30px 0px 150px 0px; }
   @media (min-width: 768px) {
-    /* line 200, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+    /* line 223, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
     .adventure-finder .the-website {
       padding: 50px 0px 320px 0px; } }
   @media (min-width: 992px) {
-    /* line 200, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+    /* line 223, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
     .adventure-finder .the-website {
       padding: 50px 0px 410px 0px; } }
   @media (min-width: 768px) {
-    /* line 214, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+    /* line 237, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
     .adventure-finder .the-website .text {
       width: 80%;
       margin: 0 auto; } }
-  /* line 221, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+  /* line 244, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
   .adventure-finder .the-website h2, .adventure-finder .the-website p {
     color: #fff; }
-  /* line 226, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+  /* line 249, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
   .adventure-finder .the-website h2:after {
     left: 50%;
     transform: translateX(-50%); }
 
-/* line 233, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+/* line 256, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
 .adventure-finder .the-website-img {
   margin-top: -110px;
   margin-bottom: 60px; }
   @media (min-width: 768px) {
-    /* line 233, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+    /* line 256, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
     .adventure-finder .the-website-img {
       margin-top: -270px; } }
   @media (min-width: 992px) {
-    /* line 233, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+    /* line 256, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
     .adventure-finder .the-website-img {
       margin-top: -340px; } }
-  /* line 245, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+  /* line 268, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
   .adventure-finder .the-website-img img {
     margin: 0 auto; }
 
-/* line 251, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
+/* line 274, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
 .adventure-finder h2:after {
   background-color: #10ACC6; }
 
@@ -1782,6 +1803,33 @@ a.see-project {
 /* line 43, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_outlander.scss */
 .outlander h2:after {
   background-color: #F67523; }
+
+/* line 2, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_records.scss */
+.records .yellow-border {
+  border-top: 5px solid #EEB40F; }
+
+/* line 6, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_records.scss */
+.records .the-challenge {
+  background-color: #E5EBEC;
+  margin-top: 10px;
+  padding: 40px 0px; }
+
+/* line 12, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_records.scss */
+.records .the-process {
+  background-color: #FBEECC;
+  margin-top: 10px;
+  padding: 40px 0px; }
+
+/* line 18, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_records.scss */
+.records .the-result {
+  background-color: #E5EBEC;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 40px 0px; }
+
+/* line 26, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_records.scss */
+.records h2:after {
+  background-color: #003946; }
 
 /* line 2, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
 .contact .content {
