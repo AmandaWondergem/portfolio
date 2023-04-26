@@ -1,25 +1,14 @@
+@import "variables";
+
 .footer {
-    padding-top:20px;
-    padding-bottom:20px;
-    background-color:#fff;
-    background-image:url("../img/circle-bg-pattern.png");
+    padding:30px 15px 30px 15px;
+    background-color:$white;
     background-repeat: repeat;
     text-align:center;
+    border-top:2px solid $grey;
 
     @media #{$md-up} {
-        padding-top:30px;
         padding-bottom:30px;
-    }
-
-    .logo {
-        margin-bottom:10px;
-        vertical-align:middle;
-        background-image:url("../img/logo.png");
-        background-position:-67px 0px;
-        width:70px;
-        height:70px;
-        display:inline-block;
-        cursor: pointer;
     }
 
     .orange-underline {
@@ -46,13 +35,13 @@
             }
 
             a {
-                color:#1C1D21;
+                color:$dark-grey;
                 font-size:14px;
                 text-transform: uppercase;
                 font-weight:bold;
                 text-decoration:none;
                 padding-bottom:2px;
-                font-family: $armino;
+                font-family: $nunito;
                 letter-spacing:0.05em;
 
                 &:hover, &:focus, .active {
@@ -64,40 +53,16 @@
 
     ul.social-media {
         margin-top:6px;
-        margin-right:20px;
 
         li {
             display:inline-block;
 
-            a.behance, a.linkedin, a.vimeo, a.youtube {
-                height:26px;
+            a {
+                padding: 6px 7px;
                 display:inline-block;
-                background-image:url("../img/social-media-icons-black.png");
                 background-repeat: no-repeat;
                 cursor: pointer;
 
-            }
-            a.behance {
-                background-position:0px -0px;
-                margin-right:10px;
-                width:41px;
-            }
-
-            a.linkedin {
-                background-position:-57px -0px;
-                margin-right:10px;
-                width:29px;
-            }
-
-            a.vimeo {
-                background-position:-101px -0px;
-                margin-right:10px;
-                width:31px;
-            }
-
-            a.youtube {
-                background-position:-143px -0px;
-                width:38px;
             }
         }
     }

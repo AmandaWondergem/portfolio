@@ -55,4 +55,19 @@
             }
         }
     }
+    ul.social-media {
+        margin-top:6px;
+
+        li {
+            display:inline-block;
+
+            a {
+                padding: 6px 7px;
+                display:inline-block;
+                background-repeat: no-repeat;
+                cursor: pointer;
+
+            }
+        }
+    }
 }

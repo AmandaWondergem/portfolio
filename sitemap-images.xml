@@ -5,194 +5,93 @@
 	<url>
 		<loc>http://www.amandawondergem.com</loc>
 			<image:image>
-				<image:loc>http://www.amandawondergem.com/logo.png</image:loc>
+				<image:loc>http://www.amandawondergem.com/img/logo-white@2x.png</image:loc>
 			</image:image>
 			
 			<image:image>
-				<image:loc>http://www.amandawondergem.com/behance_icon.png</image:loc>
+				<image:loc>http://www.amandawondergem.com/img/portfolio-items/be-the-ice-sculptor.png</image:loc>
 			</image:image>
 			
 			<image:image>
-				<image:loc>http://www.amandawondergem.com/linkedin_icon.png</image:loc>
+				<image:loc>http://www.amandawondergem.com/img/portfolio-items/borrowell-app-promo-video.png</image:loc>
 			</image:image>
 			
 			<image:image>
-				<image:loc>http://www.amandawondergem.com/vimeo_icon.png</image:loc>
+				<image:loc>http://www.amandawondergem.com/img/portfolio-items/demo-reel@2x.png</image:loc>
 			</image:image>
 			
 			<image:image>
-				<image:loc>http://www.amandawondergem.com/youtube_icon.png</image:loc>
+				<image:loc>http://www.amandawondergem.com/img/portfolio-items/museum-milano.png</image:loc>
 			</image:image>
 			
 			<image:image>
-				<image:loc>http://www.amandawondergem.com/demo_reel_spring_2014.jpg</image:loc>
+				<image:loc>http://www.amandawondergem.com/img/portfolio-items/rnao-promo.png</image:loc>
 			</image:image>
 			
 			<image:image>
-				<image:loc>http://www.amandawondergem.com/get_active.jpg</image:loc>
+				<image:loc>http://www.amandawondergem.com/img/portfolio-items/seed-and-stem.png</image:loc>
 			</image:image>
 			
 			<image:image>
-				<image:loc>http://www.amandawondergem.com/typography_animation.jpg</image:loc>
+				<image:loc>http://www.amandawondergem.com/img/portfolio-items/wsps-safety-group.png</image:loc>
 			</image:image>
-			
+
 			<image:image>
-				<image:loc>http://www.amandawondergem.com/corbin_visual_app.jpg</image:loc>
+				<image:loc>http://www.amandawondergem.com/img/portfolio-items/travel-credit-card-ad.jpg</image:loc>
 			</image:image>
-			
 			<image:image>
-				<image:loc>http://www.amandawondergem.com/campus_hub_idents.jpg</image:loc>
-			</image:image>
-			
-			<image:image>
-				<image:loc>http://www.amandawondergem.com/nature_channel_thumb.jpg</image:loc>
+				<image:loc>http://www.amandawondergem.com/img/portfolio-items/borrowell-branding@2x.png</image:loc>
 			</image:image>
 		</url>
 		
 		<url>
-		<loc>http://www.amandawondergem.com/about-me.html</loc>
+		<loc>http://www.amandawondergem.com/tidbits.html</loc>
 			<image:image>
-				<image:loc>http://www.amandawondergem.com/logo.png</image:loc>
+				<image:loc>http://www.amandawondergem.com/img/tidbits/besties.gif</image:loc>
 			</image:image>
 			
 			<image:image>
-				<image:loc>http://www.amandawondergem.com/behance_icon.png</image:loc>
+				<image:loc>http://www.amandawondergem.com/img/tidbits/i-create-who-i-am.gif</image:loc>
 			</image:image>
 			
 			<image:image>
-				<image:loc>http://www.amandawondergem.com/linkedin_icon.png</image:loc>
+				<image:loc>http://www.amandawondergem.com/img/tidbits/moonlight-camping.gif</image:loc>
 			</image:image>
 			
 			<image:image>
-				<image:loc>http://www.amandawondergem.com/vimeo_icon.png</image:loc>
+				<image:loc>http://www.amandawondergem.com/img/tidbits/q.gif</image:loc>
 			</image:image>
 			
 			<image:image>
-				<image:loc>http://www.amandawondergem.com/youtube_icon.png</image:loc>
+				<image:loc>http://www.amandawondergem.com/img/tidbits/shapes-scene.gif</image:loc>
 			</image:image>
 			
 			<image:image>
-				<image:loc>http://www.amandawondergem.com/demo_reel_spring_2014.jpg</image:loc>
+				<image:loc>http://www.amandawondergem.com/img/tidbits/water-scene.gif</image:loc>
 			</image:image>
 			
 			<image:image>
-				<image:loc>http://www.amandawondergem.com/get_active.jpg</image:loc>
+				<image:loc>http://www.amandawondergem.com/img/tidbits/D.png</image:loc>
 			</image:image>
 			
 			<image:image>
-				<image:loc>http://www.amandawondergem.com/typography_animation.jpg</image:loc>
+				<image:loc>http://www.amandawondergem.com/img/tidbits/J.png</image:loc>
 			</image:image>
 			
 			<image:image>
-				<image:loc>http://www.amandawondergem.com/corbin_visual_app.jpg</image:loc>
+				<image:loc>http://www.amandawondergem.com/img/tidbits/W.png</image:loc>
 			</image:image>
 			
 			<image:image>
-				<image:loc>http://www.amandawondergem.com/visual_storytelling_banner.png</image:loc>
+				<image:loc>http://www.amandawondergem.com/img/tidbits/Z.png</image:loc>
 			</image:image>
 			
 			<image:image>
-				<image:loc>http://www.amandawondergem.com/play_icon.png</image:loc>
+				<image:loc>http://www.amandawondergem.com/img/tidbits/holiday-card-2018.jpg</image:loc>
 			</image:image>
 			
 			<image:image>
-				<image:loc>http://www.amandawondergem.com/skills_icon.png</image:loc>
-			</image:image>
-			
-			<image:image>
-				<image:loc>http://www.amandawondergem.com/education_icon.png</image:loc>
-			</image:image>
-			
-		</url>
-		
-		<url>
-		<loc>http://www.amandawondergem.com/work.html</loc>	
-			<image:image>
-				<image:loc>http://www.amandawondergem.com/logo.png</image:loc>
-			</image:image>
-			
-			<image:image>
-				<image:loc>http://www.amandawondergem.com/behance_icon.png</image:loc>
-			</image:image>
-			
-			<image:image>
-				<image:loc>http://www.amandawondergem.com/linkedin_icon.png</image:loc>
-			</image:image>
-			
-			<image:image>
-				<image:loc>http://www.amandawondergem.com/vimeo_icon.png</image:loc>
-			</image:image>
-			
-			<image:image>
-				<image:loc>http://www.amandawondergem.com/youtube_icon.png</image:loc>
-			</image:image>
-			
-			<image:image>
-				<image:loc>http://www.amandawondergem.com/demo_reel_spring_2014.jpg</image:loc>
-			</image:image>
-			
-			<image:image>
-				<image:loc>http://www.amandawondergem.com/corbin_visual_app.jpg</image:loc>
-			</image:image>
-			
-			<image:image>
-				<image:loc>http://www.amandawondergem.com/typography_animation.jpg</image:loc>
-			</image:image>
-			
-			<image:image>
-				<image:loc>http://www.amandawondergem.com/get_active.jpg</image:loc>
-			</image:image>
-			
-			<image:image>
-				<image:loc>http://www.amandawondergem.com/campus_hub_idents.jpg</image:loc>
-			</image:image>
-			
-			<image:image>
-				<image:loc>http://www.amandawondergem.com/skate_text.jpg</image:loc>
-			</image:image>
-			
-			<image:image>
-				<image:loc>http://www.amandawondergem.com/patient_zero.jpg</image:loc>
-			</image:image>
- 		</url> 
-		
-		<url>
-		<loc>http://www.amandawondergem.com/contact.html</loc>
-			<image:image>
-				<image:loc>http://www.amandawondergem.com/logo.png</image:loc>
-			</image:image>
-			
-			<image:image>
-				<image:loc>http://www.amandawondergem.com/behance_icon.png</image:loc>
-			</image:image>
-			
-			<image:image>
-				<image:loc>http://www.amandawondergem.com/linkedin_icon.png</image:loc>
-			</image:image>
-			
-			<image:image>
-				<image:loc>http://www.amandawondergem.com/vimeo_icon.png</image:loc>
-			</image:image>
-			
-			<image:image>
-				<image:loc>http://www.amandawondergem.com/youtube_icon.png</image:loc>
-			</image:image>
-			
-			<image:image>
-				<image:loc>http://www.amandawondergem.com/demo_reel_spring_2014.jpg</image:loc>
-			</image:image>
-			
-			<image:image>
-				<image:loc>http://www.amandawondergem.com/get_active.jpg</image:loc>
-			</image:image>
-			
-			<image:image>
-				<image:loc>http://www.amandawondergem.com/typography_animation.jpg</image:loc>
-			</image:image>
-			
-			<image:image>
-				<image:loc>http://www.amandawondergem.com/corbin_visual_app.jpg</image:loc>
+				<image:loc>http://www.amandawondergem.com/img/tidbits/panda.png</image:loc>
 			</image:image>
 		</url>
- 
 </urlset> 

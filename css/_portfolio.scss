@@ -17,41 +17,6 @@
     .portfolio-content-wrapper {
         margin-left:-15px;
         margin-right:-15px;
-
-        .portfolio-item {
-            padding:15px;
-
-            &.x2 {
-                width:100%;
-                float:left;
-
-                @media #{$md-up} {
-                    width:50%;
-                }
-            }
-
-            &.x3 {
-                width:100%;
-                float:left;
-
-                @media #{$md-up} {
-                    width:33.33%;
-                }
-            }
-
-            &.x4 {
-                width:50%;
-                float:left;
-
-                @media #{$md-up} {
-                    width:25%;
-                }
-            }
-
-            &.full {
-                width:100%;
-            }
-        }
     }
 
     a.see-project.toggle-link {
@@ -138,23 +103,6 @@
                     background-position:-39px -27px;
                 }
             }
-        }
-    }
-
-    .category-icon {
-        background-image:url("../img/category-icons.png");
-        display:inline-block;
-        vertical-align: middle;
-        margin-right:5px;
-        -wekbit-transition: background-image 0.3s ease-in-out;
-        -moz-transition: background-image 0.3s ease-in-out;
-        transition: background-image 0.3s ease-in-out;
-
-        &.video {
-            width:24px;
-            height:24px;
-            background-position:-39px -0px;
-            margin-top:-5px;
         }
     }
 
@@ -289,7 +237,7 @@
 }
 
 .intro-text {
-    margin-bottom:40px;
+    text-align:center;
 }
 
 a.see-project {
@@ -311,12 +259,3 @@ a.see-project {
         background-color:$orange;
     }
 }
-
-
-@import "featured-work-banner";
-@import "adventure-finder";
-@import "iconography";
-@import "corbin-visual";
-@import "petcare-app";
-@import "outlander";
-@import "records";

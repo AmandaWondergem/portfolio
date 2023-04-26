@@ -2,163 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"> 
 	<url>
-		<loc>http://www.amandawondergem.com/index.html</loc>
+	    <loc>http://www.amandawondergem.com/portfolio-pages/be-the-ice-sculptor.html</loc>						
 		<video:video>
-		<video:thumbnail_loc>http://www.amandawondergem.com/images/header/slideshow_images/demo_reel_spring_2014.jpg</video:thumbnail_loc> 
-       	<video:title>Demo Reel Spring 2014</video:title>
-       	<video:description>A compilation of Amanda's work; demo reel spring 2014.</video:description>
-		<video:player_loc>https://vimeo.com/93926197</video:player_loc>
-		</video:video>
-	
-		<video:video>
-		<video:thumbnail_loc>http://www.amandawondergem.com/images/home/get_active.jpg</video:thumbnail_loc> 
-       	<video:title>Get Active Animated Commercial</video:title>
-       	<video:description>An animated commercial that I created in After Effects. I focused on morphing techniques and transitions.</video:description>
-		<video:player_loc>https://vimeo.com/88415356</video:player_loc>
-		</video:video>
-			
-		<video:video>
-		<video:thumbnail_loc>http://www.amandawondergem.com/images/header/slideshow_images/typography_animation.jpg</video:thumbnail_loc> 
-       	<video:title>Typography Animation - Motion Graphics</video:title>
-       	<video:description>I really enjoy typography and have seen it animated many different ways. I wanted to try to animate each letter myself and this is the result.</video:description>
-		<video:player_loc>https://vimeo.com/85983791</video:player_loc>
-		</video:video>
-		
-		<video:video>
-		<video:thumbnail_loc>http://www.amandawondergem.com/images/home/corbin_visual_app.jpg</video:thumbnail_loc> 
-       	<video:title>Corbin Visual App</video:title>
-       	<video:description>Motion graphics video created promoting Corbin Visual's smartphone app.</video:description>
-		<video:player_loc>https://vimeo.com/95443860</video:player_loc>
-		</video:video>
-		
-		<video:video>
-		<video:thumbnail_loc>http://www.amandawondergem.com/images/home/campus_hub_idents.jpg</video:thumbnail_loc> 
-       	<video:title>Campus Hub Idents Fall 2013</video:title>
-       	<video:description>A series of idents for the TV channel 'Campus Hub'.</video:description>
-		<video:player_loc>https://vimeo.com/85983891</video:player_loc>
-		</video:video>
-			
-		<video:video>
-		<video:thumbnail_loc>http://www.amandawondergem.com/images/home/nature_channel_thumb.jpg</video:thumbnail_loc> 
-       	<video:title>Nature Channel Ident</video:title>
-       	<video:description>An experiment with low poly modelling in Cinema 4D.</video:description>
-		<video:player_loc>https://vimeo.com/98685609</video:player_loc>
-		</video:video>
-		
+            <video:thumbnail_loc>http://www.amandawondergem.com/img/portfolio-items/be-the-ice-sculptor.png</video:thumbnail_loc> 
+            <video:title>Be the Ice Sculptor</video:title>
+            <video:description></video:description>
+            <video:player_loc>https://vimeo.com/amandawondergem/be-the-ice-culptor</video:player_loc>
+		</video:video>	
 	</url>
 	
 	<url>
-		<loc>http://www.amandawondergem.com/about-me.html</loc>
+	    <loc>http://www.amandawondergem.com/portfolio-pages/borrowell-app-promo-video.html</loc>						
 		<video:video>
-		<video:thumbnail_loc>http://www.amandawondergem.com/images/header/slideshow_images/demo_reel_spring_2014.jpg</video:thumbnail_loc> 
-       	<video:title>Demo Reel Spring 2014</video:title>
-       	<video:description>A compilation of Amanda's work; demo reel spring 2014.</video:description>
-		<video:player_loc>https://vimeo.com/93926197</video:player_loc>
-		</video:video>
-	
+            <video:thumbnail_loc>http://www.amandawondergem.com/img/borrowell-app-promo-video.png</video:thumbnail_loc> 
+            <video:title>Borrowell App Promo Video</video:title>
+            <video:description></video:description>
+            <video:player_loc>https://vimeo.com/amandawondergem/borrowell-app-promo-video</video:player_loc>
+		</video:video>	
+	</url>
+
+	<url>
+	    <loc>http://www.amandawondergem.com/portfolio-pages/travel-credit-card-ad.html</loc>						
 		<video:video>
-		<video:thumbnail_loc>http://www.amandawondergem.com/images/home/get_active.jpg</video:thumbnail_loc> 
-       	<video:title>Get Active Animated Commercial</video:title>
-       	<video:description>An animated commercial that I created in After Effects. I focused on morphing techniques and transitions.</video:description>
-		<video:player_loc>https://vimeo.com/88415356</video:player_loc>
-		</video:video>
-			
-		<video:video>
-		<video:thumbnail_loc>http://www.amandawondergem.com/images/header/slideshow_images/typography_animation.jpg</video:thumbnail_loc> 
-       	<video:title>Typography Animation - Motion Graphics</video:title>
-       	<video:description>I really enjoy typography and have seen it animated many different ways. I wanted to try to animate each letter myself and this is the result.</video:description>
-		<video:player_loc>https://vimeo.com/85983791</video:player_loc>
-		</video:video>
-		
-		<video:video>
-		<video:thumbnail_loc>http://www.amandawondergem.com/images/home/corbin_visual_app.jpg</video:thumbnail_loc> 
-       	<video:title>Corbin Visual App</video:title>
-       	<video:description>Motion graphics video created promoting Corbin Visual's smartphone app.</video:description>
-		<video:player_loc>https://vimeo.com/95443860</video:player_loc>
-		</video:video>
+            <video:thumbnail_loc>http://www.amandawondergem.com/img/portfolio-items/travel-credit-card-ad.jpg</video:thumbnail_loc> 
+            <video:title>WSPS Safety Group</video:title>
+            <video:description></video:description>
+            <video:player_loc>http://www.amandawondergem.com/video/borrowell-app-play-store-video-2021.mp4</video:player_loc>
+		</video:video>	
 	</url>
 	
 	<url>
-		<loc>http://www.amandawondergem.com/work.html</loc>
+	    <loc>http://www.amandawondergem.com/portfolio-pages/demo-reel.html</loc>						
 		<video:video>
-		<video:thumbnail_loc>http://www.amandawondergem.com/images/work/thumbs/demo_reel_spring_2014.png</video:thumbnail_loc> 
-       	<video:title>Demo Reel Spring 2014</video:title>
-       	<video:description>A compilation of Amanda's work; demo reel spring 2014.</video:description>
-		<video:player_loc>https://vimeo.com/93926197</video:player_loc>
-		</video:video>
-		
-		<video:video>
-		<video:thumbnail_loc>http://www.amandawondergem.com/images/work/thumbs/corbin_visual_app.jpg</video:thumbnail_loc> 
-       	<video:title>Corbin Visual App</video:title>
-       	<video:description>Motion graphics video created promoting Corbin Visual's smartphone app.</video:description>
-		<video:player_loc>https://vimeo.com/95443860</video:player_loc>
-		</video:video>
-		
-		<video:video>
-		<video:thumbnail_loc>http://www.amandawondergem.com/images/work/thumbs/typography_animation.jpg</video:thumbnail_loc> 
-       	<video:title>Typography Animation - Motion Graphics</video:title>
-       	<video:description>I really enjoy typography and have seen it animated many different ways. I wanted to try to animate each letter myself and this is the result.</video:description>
-		<video:player_loc>https://vimeo.com/85983791</video:player_loc>
-		</video:video>
-		
-		<video:video>
-		<video:thumbnail_loc>http://www.amandawondergem.com/images/work/thumbs/get_active.jpg</video:thumbnail_loc> 
-       	<video:title>Get Active Animated Commercial</video:title>
-       	<video:description>An animated commercial that I created in After Effects. I focused on morphing techniques and transitions.</video:description>
-		<video:player_loc>https://vimeo.com/88415356</video:player_loc>
-		</video:video>
-		
-		<video:video>
-		<video:thumbnail_loc>http://www.amandawondergem.com/images/work/thumbs/campus_hub_idents.jpg</video:thumbnail_loc> 
-       	<video:title>Campus Hub Idents Fall 2013</video:title>
-       	<video:description>A series of idents for the TV channel 'Campus Hub'.</video:description>
-		<video:player_loc>https://vimeo.com/85983891</video:player_loc>
-		</video:video>
-		
-		<video:video>
-		<video:thumbnail_loc>http://www.amandawondergem.com/images/work/thumbs/skate_text.jpg</video:thumbnail_loc> 
-       	<video:title>Skate Text 3D Integration</video:title>
-       	<video:description>Typography for the word 'Skate' was created in Cinema 4D and then integrated into video footage.</video:description>
-		<video:player_loc>https://vimeo.com/86073227</video:player_loc>
-		</video:video>
-		
-		<video:video>
-		<video:thumbnail_loc>http://www.amandawondergem.com/images/work/thumbs/patient_zero.jpg</video:thumbnail_loc> 
-       	<video:title>Patient Zero Opening Credits</video:title>
-       	<video:description>The title credits are a combination of video clips composited in After Effects with text animations.</video:description>
-		<video:player_loc>https://vimeo.com/93449422</video:player_loc>
-		</video:video>
+            <video:thumbnail_loc>http://www.amandawondergem.com/img/portfolio-items/demo-reel@2x.png</video:thumbnail_loc> 
+            <video:title>Demo Reel</video:title>
+            <video:description></video:description>
+            <video:player_loc>https://vimeo.com/483866132</video:player_loc>
+		</video:video>	
 	</url>
 	
 	<url>
-		<loc>http://www.amandawondergem.com/contact.html</loc>
+	    <loc>http://www.amandawondergem.com/portfolio-pages/museum-milano.html</loc>						
 		<video:video>
-		<video:thumbnail_loc>http://www.amandawondergem.com/images/header/slideshow_images/demo_reel_spring_2014.jpg</video:thumbnail_loc> 
-       	<video:title>Demo Reel Spring 2014</video:title>
-       	<video:description>A compilation of Amanda's work; demo reel spring 2014.</video:description>
-		<video:player_loc>https://vimeo.com/93926197</video:player_loc>
-		</video:video>
-	
-		<video:video>
-		<video:thumbnail_loc>http://www.amandawondergem.com/images/home/get_active.jpg</video:thumbnail_loc> 
-       	<video:title>Get Active Animated Commercial</video:title>
-       	<video:description>An animated commercial that I created in After Effects. I focused on morphing techniques and transitions.</video:description>
-		<video:player_loc>https://vimeo.com/88415356</video:player_loc>
-		</video:video>
-			
-		<video:video>
-		<video:thumbnail_loc>http://www.amandawondergem.com/images/header/slideshow_images/typography_animation.jpg</video:thumbnail_loc> 
-       	<video:title>Typography Animation - Motion Graphics</video:title>
-       	<video:description>I really enjoy typography and have seen it animated many different ways. I wanted to try to animate each letter myself and this is the result.</video:description>
-		<video:player_loc>https://vimeo.com/85983791</video:player_loc>
-		</video:video>
-		
-		<video:video>
-		<video:thumbnail_loc>http://www.amandawondergem.com/images/home/corbin_visual_app.jpg</video:thumbnail_loc> 
-       	<video:title>Corbin Visual App</video:title>
-       	<video:description>Motion graphics video created promoting Corbin Visual's smartphone app.</video:description>
-		<video:player_loc>https://vimeo.com/95443860</video:player_loc>
-		</video:video>
+            <video:thumbnail_loc>http://www.amandawondergem.com/img/portfolio-items/museum-milano.png</video:thumbnail_loc> 
+            <video:title>Museum Milano</video:title>
+            <video:description></video:description>
+            <video:player_loc>https://vimeo.com/amandawondergem/museum-milano</video:player_loc>
+		</video:video>	
 	</url>
 	
+	<url>
+	    <loc>http://www.amandawondergem.com/portfolio-pages/rnao-promo.html</loc>						
+		<video:video>
+            <video:thumbnail_loc>http://www.amandawondergem.com/img/portfolio-items/rnao-promo.jpg</video:thumbnail_loc> 
+            <video:title>RNAO Promo</video:title>
+            <video:description></video:description>
+            <video:player_loc>https://vimeo.com/amandawondergem/rnao-promo</video:player_loc>
+		</video:video>	
+	</url>
+	
+	<url>
+	    <loc>http://www.amandawondergem.com/portfolio-pages/seed-and-stem.html</loc>						
+		<video:video>
+            <video:thumbnail_loc>http://www.amandawondergem.com/img/portfolio-items/seed-and-stem.png</video:thumbnail_loc> 
+            <video:title>Seed and Stem</video:title>
+            <video:description></video:description>
+            <video:player_loc>https://vimeo.com/amandawondergem/seed-and-stem</video:player_loc>
+		</video:video>	
+	</url>
+	
+	<url>
+	    <loc>http://www.amandawondergem.com/portfolio-pages/wsps-safety-group.html</loc>						
+		<video:video>
+            <video:thumbnail_loc>http://www.amandawondergem.com/img/portfolio-items/wsps-safety-group.png</video:thumbnail_loc> 
+            <video:title>WSPS Safety Group</video:title>
+            <video:description></video:description>
+            <video:player_loc>https://vimeo.com/amandawondergem/wsps-safety-group</video:player_loc>
+		</video:video>	
+	</url>
+
+	<url>
+	    <loc>http://www.amandawondergem.com/portfolio-pages/travel-credit-card-ad.html</loc>						
+		<video:video>
+            <video:thumbnail_loc>http://www.amandawondergem.com/img/portfolio-items/travel-credit-card-ad.jpg</video:thumbnail_loc> 
+            <video:title>WSPS Safety Group</video:title>
+            <video:description></video:description>
+            <video:player_loc>http://www.amandawondergem.com/video/travel-credit-card-ad.mp4</video:player_loc>
+		</video:video>	
+	</url>
 </urlset>

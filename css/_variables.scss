@@ -1,11 +1,13 @@
 /*colours*/
 $white:#ffffff;
 $grey:#F2F2F2;
+$light-grey:#58595B;
 $dark-grey:#414042;
 $dark-blue:#1c1d21;
 $blue:#00AAB2;
 $yellow:#eaa815;
 $orange:#f26414;
+$orange-dark:#C24E0A;
 
 /*media queries*/
 $xs-only:only screen and (max-width: 554px);
@@ -16,4 +18,4 @@ $lg-up:only screen and (min-width: 992px);
 $xl-up:only screen and (min-width: 1200px);
 
 /*Google font*/
-$armino:'Arimo', Arial, Helvetica sans-serif;
+$nunito:'Nunito Sans', Arial, Helvetica sans-serif;

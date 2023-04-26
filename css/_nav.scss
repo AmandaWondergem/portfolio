@@ -1,3 +1,5 @@
+@import "variables";
+
 .logo-nav-wrapper {
     display:flex;
     justify-content: space-between;
@@ -8,21 +10,12 @@
 
 a.logo {
     vertical-align:middle;
-    background-image:url("../img/logo.png");
-    width:72px;
-    height:69px;
     display:block;
-    margin-bottom:10px;
     cursor: pointer;
 
     @media #{$md-up} {
         margin-bottom:0px;
         display:inline-block;
-        width:77px;
-    }
-
-    @media #{$lg-up} {
-        width:73px;
     }
 }
 
@@ -109,13 +102,10 @@ a.menu-btn-mobile {
         background-color:transparent;
         opacity:1;
         padding:0px;
-        display:flex;
-        align-items:center;
-        justify-content: space-between;
     }
 
     ul.nav {
-        text-align:left;
+        text-align:right;
         margin-left:0px;
         margin-bottom:25px;
         display:block;
@@ -152,7 +142,7 @@ a.menu-btn-mobile {
                 font-size:18px;
                 text-transform: uppercase;
                 text-decoration:none;
-                font-family: $armino;
+                font-family: $nunito;
                 letter-spacing:0.05em;
                 cursor: pointer;
                 display:inline-block;
@@ -222,48 +212,12 @@ a.menu-btn-mobile {
                 margin-right:0px;
             }
 
-            a.behance, a.linkedin, a.vimeo, a.youtube {
-                height:26px;
+            a {
+                padding: 6px 7px;
                 display:inline-block;
-                background-image:url("../img/social-media-icons-white.png");
                 background-repeat: no-repeat;
                 cursor: pointer;
-
             }
-            a.behance {
-                background-position:0px -0px;
-                margin-right:5px;
-                width:41px;
-
-                @media #{$md-up} {
-                    margin-right:10px;
-                }
-            }
-
-            a.linkedin {
-                background-position:-57px -0px;
-                margin-right:5px;
-                width:29px;
-
-                @media #{$md-up} {
-                    margin-right:10px;
-                }
-            }
-
-            a.vimeo {
-                background-position:-101px -0px;
-                margin-right:5px;
-                width:31px;
-
-                @media #{$md-up} {
-                    margin-right:10px;
-                }
-            }
-
-            a.youtube {
-                background-position:-143px -0px;
-                width:38px;
-            }
-        }
     }
+}
 }

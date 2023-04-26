@@ -1,9 +1,14 @@
 body {
-   font-family: $armino;
+   font-family: $nunito;
     position:relative;
     margin: 0;
     min-height: 100%;
 //    background-color:$dark-blue;
+}
+
+.page-wrapper {
+    padding:30px 15px;
+    background-color:#ffffff;
 }
 
 .sr-only {
@@ -122,6 +127,15 @@ body {
     }
 }
 
+.video-container {
+    margin-bottom:40px;
+}
+
+.video-center {
+    text-align:center;
+    margin-bottom:40px;
+}
+
 @media (max-width: 1199px) {
     .container{
         max-width: 100%;
@@ -132,4 +146,22 @@ body {
     .container{
         max-width: 1600px;
     }
+}
+
+hr {
+    border:0.5px solid #c9cbce;
+    margin:40px 0px;
+}
+
+.flip-wrap-order {
+    flex-direction: column-reverse;
+
+    @media #{$lg-up} {
+        flex-direction: row;
+    }
+}
+
+.headshot {
+    display:flex;
+    justify-content:center;
 }

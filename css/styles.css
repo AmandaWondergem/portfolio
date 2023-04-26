@@ -1,9 +1,8 @@
 /*Reset*/
-/* line 3, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_reset.scss */
 html {
-  font-family: sans-serif; }
+  font-family: sans-serif;
+}
 
-/* line 7, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -22,76 +21,82 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 /* HTML5 display-role reset for older browsers */
-/* line 29, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block; }
+  display: block;
+}
 
-/* line 34, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_reset.scss */
 body {
-  line-height: 1; }
+  line-height: 1;
+}
 
-/* line 38, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_reset.scss */
 ol, ul {
-  list-style: none; }
+  list-style: none;
+}
 
-/* line 42, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_reset.scss */
 blockquote, q {
-  quotes: none; }
+  quotes: none;
+}
 
-/* line 46, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
-  content: none; }
+  content: none;
+}
 
-/* line 52, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_reset.scss */
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
-/* line 57, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_reset.scss */
 a {
-  background-color: transparent; }
+  background-color: transparent;
+}
 
-/* line 61, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_reset.scss */
 a:active,
 a:hover {
-  outline: 0; }
+  outline: 0;
+}
 
-/* line 66, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_reset.scss */
 b,
 strong {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
-/* line 71, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_reset.scss */
 img {
-  border: 0; }
+  border: 0;
+}
 
-/* line 75, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_reset.scss */
 svg:not(:root) {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
-/* line 79, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_reset.scss */
 hr {
-  box-sizing: content-box;
-  height: 0; }
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+}
 
 /*colours*/
 /*media queries*/
 /*Google font*/
 /*global styles*/
-/* line 1, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
 body {
-  font-family: "Arimo", Arial, Helvetica sans-serif;
+  font-family: "Nunito Sans", Arial, Helvetica sans-serif;
   position: relative;
   margin: 0;
-  min-height: 100%; }
+  min-height: 100%;
+}
 
-/* line 9, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
+.page-wrapper {
+  padding: 30px 15px;
+  background-color: #ffffff;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -100,204 +105,352 @@ body {
   margin: -1px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
-  border: 0; }
+  border: 0;
+}
 
-/* line 20, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
 .text-right {
-  text-align: right; }
+  text-align: right;
+}
 
-/* line 24, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
 .text-center {
-  text-align: center; }
+  text-align: center;
+}
 
-/* line 28, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
 .uppercase {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
-/* line 32, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
 .nowrap {
-  white-space: nowrap; }
+  white-space: nowrap;
+}
 
-/* line 36, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
 .white-bg {
   background-color: #ffffff;
   padding-top: 50px;
-  padding-bottom: 50px; }
-  @media (min-width: 768px) {
-    /* line 36, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
-    .white-bg {
-      padding-top: 70px;
-      padding-bottom: 70px; } }
+  padding-bottom: 50px;
+}
 
-/* line 47, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
+@media (min-width: 768px) {
+  .white-bg {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
 .grey-bg {
   background-color: #F2F2F2;
   padding-top: 50px;
-  padding-bottom: 50px; }
-  @media (min-width: 768px) {
-    /* line 47, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
-    .grey-bg {
-      padding-top: 70px;
-      padding-bottom: 70px; } }
+  padding-bottom: 50px;
+}
 
-/* line 58, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
+@media (min-width: 768px) {
+  .grey-bg {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
 .img-fluid-inline-block {
   display: inline-block;
   max-width: 100%;
-  height: auto; }
+  height: auto;
+}
 
-/* line 64, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
 .white-underline {
   border-bottom: 1px solid #ffffff;
   width: 50%;
   margin: 0 auto;
   margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
 
-/* line 72, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
 .center-content {
-  justify-content: center;
-  align-items: center; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 
-/* line 77, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
 .hide {
-  display: none; }
+  display: none;
+}
 
-/* line 80, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
 .show {
-  display: block; }
+  display: block;
+}
 
 /*Responsive video*/
-/* line 85, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
 .video-wrapper {
   position: relative;
   padding-bottom: 56.25%;
   /* 16:9 */
   padding-top: 25px;
-  height: 0; }
-  /* line 91, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
-  .video-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 70%;
-    height: 70%;
-    margin: 0 auto; }
+  height: 0;
+}
 
-/* line 102, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 70%;
+  height: 70%;
+  margin: 0 auto;
+}
+
 .video-wrapper {
   width: 100%;
   margin: 0 auto;
-  background: #CCC; }
-  /* line 108, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
-  .video-wrapper .video-inner-wrapper {
-    position: relative; }
-  /* line 111, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
-  .video-wrapper .ratio {
-    display: block;
-    width: 100%;
-    height: auto; }
-  /* line 116, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
-  .video-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
+  background: #CCC;
+}
+
+.video-wrapper .video-inner-wrapper {
+  position: relative;
+}
+
+.video-wrapper .ratio {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-container {
+  margin-bottom: 40px;
+}
+
+.video-center {
+  text-align: center;
+  margin-bottom: 40px;
+}
 
 @media (max-width: 1199px) {
-  /* line 126, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
   .container {
-    max-width: 100%; } }
+    max-width: 100%;
+  }
+}
 
 @media (min-width: 1200px) {
-  /* line 132, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_common.scss */
   .container {
-    max-width: 1600px; } }
+    max-width: 1600px;
+  }
+}
 
-/* line 1, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
+hr {
+  border: 0.5px solid #c9cbce;
+  margin: 40px 0px;
+}
+
+.flip-wrap-order {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+@media (min-width: 992px) {
+  .flip-wrap-order {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.headshot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 h1 {
-  font-size: 66px;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-family: "Arimo", Arial, Helvetica sans-serif; }
-  /* line 7, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
-  h1.orange {
-    color: #f26414; }
-  /* line 11, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
-  h1.yellow {
-    color: #eaa815; }
+  color: #414042;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 900;
+  font-family: "Nunito Sans", Arial, Helvetica sans-serif;
+  margin-bottom: 10px;
+}
 
-/* line 16, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 38px;
+    line-height: 57px;
+  }
+}
+
+h1.orange {
+  color: #f26414;
+}
+
+h1.yellow {
+  color: #eaa815;
+}
+
+h1.white {
+  color: #FFFFFF;
+}
+
 h2 {
   color: #414042;
   font-size: 30px;
-  line-height: 33px;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-family: "Arimo", Arial, Helvetica sans-serif;
+  line-height: 45px;
+  font-weight: 900;
   letter-spacing: 0.02em;
-  margin-bottom: 16px;
-  position: relative; }
-  @media (min-width: 768px) {
-    /* line 16, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
-    h2 {
-      font-size: 35px;
-      line-height: 40px; } }
-  /* line 32, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
-  h2:after {
-    content: "";
-    width: 100px;
-    height: 4px;
-    background-color: #f26414;
-    position: absolute;
-    bottom: -6px;
-    left: 0; }
+  margin-bottom: 6px;
+  position: relative;
+  font-family: "Nunito Sans", Arial, Helvetica sans-serif;
+  margin-bottom: 10px;
+}
 
-/* line 43, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
+@media (min-width: 768px) {
+  h2 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+
 h3 {
+  color: #414042;
   font-size: 26px;
-  font-weight: 700;
+  line-height: 38px;
+  font-weight: 900;
   line-height: 29px;
-  font-family: "Arimo", Arial, Helvetica sans-serif; }
+  font-family: "Nunito Sans", Arial, Helvetica sans-serif;
+  margin-bottom: 10px;
+}
 
-/* line 50, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
+@media (min-width: 768px) {
+  h3 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+}
+
 h4 {
-  font-size: 20px;
-  text-transform: uppercase; }
-  @media (min-width: 768px) {
-    /* line 50, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
-    h4 {
-      font-size: 25px; } }
-  /* line 58, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
-  h4.white {
-    color: #ffffff; }
+  color: #414042;
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 700;
+  font-family: "Nunito Sans", Arial, Helvetica sans-serif;
+  margin-bottom: 10px;
+}
 
-/* line 63, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
+@media (min-width: 768px) {
+  h4 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+h4.white {
+  color: #ffffff;
+}
+
 p {
-  font-size: 20px;
-  line-height: 26px;
   color: #58595B;
-  font-family: "Arimo", Arial, Helvetica sans-serif; }
-  @media (min-width: 768px) {
-    /* line 63, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
-    p {
-      font-size: 22px;
-      line-height: 30px; } }
-  /* line 74, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
-  p.orange {
-    color: #f26414; }
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Nunito Sans", Arial, Helvetica sans-serif;
+  margin-bottom: 15px;
+}
 
-/* line 79, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
+p.small {
+  font-size: 12px;
+}
+
+p.orange {
+  color: #f26414;
+}
+
+ul.bullets {
+  list-style-type: disc;
+  margin: 0px 0px 15px 15px;
+}
+
+ul.bullets li p {
+  padding-bottom: 0px !important;
+  margin-bottom: 10px !important;
+}
+
+ul.bullets ul {
+  list-style-type: circle;
+  margin-left: 40px;
+}
+
+ul.bullets ul li p {
+  padding-bottom: 0px !important;
+  margin-bottom: 10px !important;
+}
+
+p.image-caption {
+  color: #58595B;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "Nunito Sans", Arial, Helvetica sans-serif;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: #C24E0A;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #007E85;
+}
+
+a.primary-button {
+  display: inline-block;
+  padding: 15px 25px;
+  color: #1c1d21;
+  background-color: #f26414;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+a.primary-button:hover {
+  background-color: #00AAB2;
+  /* Firefox */
+  /* WebKit */
+  -webkit-transition: all 0.3s ease-in-out;
+  /* Opera */
+  /* Standard */
+  transition: all 0.3s ease-in-out;
+}
+
 .bold {
-  font-weight: 700; }
+  font-weight: 700;
+}
 
-/* line 83, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_typography.scss */
 .orange {
-  color: #f26414; }
+  color: #f26414;
+}
 
-/* line 1, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_lightbox.scss */
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .background {
   background-color: rgba(0, 0, 0, 0.75);
   z-index: 9001;
@@ -308,768 +461,931 @@ p {
   bottom: 0px;
   overflow-y: auto;
   width: 100%;
-  height: 100%; }
-  /* line 13, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_lightbox.scss */
-  .background .popup-wrapper {
-    position: relative;
-    z-index: 9002; }
-    /* line 17, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_lightbox.scss */
-    .background .popup-wrapper .popup {
-      margin-left: auto;
-      margin-right: auto;
-      z-index: 9003;
-      margin-top: 30px;
-      position: relative; }
-      /* line 25, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_lightbox.scss */
-      .background .popup-wrapper .popup .popup-content .image-wrapper {
-        display: block;
-        text-align: center; }
-      /* line 30, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_lightbox.scss */
-      .background .popup-wrapper .popup .popup-content img {
-        margin: 0 auto; }
-      /* line 34, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_lightbox.scss */
-      .background .popup-wrapper .popup .popup-content a.close-popup {
-        background-color: #ffffff;
-        border: 2px solid #1c1d21;
-        color: #1c1d21;
-        z-index: 9005;
-        display: block;
-        font-size: 18px;
-        padding: 10px;
-        text-decoration: none;
-        width: 100px;
-        text-transform: uppercase;
-        font-weight: 700;
-        font-family: "Arimo", Arial, Helvetica sans-serif;
-        letter-spacing: 0.05em;
-        -webkit-transition: background 0.3s ease-in-out;
-        -moz-transition: background 0.3s ease-in-out;
-        -ms-transition: background 0.3s ease-in-out;
-        transition: background 0.3s ease-in-out;
-        cursor: pointer;
-        margin-top: 10px;
-        margin-bottom: 10px; }
-        /* line 56, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_lightbox.scss */
-        .background .popup-wrapper .popup .popup-content a.close-popup:hover, .background .popup-wrapper .popup .popup-content a.close-popup:focus {
-          background-color: #1c1d21;
-          color: #ffffff; }
-      /* line 62, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_lightbox.scss */
-      .background .popup-wrapper .popup .popup-content .inner-content {
-        width: 100%;
-        background-color: #fff;
-        margin: 0 auto;
-        position: relative; }
-        @media (min-width: 768px) {
-          /* line 62, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_lightbox.scss */
-          .background .popup-wrapper .popup .popup-content .inner-content {
-            width: 80%; } }
-        /* line 72, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_lightbox.scss */
-        .background .popup-wrapper .popup .popup-content .inner-content a.close-btn {
-          position: absolute;
-          top: -20px;
-          right: -20px;
-          border-radius: 50px;
-          width: 50px;
-          height: 50px;
-          background-color: #f26414;
-          -webkit-transition: all 0.2s ease;
-          -moz-transition: all 0.2s ease;
-          transition: all 0.2s ease; }
-          /* line 84, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_lightbox.scss */
-          .background .popup-wrapper .popup .popup-content .inner-content a.close-btn span {
-            width: 30px;
-            height: 4px;
-            background-color: #fff;
-            border-radius: 8px;
-            position: absolute;
-            display: block;
-            -webkit-transition: all 0.2s ease;
-            -moz-transition: all 0.2s ease;
-            transition: all 0.2s ease;
-            top: 21px;
-            left: 11px; }
-            /* line 97, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_lightbox.scss */
-            .background .popup-wrapper .popup .popup-content .inner-content a.close-btn span:nth-child(1) {
-              transform: rotate(-135deg); }
-            /* line 101, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_lightbox.scss */
-            .background .popup-wrapper .popup .popup-content .inner-content a.close-btn span:nth-child(2) {
-              transform: rotate(135deg); }
-          /* line 106, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_lightbox.scss */
-          .background .popup-wrapper .popup .popup-content .inner-content a.close-btn:hover, .background .popup-wrapper .popup .popup-content .inner-content a.close-btn:focus {
-            background-color: #F2F2F2; }
-            /* line 109, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_lightbox.scss */
-            .background .popup-wrapper .popup .popup-content .inner-content a.close-btn:hover span, .background .popup-wrapper .popup .popup-content .inner-content a.close-btn:focus span {
-              background-color: #f26414; }
+  height: 100%;
+}
 
-/* line 1, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_header.scss */
-.header {
+.background .popup-wrapper {
+  position: relative;
+  z-index: 9002;
+}
+
+.background .popup-wrapper .popup {
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 9003;
+  margin-top: 30px;
+  position: relative;
+}
+
+.background .popup-wrapper .popup .popup-content .image-wrapper {
+  display: block;
+  text-align: center;
+}
+
+.background .popup-wrapper .popup .popup-content img {
+  margin: 0 auto;
+}
+
+.background .popup-wrapper .popup .popup-content a.close-popup {
+  background-color: #ffffff;
+  border: 2px solid #1c1d21;
+  color: #1c1d21;
+  z-index: 9005;
+  display: block;
+  font-size: 18px;
+  padding: 10px;
+  text-decoration: none;
+  width: 100px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Nunito Sans", Arial, Helvetica sans-serif;
+  letter-spacing: 0.05em;
+  -webkit-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.background .popup-wrapper .popup .popup-content a.close-popup:hover, .background .popup-wrapper .popup .popup-content a.close-popup:focus {
   background-color: #1c1d21;
-  padding-top: 30px;
-  padding-bottom: 20px; }
-  /* line 1, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-  .header .logo-nav-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    width: 100%; }
-  /* line 9, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-  .header a.logo {
-    vertical-align: middle;
-    background-image: url("../img/logo.png");
-    width: 72px;
-    height: 69px;
-    display: block;
-    margin-bottom: 10px;
-    cursor: pointer; }
-    @media (min-width: 768px) {
-      /* line 9, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-      .header a.logo {
-        margin-bottom: 0px;
-        display: inline-block;
-        width: 77px; } }
-    @media (min-width: 992px) {
-      /* line 9, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-      .header a.logo {
-        width: 73px; } }
-  /* line 29, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-  .header a.menu-btn-mobile {
-    display: block;
-    position: relative;
-    width: 40px;
-    height: 30px;
-    z-index: 101; }
-    /* line 36, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-    .header a.menu-btn-mobile span {
-      width: 40px;
-      height: 4px;
-      background-color: #fff;
-      border-radius: 8px;
-      position: absolute;
-      display: block;
-      transition: 0.2s ease-in-out;
-      left: 0px;
-      opacity: 1; }
-    /* line 49, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-    .header a.menu-btn-mobile span:nth-child(1) {
-      top: 0px; }
-    /* line 52, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-    .header a.menu-btn-mobile span:nth-child(2) {
-      top: 12px; }
-    /* line 55, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-    .header a.menu-btn-mobile span:nth-child(3) {
-      top: 12px; }
-    /* line 58, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-    .header a.menu-btn-mobile span:nth-child(4) {
-      top: 24px; }
-    /* line 65, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-    .header a.menu-btn-mobile.open span:nth-child(2) {
-      left: 15px;
-      opacity: 0; }
-    /* line 69, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-    .header a.menu-btn-mobile.open span:nth-child(4) {
-      top: 16px;
-      transform: rotate(135deg); }
-    /* line 73, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-    .header a.menu-btn-mobile.open span:nth-child(1) {
-      top: 16px;
-      transform: rotate(-135deg); }
-    /* line 77, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-    .header a.menu-btn-mobile.open span:nth-child(3) {
-      left: -15px;
-      opacity: 0; }
-  /* line 85, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-  .header .nav-container {
-    background-color: #1c1d21;
-    padding: 120px 20px 40px 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 0%;
-    opacity: 0;
-    z-index: 100;
-    -webkit-transition: opacity .35s ease, visibility .35s ease, height .35s ease;
-    -moz-transition: opacity .35s ease, visibility .35s ease, height .35s ease;
-    transition: opacity .35s ease, visibility .35s ease, height .35s ease;
-    visibility: hidden; }
-    /* line 100, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-    .header .nav-container.open {
-      opacity: 0.97;
-      visibility: visible;
-      height: 100%; }
-    @media (min-width: 768px) {
-      /* line 85, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-      .header .nav-container {
-        visibility: visible;
-        position: relative;
-        background-color: transparent;
-        opacity: 1;
-        padding: 0px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between; } }
-    /* line 117, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-    .header .nav-container ul.nav {
-      text-align: left;
-      margin-left: 0px;
-      margin-bottom: 25px;
-      display: block;
-      width: 100%;
-      padding-bottom: 25px;
-      border-bottom: 1px solid #fff; }
-      @media (min-width: 768px) {
-        /* line 117, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-        .header .nav-container ul.nav {
-          margin-left: 30px;
-          margin-bottom: 0px;
-          border-bottom: none;
-          padding: 0px;
-          width: auto; } }
-      /* line 134, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-      .header .nav-container ul.nav li {
-        padding-bottom: 20px;
-        display: block; }
-        /* line 138, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-        .header .nav-container ul.nav li:last-child {
-          padding-bottom: 0px;
-          padding-right: 0px; }
-        @media (min-width: 768px) {
-          /* line 134, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-          .header .nav-container ul.nav li {
-            list-style-type: none;
-            display: inline-block;
-            padding-bottom: 0px;
-            padding-right: 15px; } }
-        /* line 150, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-        .header .nav-container ul.nav li a {
-          color: #ffffff;
-          font-size: 18px;
-          text-transform: uppercase;
-          text-decoration: none;
-          font-family: "Arimo", Arial, Helvetica sans-serif;
-          letter-spacing: 0.05em;
-          cursor: pointer;
-          display: inline-block; }
-          @media (min-width: 768px) {
-            /* line 150, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-            .header .nav-container ul.nav li a {
-              font-size: 16px; } }
-          /* line 164, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-          .header .nav-container ul.nav li a:hover, .header .nav-container ul.nav li a:focus, .header .nav-container ul.nav li a.active {
-            color: #f26414; }
-            @media (min-width: 768px) {
-              /* line 164, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-              .header .nav-container ul.nav li a:hover, .header .nav-container ul.nav li a:focus, .header .nav-container ul.nav li a.active {
-                color: #ffffff; } }
-          @media (min-width: 768px) {
-            /* line 174, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-            .header .nav-container ul.nav li a.active:after {
-              height: 3px;
-              width: 100%;
-              background: #f26414; } }
-          @media (min-width: 768px) {
-            /* line 183, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-            .header .nav-container ul.nav li a:after {
-              content: '';
-              display: block;
-              height: 3px;
-              width: 0;
-              background: transparent;
-              -webskit-transition: width .3s ease, background-color .3s ease;
-              -moz-transition: width .3s ease, background-color .3s ease;
-              transition: width .3s ease, background-color .3s ease;
-              margin-top: 4px; }
-            /* line 195, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-            .header .nav-container ul.nav li a:hover:after, .header .nav-container ul.nav li a:focus:after {
-              width: 100%;
-              background: #f26414; } }
-    /* line 204, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-    .header .nav-container ul.social-media {
-      text-align: left;
-      width: 100%; }
-      @media (min-width: 768px) {
-        /* line 204, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-        .header .nav-container ul.social-media {
-          text-align: right;
-          width: auto; } }
-      /* line 213, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-      .header .nav-container ul.social-media li {
-        display: inline-block;
-        margin-right: 15px; }
-        @media (min-width: 768px) {
-          /* line 213, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-          .header .nav-container ul.social-media li {
-            margin-right: 0px; } }
-        /* line 221, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-        .header .nav-container ul.social-media li:last-child {
-          margin-right: 0px; }
-        /* line 225, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-        .header .nav-container ul.social-media li a.behance, .header .nav-container ul.social-media li a.linkedin, .header .nav-container ul.social-media li a.vimeo, .header .nav-container ul.social-media li a.youtube {
-          height: 26px;
-          display: inline-block;
-          background-image: url("../img/social-media-icons-white.png");
-          background-repeat: no-repeat;
-          cursor: pointer; }
-        /* line 233, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-        .header .nav-container ul.social-media li a.behance {
-          background-position: 0px -0px;
-          margin-right: 5px;
-          width: 41px; }
-          @media (min-width: 768px) {
-            /* line 233, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-            .header .nav-container ul.social-media li a.behance {
-              margin-right: 10px; } }
-        /* line 243, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-        .header .nav-container ul.social-media li a.linkedin {
-          background-position: -57px -0px;
-          margin-right: 5px;
-          width: 29px; }
-          @media (min-width: 768px) {
-            /* line 243, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-            .header .nav-container ul.social-media li a.linkedin {
-              margin-right: 10px; } }
-        /* line 253, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-        .header .nav-container ul.social-media li a.vimeo {
-          background-position: -101px -0px;
-          margin-right: 5px;
-          width: 31px; }
-          @media (min-width: 768px) {
-            /* line 253, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-            .header .nav-container ul.social-media li a.vimeo {
-              margin-right: 10px; } }
-        /* line 263, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_nav.scss */
-        .header .nav-container ul.social-media li a.youtube {
-          background-position: -143px -0px;
-          width: 38px; }
-  @media (min-width: 768px) {
-    /* line 1, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_header.scss */
-    .header {
-      padding-top: 50px;
-      padding-bottom: 30px; } }
-  /* line 13, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_header.scss */
-  .header .banner {
-    padding: 20px; }
-    @media (min-width: 768px) {
-      /* line 13, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_header.scss */
-      .header .banner {
-        padding: 70px 67px; } }
+  color: #ffffff;
+}
 
-/* line 1, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_footer.scss */
-.footer {
-  padding-top: 20px;
-  padding-bottom: 20px;
+.background .popup-wrapper .popup .popup-content .inner-content {
+  width: 100%;
   background-color: #fff;
-  background-image: url("../img/circle-bg-pattern.png");
-  background-repeat: repeat;
-  text-align: center; }
-  @media (min-width: 768px) {
-    /* line 1, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_footer.scss */
-    .footer {
-      padding-top: 30px;
-      padding-bottom: 30px; } }
-  /* line 14, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_footer.scss */
-  .footer .logo {
-    margin-bottom: 10px;
-    vertical-align: middle;
-    background-image: url("../img/logo.png");
-    background-position: -67px 0px;
-    width: 70px;
-    height: 70px;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .background .popup-wrapper .popup .popup-content .inner-content {
+    width: 80%;
+  }
+}
+
+.background .popup-wrapper .popup .popup-content .inner-content a.close-btn {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  background-color: #f26414;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.background .popup-wrapper .popup .popup-content .inner-content a.close-btn span {
+  width: 30px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 8px;
+  position: absolute;
+  display: block;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  top: 21px;
+  left: 11px;
+}
+
+.background .popup-wrapper .popup .popup-content .inner-content a.close-btn span:nth-child(1) {
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+}
+
+.background .popup-wrapper .popup .popup-content .inner-content a.close-btn span:nth-child(2) {
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+
+.background .popup-wrapper .popup .popup-content .inner-content a.close-btn:hover, .background .popup-wrapper .popup .popup-content .inner-content a.close-btn:focus {
+  background-color: #F2F2F2;
+}
+
+.background .popup-wrapper .popup .popup-content .inner-content a.close-btn:hover span, .background .popup-wrapper .popup .popup-content .inner-content a.close-btn:focus span {
+  background-color: #f26414;
+}
+
+.header {
+  /*colours*/
+  /*media queries*/
+  /*Google font*/
+  background-color: #1c1d21;
+  padding: 30px 15px;
+}
+
+.header .logo-nav-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.header a.logo {
+  vertical-align: middle;
+  display: block;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .header a.logo {
+    margin-bottom: 0px;
     display: inline-block;
-    cursor: pointer; }
-  /* line 25, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_footer.scss */
-  .footer .orange-underline {
-    border-bottom: 1px solid #f26414;
-    width: 75%;
-    margin: 0 auto; }
-    @media (min-width: 768px) {
-      /* line 25, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_footer.scss */
-      .footer .orange-underline {
-        width: 35%; } }
-  /* line 35, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_footer.scss */
-  .footer ul.nav {
+  }
+}
+
+.header a.menu-btn-mobile {
+  display: block;
+  position: relative;
+  width: 40px;
+  height: 30px;
+  z-index: 101;
+}
+
+.header a.menu-btn-mobile span {
+  width: 40px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 8px;
+  position: absolute;
+  display: block;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  left: 0px;
+  opacity: 1;
+}
+
+.header a.menu-btn-mobile span:nth-child(1) {
+  top: 0px;
+}
+
+.header a.menu-btn-mobile span:nth-child(2) {
+  top: 12px;
+}
+
+.header a.menu-btn-mobile span:nth-child(3) {
+  top: 12px;
+}
+
+.header a.menu-btn-mobile span:nth-child(4) {
+  top: 24px;
+}
+
+.header a.menu-btn-mobile.open span:nth-child(2) {
+  left: 15px;
+  opacity: 0;
+}
+
+.header a.menu-btn-mobile.open span:nth-child(4) {
+  top: 16px;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+
+.header a.menu-btn-mobile.open span:nth-child(1) {
+  top: 16px;
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+}
+
+.header a.menu-btn-mobile.open span:nth-child(3) {
+  left: -15px;
+  opacity: 0;
+}
+
+.header .nav-container {
+  background-color: #1c1d21;
+  padding: 120px 20px 40px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  opacity: 0;
+  z-index: 100;
+  -webkit-transition: opacity .35s ease, visibility .35s ease, height .35s ease;
+  transition: opacity .35s ease, visibility .35s ease, height .35s ease;
+  visibility: hidden;
+}
+
+.header .nav-container.open {
+  opacity: 0.97;
+  visibility: visible;
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .header .nav-container {
+    visibility: visible;
+    position: relative;
+    background-color: transparent;
+    opacity: 1;
+    padding: 0px;
+  }
+}
+
+.header .nav-container ul.nav {
+  text-align: right;
+  margin-left: 0px;
+  margin-bottom: 25px;
+  display: block;
+  width: 100%;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #fff;
+}
+
+@media (min-width: 768px) {
+  .header .nav-container ul.nav {
+    margin-left: 30px;
+    margin-bottom: 0px;
+    border-bottom: none;
+    padding: 0px;
+    width: auto;
+  }
+}
+
+.header .nav-container ul.nav li {
+  padding-bottom: 20px;
+  display: block;
+}
+
+.header .nav-container ul.nav li:last-child {
+  padding-bottom: 0px;
+  padding-right: 0px;
+}
+
+@media (min-width: 768px) {
+  .header .nav-container ul.nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-right: 15px;
+  }
+}
+
+.header .nav-container ul.nav li a {
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Nunito Sans", Arial, Helvetica sans-serif;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .header .nav-container ul.nav li a {
+    font-size: 16px;
+  }
+}
+
+.header .nav-container ul.nav li a:hover, .header .nav-container ul.nav li a:focus, .header .nav-container ul.nav li a.active {
+  color: #f26414;
+}
+
+@media (min-width: 768px) {
+  .header .nav-container ul.nav li a:hover, .header .nav-container ul.nav li a:focus, .header .nav-container ul.nav li a.active {
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 768px) {
+  .header .nav-container ul.nav li a.active:after {
+    height: 3px;
+    width: 100%;
+    background: #f26414;
+  }
+}
+
+@media (min-width: 768px) {
+  .header .nav-container ul.nav li a:after {
+    content: '';
     display: block;
-    margin: 15px 0px; }
-    /* line 39, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_footer.scss */
-    .footer ul.nav li {
-      list-style-type: none;
-      display: inline-block;
-      padding-right: 9px; }
-      /* line 44, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_footer.scss */
-      .footer ul.nav li:last-child {
-        padding-right: 0px; }
-      /* line 48, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_footer.scss */
-      .footer ul.nav li a {
-        color: #1C1D21;
-        font-size: 14px;
-        text-transform: uppercase;
-        font-weight: bold;
-        text-decoration: none;
-        padding-bottom: 2px;
-        font-family: "Arimo", Arial, Helvetica sans-serif;
-        letter-spacing: 0.05em; }
-        /* line 58, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_footer.scss */
-        .footer ul.nav li a:hover, .footer ul.nav li a:focus, .footer ul.nav li a .active {
-          border-bottom: 2px solid #f26414; }
-  /* line 65, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_footer.scss */
-  .footer ul.social-media {
-    margin-top: 6px;
-    margin-right: 20px; }
-    /* line 69, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_footer.scss */
-    .footer ul.social-media li {
-      display: inline-block; }
-      /* line 72, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_footer.scss */
-      .footer ul.social-media li a.behance, .footer ul.social-media li a.linkedin, .footer ul.social-media li a.vimeo, .footer ul.social-media li a.youtube {
-        height: 26px;
-        display: inline-block;
-        background-image: url("../img/social-media-icons-black.png");
-        background-repeat: no-repeat;
-        cursor: pointer; }
-      /* line 80, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_footer.scss */
-      .footer ul.social-media li a.behance {
-        background-position: 0px -0px;
-        margin-right: 10px;
-        width: 41px; }
-      /* line 86, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_footer.scss */
-      .footer ul.social-media li a.linkedin {
-        background-position: -57px -0px;
-        margin-right: 10px;
-        width: 29px; }
-      /* line 92, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_footer.scss */
-      .footer ul.social-media li a.vimeo {
-        background-position: -101px -0px;
-        margin-right: 10px;
-        width: 31px; }
-      /* line 98, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_footer.scss */
-      .footer ul.social-media li a.youtube {
-        background-position: -143px -0px;
-        width: 38px; }
-  /* line 105, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_footer.scss */
-  .footer p.copyright {
-    font-size: 12px;
-    line-height: 16px;
-    color: #1C1D21;
-    margin: 15px 15px; }
+    height: 3px;
+    width: 0;
+    background: transparent;
+    -webskit-transition: width .3s ease, background-color .3s ease;
+    -webkit-transition: width .3s ease, background-color .3s ease;
+    transition: width .3s ease, background-color .3s ease;
+    margin-top: 4px;
+  }
+  .header .nav-container ul.nav li a:hover:after, .header .nav-container ul.nav li a:focus:after {
+    width: 100%;
+    background: #f26414;
+  }
+}
+
+.header .nav-container ul.social-media {
+  text-align: left;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .header .nav-container ul.social-media {
+    text-align: right;
+    width: auto;
+  }
+}
+
+.header .nav-container ul.social-media li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .header .nav-container ul.social-media li {
+    margin-right: 0px;
+  }
+}
+
+.header .nav-container ul.social-media li:last-child {
+  margin-right: 0px;
+}
+
+.header .nav-container ul.social-media li a {
+  padding: 6px 7px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+}
+
+.header .banner {
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .header .banner {
+    padding: 30px;
+  }
+}
+
+/*colours*/
+/*media queries*/
+/*Google font*/
+.footer {
+  padding: 30px 15px 30px 15px;
+  background-color: #ffffff;
+  background-repeat: repeat;
+  text-align: center;
+  border-top: 2px solid #F2F2F2;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding-bottom: 30px;
+  }
+}
+
+.footer .orange-underline {
+  border-bottom: 1px solid #f26414;
+  width: 75%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .footer .orange-underline {
+    width: 35%;
+  }
+}
+
+.footer ul.nav {
+  display: block;
+  margin: 15px 0px;
+}
+
+.footer ul.nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 9px;
+}
+
+.footer ul.nav li:last-child {
+  padding-right: 0px;
+}
+
+.footer ul.nav li a {
+  color: #414042;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  padding-bottom: 2px;
+  font-family: "Nunito Sans", Arial, Helvetica sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.footer ul.nav li a:hover, .footer ul.nav li a:focus, .footer ul.nav li a .active {
+  border-bottom: 2px solid #f26414;
+}
+
+.footer ul.social-media {
+  margin-top: 6px;
+}
+
+.footer ul.social-media li {
+  display: inline-block;
+}
+
+.footer ul.social-media li a {
+  padding: 6px 7px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.footer p.copyright {
+  font-size: 12px;
+  line-height: 16px;
+  color: #1C1D21;
+  margin: 15px 15px;
+}
 
 /*page styles*/
-/* line 1, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-.portfolio-content-wrapper, .featured-work-wrapper {
-  margin-left: -15px;
-  margin-right: -15px; }
-
-/* line 6, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-a.portfolio-item {
-  position: relative;
-  cursor: pointer;
-  text-decoration: none;
+ul.portfolio-items-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  padding: 15px;
-  width: 100%;
-  float: left; }
-  @media (min-width: 768px) {
-    /* line 6, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-    a.portfolio-item {
-      width: 50%; } }
-  @media (min-width: 1200px) {
-    /* line 6, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-    a.portfolio-item {
-      width: 33.33%; } }
-  /* line 24, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-  a.portfolio-item:last-child {
-    margin-bottom: 0px; }
-  /* line 28, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-  a.portfolio-item.x2 {
-    width: 100%;
-    float: left; }
-    @media (min-width: 768px) {
-      /* line 28, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-      a.portfolio-item.x2 {
-        width: 50%; } }
-  /* line 37, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-  a.portfolio-item.x3 {
-    width: 100%;
-    float: left; }
-    @media (min-width: 768px) {
-      /* line 37, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-      a.portfolio-item.x3 {
-        width: 33.33%; } }
-  /* line 46, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-  a.portfolio-item.x4 {
-    width: 50%;
-    float: left; }
-    @media (min-width: 768px) {
-      /* line 46, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-      a.portfolio-item.x4 {
-        width: 25%; } }
-  /* line 55, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-  a.portfolio-item.full {
-    width: 100%; }
-  /* line 59, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-  a.portfolio-item .overlay {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #58595B;
-    text-align: center;
-    padding: 60px 40px;
-    flex-grow: 1;
-    width: 100%; }
-    @media (min-width: 767px) {
-      /* line 59, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-      a.portfolio-item .overlay {
-        min-height: 229px; } }
-    @media (min-width: 992px) {
-      /* line 59, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-      a.portfolio-item .overlay {
-        height: auto;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: calc(100% - 30px);
-        margin-left: 15px;
-        height: calc(100% - 30px);
-        margin-top: 15px;
-        padding: 40px;
-        background: rgba(0, 170, 178, 0.95);
-        opacity: 0;
-        -webkit-transition: opacity 0.3s ease;
-        -moz-transition: opacity 0.3s ease;
-        transition: opacity 0.3s ease; } }
-    /* line 90, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-    a.portfolio-item .overlay h3 {
-      letter-spacing: 0.05em;
-      color: #fff;
-      text-transform: uppercase;
-      margin-bottom: 10px; }
-      /* line 96, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-      a.portfolio-item .overlay h3:after {
-        content: '';
-        display: block;
-        height: 3px;
-        width: 148px;
-        margin: 0 auto;
-        background-color: #fff;
-        -webskit-transition: width 0.25s ease-in-out, background-color 0.25s ease;
-        -moz-transition: width 0.25s ease-in-out, background-color 0.25s ease;
-        transition: width 0.25s ease-in-out, background-color 0.25s ease;
-        margin-top: 8px; }
-        @media (min-width: 992px) {
-          /* line 96, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-          a.portfolio-item .overlay h3:after {
-            width: 0;
-            background-color: transparent; } }
-    /* line 115, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-    a.portfolio-item .overlay p {
-      color: #fff; }
-  /* line 121, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-  a.portfolio-item:hover .overlay, a.portfolio-item:focus .overlay {
-    opacity: 1; }
-    /* line 124, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-    a.portfolio-item:hover .overlay h3:after, a.portfolio-item:focus .overlay h3:after {
-      -webkit-transition-delay: 0.15s;
-      -moz-transition-delay: 0.15s;
-      transition-delay: 0.15s;
-      width: 148px;
-      background-color: #fff; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  margin-left: -15px;
+  margin-right: -15px;
+}
 
-/* line 4, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+ul.portfolio-items-list li.portfolio-item {
+  position: relative;
+  text-decoration: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  text-align: center;
+  width: 100%;
+  padding: 0px 15px 50px 15px;
+}
+
+ul.portfolio-items-list li.portfolio-item img {
+  margin-bottom: 10px;
+}
+
+ul.portfolio-items-list li.portfolio-item p {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  ul.portfolio-items-list li.portfolio-item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  ul.portfolio-items-list li.portfolio-item {
+    width: 33.33%;
+  }
+}
+
+ul.portfolio-items-list li.portfolio-item:last-child {
+  margin-bottom: 0px;
+}
+
+ul.portfolio-items-list li.portfolio-item.x2 {
+  width: 100%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  ul.portfolio-items-list li.portfolio-item.x2 {
+    width: 50%;
+  }
+}
+
+ul.portfolio-items-list li.portfolio-item.x3 {
+  width: 100%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  ul.portfolio-items-list li.portfolio-item.x3 {
+    width: 33.33%;
+  }
+}
+
+ul.portfolio-items-list li.portfolio-item.x4 {
+  width: 50%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  ul.portfolio-items-list li.portfolio-item.x4 {
+    width: 25%;
+  }
+}
+
+ul.portfolio-items-list li.portfolio-item.full {
+  width: 100%;
+}
+
+ul.portfolio-items-list li.portfolio-item .overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #58595B;
+  text-align: center;
+  padding: 20px 10px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 100%;
+}
+
+@media (min-width: 767px) {
+  ul.portfolio-items-list li.portfolio-item .overlay {
+    min-height: 170px;
+  }
+}
+
+@media (min-width: 992px) {
+  ul.portfolio-items-list li.portfolio-item .overlay {
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 30px);
+    margin-left: 15px;
+    height: calc(100% - 30px);
+    margin-top: 15px;
+    padding: 40px;
+    background: rgba(0, 126, 133, 0.95);
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+  }
+}
+
+ul.portfolio-items-list li.portfolio-item .overlay h3 {
+  letter-spacing: 0.05em;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+ul.portfolio-items-list li.portfolio-item .overlay h3:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 148px;
+  margin: 0 auto;
+  background-color: #fff;
+  -webskit-transition: width 0.25s ease-in-out, background-color 0.25s ease;
+  -webkit-transition: width 0.25s ease-in-out, background-color 0.25s ease;
+  transition: width 0.25s ease-in-out, background-color 0.25s ease;
+  margin-top: 8px;
+}
+
+@media (min-width: 992px) {
+  ul.portfolio-items-list li.portfolio-item .overlay h3:after {
+    width: 0;
+    background-color: transparent;
+  }
+}
+
+ul.portfolio-items-list li.portfolio-item .overlay p {
+  color: #fff;
+}
+
+ul.portfolio-items-list li.portfolio-item:hover .overlay, ul.portfolio-items-list li.portfolio-item:focus .overlay {
+  opacity: 1;
+}
+
+ul.portfolio-items-list li.portfolio-item:hover .overlay h3:after, ul.portfolio-items-list li.portfolio-item:focus .overlay h3:after {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+  width: 148px;
+  background-color: #fff;
+}
+
+.highlighted-section {
+  background-color: rgba(242, 100, 20, 0.1);
+  padding: 20px 40px;
+  border-radius: 12px;
+  margin-top: 30px;
+}
+
+.align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tag {
+  background-color: rgba(0, 170, 178, 0.25);
+  color: #1c1d21;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
 .home .skills-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
-  flex-direction: column; }
-  @media (min-width: 768px) {
-    /* line 4, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
-    .home .skills-wrapper {
-      flex-direction: row; } }
-  @media (min-width: 768px) {
-    /* line 17, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
-    .home .skills-wrapper.switch-order .illustration {
-      order: 2; }
-    /* line 20, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
-    .home .skills-wrapper.switch-order .text {
-      order: 1; } }
-  /* line 26, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .home .skills-wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) {
+  .home .skills-wrapper.switch-order .illustration {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .home .skills-wrapper.switch-order .text {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+
+.home .skills-wrapper .text {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
   .home .skills-wrapper .text {
-    width: 100%; }
-    @media (min-width: 768px) {
-      /* line 26, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
-      .home .skills-wrapper .text {
-        width: 45%; } }
-    @media (min-width: 992px) {
-      /* line 26, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
-      .home .skills-wrapper .text {
-        width: 55%; } }
-  /* line 38, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
+    width: 45%;
+  }
+}
+
+@media (min-width: 992px) {
+  .home .skills-wrapper .text {
+    width: 55%;
+  }
+}
+
+.home .skills-wrapper .illustration {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
   .home .skills-wrapper .illustration {
-    margin: 0 auto;
-    margin-bottom: 30px; }
-    @media (min-width: 768px) {
-      /* line 38, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_home.scss */
-      .home .skills-wrapper .illustration {
-        margin: 0;
-        text-align: left; } }
+    margin: 0;
+    text-align: left;
+  }
+}
 
-/* line 1, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-.portfolio-content-wrapper, .featured-work-wrapper {
-  margin-left: -15px;
-  margin-right: -15px; }
-
-/* line 6, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-a.portfolio-item {
-  position: relative;
-  cursor: pointer;
-  text-decoration: none;
+ul.portfolio-items-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  padding: 15px;
-  width: 100%;
-  float: left; }
-  @media (min-width: 768px) {
-    /* line 6, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-    a.portfolio-item {
-      width: 50%; } }
-  @media (min-width: 1200px) {
-    /* line 6, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-    a.portfolio-item {
-      width: 33.33%; } }
-  /* line 24, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-  a.portfolio-item:last-child {
-    margin-bottom: 0px; }
-  /* line 28, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-  a.portfolio-item.x2 {
-    width: 100%;
-    float: left; }
-    @media (min-width: 768px) {
-      /* line 28, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-      a.portfolio-item.x2 {
-        width: 50%; } }
-  /* line 37, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-  a.portfolio-item.x3 {
-    width: 100%;
-    float: left; }
-    @media (min-width: 768px) {
-      /* line 37, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-      a.portfolio-item.x3 {
-        width: 33.33%; } }
-  /* line 46, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-  a.portfolio-item.x4 {
-    width: 50%;
-    float: left; }
-    @media (min-width: 768px) {
-      /* line 46, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-      a.portfolio-item.x4 {
-        width: 25%; } }
-  /* line 55, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-  a.portfolio-item.full {
-    width: 100%; }
-  /* line 59, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-  a.portfolio-item .overlay {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #58595B;
-    text-align: center;
-    padding: 60px 40px;
-    flex-grow: 1;
-    width: 100%; }
-    @media (min-width: 767px) {
-      /* line 59, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-      a.portfolio-item .overlay {
-        min-height: 229px; } }
-    @media (min-width: 992px) {
-      /* line 59, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-      a.portfolio-item .overlay {
-        height: auto;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: calc(100% - 30px);
-        margin-left: 15px;
-        height: calc(100% - 30px);
-        margin-top: 15px;
-        padding: 40px;
-        background: rgba(0, 170, 178, 0.95);
-        opacity: 0;
-        -webkit-transition: opacity 0.3s ease;
-        -moz-transition: opacity 0.3s ease;
-        transition: opacity 0.3s ease; } }
-    /* line 90, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-    a.portfolio-item .overlay h3 {
-      letter-spacing: 0.05em;
-      color: #fff;
-      text-transform: uppercase;
-      margin-bottom: 10px; }
-      /* line 96, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-      a.portfolio-item .overlay h3:after {
-        content: '';
-        display: block;
-        height: 3px;
-        width: 148px;
-        margin: 0 auto;
-        background-color: #fff;
-        -webskit-transition: width 0.25s ease-in-out, background-color 0.25s ease;
-        -moz-transition: width 0.25s ease-in-out, background-color 0.25s ease;
-        transition: width 0.25s ease-in-out, background-color 0.25s ease;
-        margin-top: 8px; }
-        @media (min-width: 992px) {
-          /* line 96, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-          a.portfolio-item .overlay h3:after {
-            width: 0;
-            background-color: transparent; } }
-    /* line 115, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-    a.portfolio-item .overlay p {
-      color: #fff; }
-  /* line 121, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-  a.portfolio-item:hover .overlay, a.portfolio-item:focus .overlay {
-    opacity: 1; }
-    /* line 124, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio-items.scss */
-    a.portfolio-item:hover .overlay h3:after, a.portfolio-item:focus .overlay h3:after {
-      -webkit-transition-delay: 0.15s;
-      -moz-transition-delay: 0.15s;
-      transition-delay: 0.15s;
-      width: 148px;
-      background-color: #fff; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  margin-left: -15px;
+  margin-right: -15px;
+}
 
-/* line 17, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
+ul.portfolio-items-list li.portfolio-item {
+  position: relative;
+  text-decoration: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  text-align: center;
+  width: 100%;
+  padding: 0px 15px 50px 15px;
+}
+
+ul.portfolio-items-list li.portfolio-item img {
+  margin-bottom: 10px;
+}
+
+ul.portfolio-items-list li.portfolio-item p {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  ul.portfolio-items-list li.portfolio-item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  ul.portfolio-items-list li.portfolio-item {
+    width: 33.33%;
+  }
+}
+
+ul.portfolio-items-list li.portfolio-item:last-child {
+  margin-bottom: 0px;
+}
+
+ul.portfolio-items-list li.portfolio-item.x2 {
+  width: 100%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  ul.portfolio-items-list li.portfolio-item.x2 {
+    width: 50%;
+  }
+}
+
+ul.portfolio-items-list li.portfolio-item.x3 {
+  width: 100%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  ul.portfolio-items-list li.portfolio-item.x3 {
+    width: 33.33%;
+  }
+}
+
+ul.portfolio-items-list li.portfolio-item.x4 {
+  width: 50%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  ul.portfolio-items-list li.portfolio-item.x4 {
+    width: 25%;
+  }
+}
+
+ul.portfolio-items-list li.portfolio-item.full {
+  width: 100%;
+}
+
+ul.portfolio-items-list li.portfolio-item .overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #58595B;
+  text-align: center;
+  padding: 20px 10px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 100%;
+}
+
+@media (min-width: 767px) {
+  ul.portfolio-items-list li.portfolio-item .overlay {
+    min-height: 170px;
+  }
+}
+
+@media (min-width: 992px) {
+  ul.portfolio-items-list li.portfolio-item .overlay {
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 30px);
+    margin-left: 15px;
+    height: calc(100% - 30px);
+    margin-top: 15px;
+    padding: 40px;
+    background: rgba(0, 126, 133, 0.95);
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+  }
+}
+
+ul.portfolio-items-list li.portfolio-item .overlay h3 {
+  letter-spacing: 0.05em;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+ul.portfolio-items-list li.portfolio-item .overlay h3:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 148px;
+  margin: 0 auto;
+  background-color: #fff;
+  -webskit-transition: width 0.25s ease-in-out, background-color 0.25s ease;
+  -webkit-transition: width 0.25s ease-in-out, background-color 0.25s ease;
+  transition: width 0.25s ease-in-out, background-color 0.25s ease;
+  margin-top: 8px;
+}
+
+@media (min-width: 992px) {
+  ul.portfolio-items-list li.portfolio-item .overlay h3:after {
+    width: 0;
+    background-color: transparent;
+  }
+}
+
+ul.portfolio-items-list li.portfolio-item .overlay p {
+  color: #fff;
+}
+
+ul.portfolio-items-list li.portfolio-item:hover .overlay, ul.portfolio-items-list li.portfolio-item:focus .overlay {
+  opacity: 1;
+}
+
+ul.portfolio-items-list li.portfolio-item:hover .overlay h3:after, ul.portfolio-items-list li.portfolio-item:focus .overlay h3:after {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+  width: 148px;
+  background-color: #fff;
+}
+
+.highlighted-section {
+  background-color: rgba(242, 100, 20, 0.1);
+  padding: 20px 40px;
+  border-radius: 12px;
+  margin-top: 30px;
+}
+
+.align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tag {
+  background-color: rgba(0, 170, 178, 0.25);
+  color: #1c1d21;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
 .portfolio .portfolio-content-wrapper {
   margin-left: -15px;
-  margin-right: -15px; }
-  /* line 21, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-  .portfolio .portfolio-content-wrapper .portfolio-item {
-    padding: 15px; }
-    /* line 24, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-    .portfolio .portfolio-content-wrapper .portfolio-item.x2 {
-      width: 100%;
-      float: left; }
-      @media (min-width: 768px) {
-        /* line 24, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-        .portfolio .portfolio-content-wrapper .portfolio-item.x2 {
-          width: 50%; } }
-    /* line 33, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-    .portfolio .portfolio-content-wrapper .portfolio-item.x3 {
-      width: 100%;
-      float: left; }
-      @media (min-width: 768px) {
-        /* line 33, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-        .portfolio .portfolio-content-wrapper .portfolio-item.x3 {
-          width: 33.33%; } }
-    /* line 42, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-    .portfolio .portfolio-content-wrapper .portfolio-item.x4 {
-      width: 50%;
-      float: left; }
-      @media (min-width: 768px) {
-        /* line 42, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-        .portfolio .portfolio-content-wrapper .portfolio-item.x4 {
-          width: 25%; } }
-    /* line 51, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-    .portfolio .portfolio-content-wrapper .portfolio-item.full {
-      width: 100%; }
+  margin-right: -15px;
+}
 
-/* line 57, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
 .portfolio a.see-project.toggle-link {
   font-size: 18px;
   color: #f26414;
@@ -1079,13 +1395,14 @@ a.portfolio-item {
   margin-top: 20px;
   display: inline-block;
   text-transform: uppercase;
-  text-decoration: none; }
-  /* line 72, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-  .portfolio a.see-project.toggle-link:hover, .portfolio a.see-project.toggle-link:focus {
-    color: #ffffff;
-    background-color: #f26414; }
+  text-decoration: none;
+}
 
-/* line 86, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
+.portfolio a.see-project.toggle-link:hover, .portfolio a.see-project.toggle-link:focus {
+  color: #ffffff;
+  background-color: #f26414;
+}
+
 .portfolio a.close {
   background-image: url("../img/x-button.png");
   display: block;
@@ -1096,26 +1413,26 @@ a.portfolio-item {
   margin-top: 10px;
   cursor: pointer;
   -wekbit-transition: background-image 0.3s ease-in-out;
-  -moz-transition: background-image 0.3s ease-in-out;
-  transition: background-image 0.3s ease-in-out; }
-  /* line 99, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-  .portfolio a.close:hover, .portfolio a.close:focus {
-    background-position: 0px 0px; }
+  -webkit-transition: background-image 0.3s ease-in-out;
+  transition: background-image 0.3s ease-in-out;
+}
 
-/* line 104, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
+.portfolio a.close:hover, .portfolio a.close:focus {
+  background-position: 0px 0px;
+}
+
 .portfolio .maxHeight {
-  max-height: 5000px; }
+  max-height: 5000px;
+}
 
-/* line 108, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
 .portfolio .zeroHeight {
   max-height: 0px !important;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   line-height: 0px;
-  padding-bottom: 0px; }
+  padding-bottom: 0px;
+}
 
-/* line 117, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
 .portfolio a.button {
   text-transform: uppercase;
   display: inline-block;
@@ -1125,156 +1442,174 @@ a.portfolio-item {
   text-decoration: none;
   vertical-align: middle;
   -wekbit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
-  /* line 129, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-  .portfolio a.button.orange {
-    border: 2px solid #f26414;
-    color: #f26414; }
-    /* line 133, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-    .portfolio a.button.orange:hover, .portfolio a.button.orange:focus {
-      color: #ffffff;
-      background-color: #f26414; }
-      /* line 137, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-      .portfolio a.button.orange:hover .video, .portfolio a.button.orange:focus .video {
-        background-position: -39px -27px; }
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
 
-/* line 144, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-.portfolio .category-icon {
-  background-image: url("../img/category-icons.png");
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 5px;
-  -wekbit-transition: background-image 0.3s ease-in-out;
-  -moz-transition: background-image 0.3s ease-in-out;
-  transition: background-image 0.3s ease-in-out; }
-  /* line 153, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-  .portfolio .category-icon.video {
-    width: 24px;
-    height: 24px;
-    background-position: -39px -0px;
-    margin-top: -5px; }
+.portfolio a.button.orange {
+  border: 2px solid #f26414;
+  color: #f26414;
+}
 
-/* line 161, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
+.portfolio a.button.orange:hover, .portfolio a.button.orange:focus {
+  color: #ffffff;
+  background-color: #f26414;
+}
+
+.portfolio a.button.orange:hover .video, .portfolio a.button.orange:focus .video {
+  background-position: -39px -27px;
+}
+
 .portfolio .more-content {
   margin-top: 25px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
-/* line 166, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
 .portfolio .orange-border {
   margin-top: 30px;
   border-top: 2px solid #f26414;
-  height: 4px; }
+  height: 4px;
+}
 
-/* line 172, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
 .portfolio .close-button {
   color: #f26414;
   font-size: 50px;
   -wekbit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  transition: all 0.2s ease; }
-  /* line 179, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-  .portfolio .close-button:hover, .portfolio .close-button:focus {
-    color: #00AAB2; }
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
 
-/* line 184, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
+.portfolio .close-button:hover, .portfolio .close-button:focus {
+  color: #00AAB2;
+}
+
 .portfolio .portfolio-content {
   overflow: hidden;
   -wekbit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
-  /* line 190, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-  .portfolio .portfolio-content.details {
-    padding-top: 0px; }
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
 
-/* line 195, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
+.portfolio .portfolio-content.details {
+  padding-top: 0px;
+}
+
 .portfolio .explanation-text {
-  margin-top: 50px; }
-  /* line 198, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-  .portfolio .explanation-text .text {
-    margin-top: 50px;
-    margin-bottom: 20px; }
-    @media (min-width: 768px) {
-      /* line 198, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-      .portfolio .explanation-text .text {
-        margin-top: 0px;
-        margin-bottom: 0px; } }
-    /* line 207, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-    .portfolio .explanation-text .text p {
-      margin-top: 10px; }
+  margin-top: 50px;
+}
 
-/* line 213, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
+.portfolio .explanation-text .text {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .portfolio .explanation-text .text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+.portfolio .explanation-text .text p {
+  margin-top: 10px;
+}
+
 .portfolio .portfolio-item-wrapper {
   padding-top: 70px;
-  padding-bottom: 70px; }
-  /* line 217, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-  .portfolio .portfolio-item-wrapper:nth-child(odd) {
-    background-color: #ffffff; }
-  /* line 221, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-  .portfolio .portfolio-item-wrapper:nth-child(even) {
-    background-color: #F2F2F2; }
+  padding-bottom: 70px;
+}
 
-/* line 226, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
+.portfolio .portfolio-item-wrapper:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.portfolio .portfolio-item-wrapper:nth-child(even) {
+  background-color: #F2F2F2;
+}
+
 .portfolio .portfolio-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center; }
-  /* line 232, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-  .portfolio .portfolio-item .text {
-    width: 50%; }
-  /* line 236, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-  .portfolio .portfolio-item .portfolio-thumbnail {
-    margin: 0 auto;
-    margin-bottom: 25px; }
-    @media (min-width: 768px) {
-      /* line 236, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-      .portfolio .portfolio-item .portfolio-thumbnail {
-        margin: 0; } }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 
-/* line 247, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
+.portfolio .portfolio-item .text {
+  width: 50%;
+}
+
+.portfolio .portfolio-item .portfolio-thumbnail {
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+  .portfolio .portfolio-item .portfolio-thumbnail {
+    margin: 0;
+  }
+}
+
 .stills {
   margin-left: -15px;
-  margin-right: -15px; }
-  /* line 251, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-  .stills .photo-wrapper {
-    padding: 15px; }
-    /* line 254, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-    .stills .photo-wrapper.x2 {
-      width: 100%;
-      float: left; }
-      @media (min-width: 768px) {
-        /* line 254, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-        .stills .photo-wrapper.x2 {
-          width: 50%; } }
-    /* line 263, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-    .stills .photo-wrapper.x3 {
-      width: 100%;
-      float: left; }
-      @media (min-width: 768px) {
-        /* line 263, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-        .stills .photo-wrapper.x3 {
-          width: 33.33%; } }
-    /* line 272, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-    .stills .photo-wrapper.x4 {
-      width: 100%;
-      float: left; }
-      @media (min-width: 768px) {
-        /* line 272, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-        .stills .photo-wrapper.x4 {
-          width: 50%; } }
-      @media (min-width: 1200px) {
-        /* line 272, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-        .stills .photo-wrapper.x4 {
-          width: 25%; } }
-    /* line 285, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-    .stills .photo-wrapper.full {
-      width: 100%; }
+  margin-right: -15px;
+}
 
-/* line 291, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
+.stills .photo-wrapper {
+  padding: 15px;
+}
+
+.stills .photo-wrapper.x2 {
+  width: 100%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .stills .photo-wrapper.x2 {
+    width: 50%;
+  }
+}
+
+.stills .photo-wrapper.x3 {
+  width: 100%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .stills .photo-wrapper.x3 {
+    width: 33.33%;
+  }
+}
+
+.stills .photo-wrapper.x4 {
+  width: 100%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .stills .photo-wrapper.x4 {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .stills .photo-wrapper.x4 {
+    width: 25%;
+  }
+}
+
+.stills .photo-wrapper.full {
+  width: 100%;
+}
+
 .intro-text {
-  margin-bottom: 40px; }
+  text-align: center;
+}
 
-/* line 295, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
 a.see-project {
   font-size: 18px;
   color: #f26414;
@@ -1286,602 +1621,192 @@ a.see-project {
   text-transform: uppercase;
   text-decoration: none;
   -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  transition: all 0.2s ease; }
-  /* line 309, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_portfolio.scss */
-  a.see-project:hover, a.see-project:focus {
-    color: #ffffff;
-    background-color: #f26414; }
+  transition: all 0.2s ease;
+}
 
-/* line 1, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_featured-work-banner.scss */
-.featured-work-banner {
-  background-color: #F2F2F2;
-  padding: 40px 0px; }
-  /* line 5, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_featured-work-banner.scss */
-  .featured-work-banner.adventure-finder-banner {
-    padding: 40px 0 0; }
-  /* line 9, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_featured-work-banner.scss */
-  .featured-work-banner .wrapper {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: column wrap; }
-    @media (min-width: 768px) {
-      /* line 9, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_featured-work-banner.scss */
-      .featured-work-banner .wrapper {
-        flex-flow: row nowrap; } }
-    /* line 19, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_featured-work-banner.scss */
-    .featured-work-banner .wrapper .text {
-      margin-bottom: 30px;
-      text-align: center; }
-      @media (min-width: 768px) {
-        /* line 19, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_featured-work-banner.scss */
-        .featured-work-banner .wrapper .text {
-          order: 2;
-          margin-bottom: 0px;
-          text-align: left; } }
-    @media md-up {
-      /* line 30, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_featured-work-banner.scss */
-      .featured-work-banner .wrapper .img {
-        order: 1; } }
-  /* line 38, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_featured-work-banner.scss */
-  .featured-work-banner h2:after {
-    left: 50%;
-    transform: translateX(-50%); }
-    @media (min-width: 768px) {
-      /* line 38, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_featured-work-banner.scss */
-      .featured-work-banner h2:after {
-        left: 0px;
-        transform: translateX(0%); } }
+a.see-project:hover, a.see-project:focus {
+  color: #ffffff;
+  background-color: #f26414;
+}
 
-/* line 2, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-.adventure-finder .banner {
-  background: -webkit-linear-gradient(to top, #26B47F 0%, #10ACC6 50%);
-  background: -moz-linear-gradient(to top, #26B47F 0%, #10ACC6 50%);
-  background: linear-gradient(to top, #26B47F 0%, #10ACC6 50%);
-  text-align: center;
-  padding: 30px 0px 80px 0px; }
-  @media (min-width: 768px) {
-    /* line 2, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-    .adventure-finder .banner {
-      padding: 50px 0px 60px 0px; } }
-  @media (min-width: 992px) {
-    /* line 2, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-    .adventure-finder .banner {
-      padding: 50px 0px 165px 0px; } }
-  /* line 17, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-  .adventure-finder .banner img {
-    margin: 0 auto; }
-
-/* line 22, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-.adventure-finder .the-challenge .wrapper {
+.tidbits-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  flex-flow: column wrap;
-  margin-top: -80px; }
-  @media (min-width: 768px) {
-    /* line 22, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-    .adventure-finder .the-challenge .wrapper {
-      margin-top: -60px;
-      flex-flow: row nowrap; } }
-  @media (min-width: 992px) {
-    /* line 22, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-    .adventure-finder .the-challenge .wrapper {
-      margin-top: -170px; } }
-  /* line 38, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-  .adventure-finder .the-challenge .wrapper .text {
-    margin-top: 30px; }
-    @media (min-width: 768px) {
-      /* line 38, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-      .adventure-finder .the-challenge .wrapper .text {
-        width: 50%;
-        margin-right: 8%;
-        order: 1;
-        margin-top: 0px; } }
-  @media (min-width: 768px) {
-    /* line 49, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-    .adventure-finder .the-challenge .wrapper .photo-wrapper {
-      width: 40%;
-      order: 2; } }
-  /* line 55, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-  .adventure-finder .the-challenge .wrapper .photo-wrapper img {
-    margin: 0 auto; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  margin-left: -15px;
+  margin-right: -15px;
+}
 
-/* line 61, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-.adventure-finder .the-process .wrapper {
-  display: flex;
-  align-items: center;
-  flex-flow: column wrap;
-  margin-top: 90px; }
-  @media (min-width: 768px) {
-    /* line 61, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-    .adventure-finder .the-process .wrapper {
-      flex-flow: row nowrap; } }
-  /* line 71, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-  .adventure-finder .the-process .wrapper .button-wrapper {
-    display: flex;
-    align-items: center;
-    flex-direction: column; }
-    @media (min-width: 768px) {
-      /* line 71, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-      .adventure-finder .the-process .wrapper .button-wrapper {
-        flex-direction: column;
-        align-items: flex-start; } }
-    @media (min-width: 992px) {
-      /* line 71, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-      .adventure-finder .the-process .wrapper .button-wrapper {
-        flex-direction: row; }
-        /* line 84, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-        .adventure-finder .the-process .wrapper .button-wrapper a:first-child {
-          margin-right: 20px; } }
-  /* line 90, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-  .adventure-finder .the-process .wrapper .text {
-    margin-top: 30px; }
-    @media (min-width: 768px) {
-      /* line 90, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-      .adventure-finder .the-process .wrapper .text {
-        width: 50%;
-        order: 2;
-        margin-top: 0px; } }
-  @media (min-width: 768px) {
-    /* line 100, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-    .adventure-finder .the-process .wrapper .photo-wrapper {
-      width: 40%;
-      order: 1;
-      margin-right: 8%; } }
-  /* line 107, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-  .adventure-finder .the-process .wrapper .photo-wrapper img {
-    margin: 0 auto; }
-
-/* line 113, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-.adventure-finder .sketches {
-  margin-top: 60px; }
-
-/* line 117, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-.adventure-finder .the-result {
-  background-color: #0E2E35;
-  margin-top: 60px;
-  display: flex;
+.tidbits-list img {
   position: relative;
-  overflow: hidden; }
-  /* line 124, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-  .adventure-finder .the-result .triangle {
-    height: 1000px;
-    width: 1000px;
-    position: absolute;
-    overflow: hidden;
-    align-self: flex-end; }
-    @media (min-width: 767px) {
-      /* line 124, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-      .adventure-finder .the-result .triangle {
-        height: 1600px;
-        width: 1600px; } }
-    @media (min-width: 768px) {
-      /* line 124, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-      .adventure-finder .the-result .triangle {
-        height: 1000px;
-        width: 1000px; } }
-    @media (min-width: 992px) {
-      /* line 124, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-      .adventure-finder .the-result .triangle {
-        height: 1600px;
-        width: 1600px; } }
-    /* line 146, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-    .adventure-finder .the-result .triangle:after {
-      height: 100%;
-      width: 100%;
-      position: relative;
-      -webkit-transform: rotate(35deg);
-      -moz-transform: rotate(35deg);
-      transform: rotate(35deg);
-      content: '';
-      display: block;
-      position: absolute;
-      left: -75%;
-      background-color: #00AAB2;
-      background-size: cover;
-      bottom: -64%; }
-  /* line 163, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-  .adventure-finder .the-result .wrapper {
-    display: flex;
-    align-items: center;
-    flex-flow: column wrap; }
-    @media (min-width: 768px) {
-      /* line 163, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-      .adventure-finder .the-result .wrapper {
-        flex-flow: row nowrap; } }
-  /* line 173, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-  .adventure-finder .the-result .text {
-    padding: 40px 0px; }
-    /* line 176, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-    .adventure-finder .the-result .text h2, .adventure-finder .the-result .text p {
-      color: #fff; }
-    @media (min-width: 768px) {
-      /* line 173, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-      .adventure-finder .the-result .text {
-        width: 50%;
-        order: 2;
-        margin-top: 0px; } }
-  /* line 188, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-  .adventure-finder .the-result .photo-wrapper img {
-    margin: 0 auto; }
-    @media (min-width: 768px) {
-      /* line 191, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-      .adventure-finder .the-result .photo-wrapper img:first-child {
-        display: none; } }
-    @media (min-width: 992px) {
-      /* line 191, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-      .adventure-finder .the-result .photo-wrapper img:first-child {
-        display: block; } }
-    /* line 201, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-    .adventure-finder .the-result .photo-wrapper img:last-child {
-      display: none; }
-      @media (min-width: 768px) {
-        /* line 201, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-        .adventure-finder .the-result .photo-wrapper img:last-child {
-          display: block; } }
-      @media (min-width: 992px) {
-        /* line 201, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-        .adventure-finder .the-result .photo-wrapper img:last-child {
-          display: none; } }
-  @media (min-width: 768px) {
-    /* line 187, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-    .adventure-finder .the-result .photo-wrapper {
-      width: 40%;
-      order: 1;
-      margin-right: 8%;
-      align-self: flex-end; } }
-
-/* line 223, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-.adventure-finder .the-website {
-  background-color: #0E2E35;
+  text-decoration: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
   text-align: center;
-  margin-top: 60px;
-  padding: 30px 0px 150px 0px; }
-  @media (min-width: 768px) {
-    /* line 223, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-    .adventure-finder .the-website {
-      padding: 50px 0px 320px 0px; } }
-  @media (min-width: 992px) {
-    /* line 223, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-    .adventure-finder .the-website {
-      padding: 50px 0px 410px 0px; } }
-  @media (min-width: 768px) {
-    /* line 237, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-    .adventure-finder .the-website .text {
-      width: 80%;
-      margin: 0 auto; } }
-  /* line 244, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-  .adventure-finder .the-website h2, .adventure-finder .the-website p {
-    color: #fff; }
-  /* line 249, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-  .adventure-finder .the-website h2:after {
-    left: 50%;
-    transform: translateX(-50%); }
-
-/* line 256, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-.adventure-finder .the-website-img {
-  margin-top: -110px;
-  margin-bottom: 60px; }
-  @media (min-width: 768px) {
-    /* line 256, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-    .adventure-finder .the-website-img {
-      margin-top: -270px; } }
-  @media (min-width: 992px) {
-    /* line 256, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-    .adventure-finder .the-website-img {
-      margin-top: -340px; } }
-  /* line 268, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-  .adventure-finder .the-website-img img {
-    margin: 0 auto; }
-
-/* line 274, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_adventure-finder.scss */
-.adventure-finder h2:after {
-  background-color: #10ACC6; }
-
-/* line 1, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_iconography.scss */
-.iconography-wrapper {
-  margin-bottom: 45px; }
-  /* line 5, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_iconography.scss */
-  .iconography-wrapper .stills .photo-wrapper {
-    float: left; }
-    /* line 8, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_iconography.scss */
-    .iconography-wrapper .stills .photo-wrapper.w41 {
-      width: 100%; }
-      @media (min-width: 768px) {
-        /* line 8, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_iconography.scss */
-        .iconography-wrapper .stills .photo-wrapper.w41 {
-          width: 41%; } }
-    /* line 16, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_iconography.scss */
-    .iconography-wrapper .stills .photo-wrapper.w59 {
-      width: 100%; }
-      @media (min-width: 768px) {
-        /* line 16, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_iconography.scss */
-        .iconography-wrapper .stills .photo-wrapper.w59 {
-          width: 59%; } }
-    /* line 24, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_iconography.scss */
-    .iconography-wrapper .stills .photo-wrapper.w62 {
-      width: 100%; }
-      @media (min-width: 768px) {
-        /* line 24, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_iconography.scss */
-        .iconography-wrapper .stills .photo-wrapper.w62 {
-          width: 62%; } }
-    /* line 32, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_iconography.scss */
-    .iconography-wrapper .stills .photo-wrapper.w38 {
-      width: 100%; }
-      @media (min-width: 768px) {
-        /* line 32, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_iconography.scss */
-        .iconography-wrapper .stills .photo-wrapper.w38 {
-          width: 38%; } }
-
-/* line 3, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_corbin-visual.scss */
-.corbin-visual h2:after {
-  background-color: #F0C054; }
-
-/* line 8, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_corbin-visual.scss */
-.corbin-visual .the-challenge, .corbin-visual .the-process {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
-  margin-bottom: 50px; }
-  @media (min-width: 768px) {
-    /* line 8, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_corbin-visual.scss */
-    .corbin-visual .the-challenge, .corbin-visual .the-process {
-      flex-direction: row; } }
-
-@media (min-width: 768px) {
-  /* line 21, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_corbin-visual.scss */
-  .corbin-visual .the-process .image-wrapper {
-    order: 1; } }
-
-@media (min-width: 768px) {
-  /* line 27, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_corbin-visual.scss */
-  .corbin-visual .the-process .text {
-    order: 2; } }
-
-/* line 34, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_corbin-visual.scss */
-.corbin-visual .image-wrapper {
-  width: 100%; }
-  @media (min-width: 768px) {
-    /* line 34, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_corbin-visual.scss */
-    .corbin-visual .image-wrapper {
-      width: 40%; } }
-
-/* line 42, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_corbin-visual.scss */
-.corbin-visual .text {
   width: 100%;
-  margin-bottom: 20px; }
-  @media (min-width: 768px) {
-    /* line 42, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_corbin-visual.scss */
-    .corbin-visual .text {
-      width: 50%;
-      margin-bottom: 0px; } }
+  padding: 0px 15px 50px 15px;
+}
 
-/* line 2, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
-.petcare-app .banner {
-  background-color: #12364D;
-  text-align: center;
-  padding: 40px 0px; }
-  @media (min-width: 768px) {
-    /* line 2, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
-    .petcare-app .banner {
-      padding: 50px 0px; } }
-  /* line 11, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
-  .petcare-app .banner img {
-    margin: 0 auto; }
+@media (min-width: 768px) {
+  .tidbits-list img {
+    width: 50%;
+  }
+}
 
-/* line 16, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
-.petcare-app .section {
-  position: relative; }
-  /* line 19, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
-  .petcare-app .section .blue-bg {
-    background-color: #41A8E9;
-    height: 0px;
-    width: 100%;
-    position: absolute;
-    z-index: 4; }
-    @media (min-width: 768px) {
-      /* line 19, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
-      .petcare-app .section .blue-bg {
-        height: 40px;
-        top: 46%; } }
-    @media (min-width: 1200px) {
-      /* line 19, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
-      .petcare-app .section .blue-bg {
-        height: 280px;
-        top: 38%; } }
+@media (min-width: 992px) {
+  .tidbits-list img {
+    width: 33.3%;
+  }
+}
 
-/* line 38, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
-.petcare-app .info .wrapper {
-  display: flex;
-  align-items: center;
-  flex-flow: column wrap;
-  justify-content: space-around;
-  margin-top: 50px;
-  z-index: 5;
-  position: relative; }
-  @media (min-width: 768px) {
-    /* line 38, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
-    .petcare-app .info .wrapper {
-      flex-flow: row nowrap; } }
-  /* line 51, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
-  .petcare-app .info .wrapper .text {
-    margin-bottom: 30px; }
-    @media (min-width: 768px) {
-      /* line 51, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
-      .petcare-app .info .wrapper .text {
-        width: 40%;
-        margin-right: 8%;
-        order: 1;
-        margin-bottom: 0px; } }
-  @media (min-width: 768px) {
-    /* line 62, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
-    .petcare-app .info .wrapper .photo-wrapper {
-      width: 50%;
-      order: 2; } }
-  /* line 68, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
-  .petcare-app .info .wrapper .photo-wrapper img {
-    margin: 0 auto; }
+@media (min-width: 1200px) {
+  .tidbits-list img {
+    width: 25%;
+  }
+}
 
-/* line 74, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
-.petcare-app .appointments .wrapper {
-  display: flex;
-  align-items: center;
-  flex-flow: column wrap;
-  justify-content: space-around;
-  margin: 50px;
-  z-index: 5;
-  position: relative; }
-  @media (min-width: 768px) {
-    /* line 74, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
-    .petcare-app .appointments .wrapper {
-      flex-flow: row nowrap; } }
-  /* line 87, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
-  .petcare-app .appointments .wrapper .text {
-    margin-bottom: 30px; }
-    @media (min-width: 768px) {
-      /* line 87, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
-      .petcare-app .appointments .wrapper .text {
-        width: 50%;
-        order: 2;
-        margin-bottom: 0px; } }
-  @media (min-width: 767px) {
-    /* line 97, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
-    .petcare-app .appointments .wrapper .photo-wrapper {
-      width: 70%; } }
-  @media (min-width: 768px) {
-    /* line 97, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
-    .petcare-app .appointments .wrapper .photo-wrapper {
-      width: 30%;
-      order: 1;
-      margin-right: 8%; } }
-  /* line 108, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
-  .petcare-app .appointments .wrapper .photo-wrapper img {
-    margin: 0 auto; }
+.tidbits-list img:last-child {
+  margin-bottom: 0px;
+}
 
-/* line 117, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_petcare-app.scss */
-.petcare-app h2:after {
-  background-color: #41A8E9; }
+.tidbits-list img.x2 {
+  width: 100%;
+  float: left;
+}
 
-/* line 2, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_outlander.scss */
-.outlander .mobile-mockup .wrapper {
-  display: flex;
-  align-items: center;
-  flex-flow: column wrap;
-  justify-content: space-around;
-  margin-top: 50px;
-  z-index: 5;
-  position: relative; }
-  @media (min-width: 768px) {
-    /* line 2, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_outlander.scss */
-    .outlander .mobile-mockup .wrapper {
-      flex-flow: row nowrap; } }
-  /* line 15, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_outlander.scss */
-  .outlander .mobile-mockup .wrapper .text {
-    margin-bottom: 30px; }
-    @media (min-width: 768px) {
-      /* line 15, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_outlander.scss */
-      .outlander .mobile-mockup .wrapper .text {
-        width: 40%;
-        margin-right: 8%;
-        order: 1;
-        margin-bottom: 0px; } }
-  @media (min-width: 768px) {
-    /* line 26, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_outlander.scss */
-    .outlander .mobile-mockup .wrapper .photo-wrapper {
-      width: 50%;
-      order: 2; } }
-  /* line 32, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_outlander.scss */
-  .outlander .mobile-mockup .wrapper .photo-wrapper img {
-    margin: 0 auto; }
+@media (min-width: 768px) {
+  .tidbits-list img.x2 {
+    width: 50%;
+  }
+}
 
-/* line 38, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_outlander.scss */
-.outlander .desktop-mockup {
-  margin-top: 40px; }
+.tidbits-list img.x3 {
+  width: 100%;
+  float: left;
+}
 
-/* line 43, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_outlander.scss */
-.outlander h2:after {
-  background-color: #F67523; }
+@media (min-width: 768px) {
+  .tidbits-list img.x3 {
+    width: 33.33%;
+  }
+}
 
-/* line 2, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_records.scss */
-.records .yellow-border {
-  border-top: 5px solid #EEB40F; }
+.tidbits-list img.x4 {
+  width: 50%;
+  float: left;
+}
 
-/* line 6, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_records.scss */
-.records .the-challenge {
-  background-color: #E5EBEC;
-  margin-top: 10px;
-  padding: 40px 0px; }
+@media (min-width: 768px) {
+  .tidbits-list img.x4 {
+    width: 25%;
+  }
+}
 
-/* line 12, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_records.scss */
-.records .the-process {
-  background-color: #FBEECC;
-  margin-top: 10px;
-  padding: 40px 0px; }
+.tidbits-list img.full {
+  width: 100%;
+}
 
-/* line 18, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_records.scss */
-.records .the-result {
-  background-color: #E5EBEC;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 40px 0px; }
-
-/* line 26, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_records.scss */
-.records h2:after {
-  background-color: #003946; }
-
-/* line 2, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
 .contact .content {
   padding-top: 30px;
-  padding-bottom: 30px; }
-  @media (min-width: 768px) {
-    /* line 2, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
-    .contact .content {
-      padding-top: 50px;
-      padding-bottom: 50px; } }
+  padding-bottom: 30px;
+}
 
-/* line 12, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
+@media (min-width: 768px) {
+  .contact .content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
 .contact p.email {
-  margin-top: 10px; }
+  margin-top: 10px;
+}
 
-/* line 16, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
 .contact .contact-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
-  flex-flow: column; }
-  @media (min-width: 992px) {
-    /* line 16, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
-    .contact .contact-wrapper {
-      flex-direction: row; } }
-  /* line 27, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
-  .contact .contact-wrapper .image-wrapper {
-    width: 100%;
-    margin-bottom: 40px; }
-    @media (min-width: 992px) {
-      /* line 27, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
-      .contact .contact-wrapper .image-wrapper {
-        width: 40%;
-        margin-bottom: 0px; } }
-    /* line 36, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
-    .contact .contact-wrapper .image-wrapper img {
-      margin: 0 auto; }
-  /* line 41, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
-  .contact .contact-wrapper .text {
-    width: 100%; }
-    @media (min-width: 992px) {
-      /* line 41, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
-      .contact .contact-wrapper .text {
-        width: 50%; } }
-  /* line 49, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
-  .contact .contact-wrapper .illustration {
-    margin: 0 auto;
-    margin-top: 30px; }
-    @media (min-width: 768px) {
-      /* line 49, /Users/Amanda/self_promotion_material/branding/portfolio-github/css/_contact.scss */
-      .contact .contact-wrapper .illustration {
-        margin: 0; } }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
 
+@media (min-width: 992px) {
+  .contact .contact-wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.contact .contact-wrapper .image-wrapper {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 992px) {
+  .contact .contact-wrapper .image-wrapper {
+    width: 40%;
+    margin-bottom: 0px;
+  }
+}
+
+.contact .contact-wrapper .image-wrapper img {
+  margin: 0 auto;
+}
+
+.contact .contact-wrapper .text {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .contact .contact-wrapper .text {
+    width: 50%;
+  }
+}
+
+.contact .contact-wrapper .illustration {
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .contact .contact-wrapper .illustration {
+    margin: 0;
+  }
+}
+
+.contact ul.social-media {
+  margin-top: 6px;
+}
+
+.contact ul.social-media li {
+  display: inline-block;
+}
+
+.contact ul.social-media li a {
+  padding: 6px 7px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
 /*# sourceMappingURL=styles.css.map */
