@@ -325,7 +325,7 @@ h2 {
 h3 {
   color: #414042;
   font-size: 26px;
-  line-height: 38px;
+  line-height: 36px;
   font-weight: 900;
   line-height: 29px;
   font-family: "Nunito Sans", Arial, Helvetica sans-serif;
@@ -335,7 +335,7 @@ h3 {
 @media (min-width: 768px) {
   h3 {
     font-size: 28px;
-    line-height: 42px;
+    line-height: 38px;
   }
 }
 
@@ -359,12 +359,43 @@ h4.white {
   color: #ffffff;
 }
 
+h5 {
+  color: #414042;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  font-family: "Nunito Sans", Arial, Helvetica sans-serif;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  h5 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+h5.white {
+  color: #ffffff;
+}
+
+h5.margin-top {
+  margin-top: 30px;
+}
+
+@media (min-width: 992px) {
+  h5.margin-top {
+    margin-top: 0px;
+  }
+}
+
 p {
   color: #58595B;
   font-size: 18px;
   line-height: 24px;
   font-family: "Nunito Sans", Arial, Helvetica sans-serif;
   margin-bottom: 15px;
+  font-weight: normal;
 }
 
 p.small {
@@ -373,6 +404,21 @@ p.small {
 
 p.orange {
   color: #f26414;
+}
+
+p.image-caption {
+  color: #58595B;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "Nunito Sans", Arial, Helvetica sans-serif;
+  margin-bottom: 15px;
+  font-style: italic;
+  margin-top: 15px;
+}
+
+p.stat {
+  font-size: 28px;
+  font-weight: 900;
 }
 
 ul.bullets {
@@ -393,15 +439,6 @@ ul.bullets ul {
 ul.bullets ul li p {
   padding-bottom: 0px !important;
   margin-bottom: 10px !important;
-}
-
-p.image-caption {
-  color: #58595B;
-  font-size: 14px;
-  line-height: 22px;
-  font-family: "Nunito Sans", Arial, Helvetica sans-serif;
-  margin-bottom: 15px;
-  font-style: italic;
 }
 
 a {
@@ -1100,6 +1137,18 @@ ul.portfolio-items-list li.portfolio-item:hover .overlay h3:after, ul.portfolio-
   margin-top: 30px;
 }
 
+.highlighted-section.yellow {
+  background-color: rgba(234, 168, 21, 0.2);
+}
+
+.highlighted-section.blue {
+  background-color: rgba(0, 170, 178, 0.1);
+}
+
+.highlighted-section.text-center {
+  text-align: center;
+}
+
 .align-center {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1114,6 +1163,20 @@ ul.portfolio-items-list li.portfolio-item:hover .overlay h3:after, ul.portfolio-
   display: inline-block;
   margin-right: 10px;
   margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #414042;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+table p, th p, td p {
+  margin-bottom: 0px;
+}
+
+.section {
+  margin-top: 30px;
 }
 
 .home .skills-wrapper {
@@ -1365,6 +1428,18 @@ ul.portfolio-items-list li.portfolio-item:hover .overlay h3:after, ul.portfolio-
   margin-top: 30px;
 }
 
+.highlighted-section.yellow {
+  background-color: rgba(234, 168, 21, 0.2);
+}
+
+.highlighted-section.blue {
+  background-color: rgba(0, 170, 178, 0.1);
+}
+
+.highlighted-section.text-center {
+  text-align: center;
+}
+
 .align-center {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1379,6 +1454,20 @@ ul.portfolio-items-list li.portfolio-item:hover .overlay h3:after, ul.portfolio-
   display: inline-block;
   margin-right: 10px;
   margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #414042;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+table p, th p, td p {
+  margin-bottom: 0px;
+}
+
+.section {
+  margin-top: 30px;
 }
 
 .portfolio .portfolio-content-wrapper {

@@ -44,7 +44,7 @@ h2 {
 h3 {
     color:$dark-grey;
     font-size:26px;
-    line-height:38px;
+    line-height:36px;
     font-weight:900;
     line-height:29px;
     font-family: $nunito;
@@ -52,7 +52,7 @@ h3 {
 
     @media #{$md-up} {
         font-size:28px;
-        line-height: 42px;
+        line-height: 38px;
     }
 }
 
@@ -74,12 +74,39 @@ h4 {
     }
 }
 
+h5 {
+    color:$dark-grey;
+    font-size:18px;
+    line-height:22px;
+    font-weight:700;
+    font-family: $nunito;
+    margin-bottom:10px;
+
+    @media #{$md-up} {
+        font-size:20px;
+        line-height:24px;
+    }
+
+    &.white {
+        color:$white;
+    }
+
+    &.margin-top{
+        margin-top:30px;
+
+        @media #{$lg-up} {
+            margin-top:0px;
+        }
+    }
+}
+
 p {
     color:$light-grey;
     font-size:18px;
     line-height:24px;
     font-family: $nunito;
     margin-bottom:15px;
+    font-weight:normal;
 
     &.small {
         font-size:12px;
@@ -87,6 +114,21 @@ p {
 
     &.orange {
         color:$orange;
+    }
+
+    &.image-caption {
+        color:$light-grey;
+        font-size:14px;
+        line-height:22px;
+        font-family: $nunito;
+        margin-bottom:15px;
+        font-style: italic;
+        margin-top:15px;
+    }
+
+    &.stat {
+        font-size:28px;
+        font-weight:900;
     }
 }
 
@@ -111,15 +153,6 @@ ul.bullets {
             }
         }
     }
-}
-
-p.image-caption {
-    color:$light-grey;
-    font-size:14px;
-    line-height:22px;
-    font-family: $nunito;
-    margin-bottom:15px;
-    font-style: italic;
 }
 
 a {
