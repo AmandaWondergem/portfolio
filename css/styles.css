@@ -257,7 +257,7 @@ hr {
           flex-direction: column-reverse;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .flip-wrap-order {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;

@@ -156,7 +156,7 @@ hr {
 .flip-wrap-order {
     flex-direction: column-reverse;
 
-    @media #{$lg-up} {
+    @media #{$md-up} {
         flex-direction: row;
     }
 }
