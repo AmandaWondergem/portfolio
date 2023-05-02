@@ -442,7 +442,7 @@ ul.bullets ul li p {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #C24E0A;
   cursor: pointer;
 }
