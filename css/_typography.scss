@@ -166,6 +166,11 @@ a {
     }
 }
 
+.button {
+    width:100%;
+    align-self:flex-end;
+}
+
 a.primary-button {
     display:inline-block;
     padding:15px 25px;
