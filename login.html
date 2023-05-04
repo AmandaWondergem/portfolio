@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Amanda Wondergem | Visual Designer | Vancouver, BC Canada</title>
+    <meta name="description" content="Amanda Wondergem is a Visual Designer based in Vancouver, BC Canada.">
+    <meta name="keywords" content="Amanda Wondergem, Vancouver, BC, British Columbia, Canada, illustrator, motion designer, motion graphics designer, mograph, design, design, visual designer, graphic designer, portfolio, work, Toronto, Ontario, demo reel, show reel, motion designer, ui animation">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--jquery-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/umd/alert.js"></script>
+    <script type="text/javascript" src="js/umd/button.js"></script>
+    <script type="text/javascript" src="js/umd/carousel.js"></script>
+    <script type="text/javascript" src="js/umd/collapse.js"></script>
+    <script type="text/javascript" src="js/umd/dropdown.js"></script>
+    <script type="text/javascript" src="js/umd/modal.js"></script>
+    <script type="text/javascript" src="js/umd/popover.js"></script>
+    <script type="text/javascript" src="js/umd/scrollspy.js"></script>
+    <script type="text/javascript" src="js/umd/tab.js"></script>
+    <script type="text/javascript" src="js/umd/tooltip.js"></script>
+    <script type="text/javascript" src="js/umd/util.js"></script>
+
+    <!--My Styles-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" >
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!--lightbox function-->
+    <script type="text/javascript" src="js/functions.js"></script>
+
+    <!--Google Analytics Tracking-->
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-37337611-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+</head>
+
+<body style="background-color:#1c1d21;"">
+
+   <!--LOGIN FORM-->
+   <div class="page-wrapper" style="background-color:#1c1d21;">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                <div class="form-container">
+                    <div class="row">
+                        <div class="col-xs-10 offset-xs-1 col-sm-8 offset-sm-2 col-md-6 offset-md-3">
+                            <div class="logo-wrapper">
+                                <img class="img-fluid" src="img/logo-black@2x.png" alt="logo">
+                            </div>
+                        </div>
+                    </div>
+                    <h1>Welcome</h1>
+                    <p class="large">Please enter a password to view <span style="white-space:nowrap">Amanda Wondergem's</span> portfolio</p>
+                    <form class="login" action="login.php" method="post" onsubmit="return validatePassword()">
+                        <div class="input-wrapper">
+                            <label for="password">Password</label>
+
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <p class="error">Please submit a valid password.</p>
+                        <div class="button-wrapper">
+                            <button class="primary-button" type="submit">Login</button>
+                        </div>
+                    </form>  
+                </div>                
+            </div>
+        </div>
+    </div>
+    </div><!--END LOGIN FORM-->
+</body>
+</html>

@@ -1,0 +1,54 @@
+.logo-wrapper {
+    margin-bottom:20px;
+}
+
+.form-container {
+    width:100%;
+    padding: 40px;
+    background:$white;
+    box-shadow: rgba(28, 29, 33, 0.2) 0px 2px 8px 0px;
+    border-radius: 8px;
+    text-align:center;
+    margin-top:20px;
+
+    form.login {
+        .input-wrapper {
+            margin-top:40px;
+            margin-bottom:10px;
+
+            label {
+                display:inline-block;
+                margin-right:10px;
+            }
+
+            input {
+                display:inline-block;
+                border:2px solid $light-grey;
+                border-radius:4px;
+                padding:10px;
+                box-sizing: border-box;
+                -webkit-transition: 0.3s;
+                transition: 0.3s;
+                outline: none;
+
+                &:focus {
+                    border:2px solid $blue;
+                }
+            }
+        }
+
+        p.error {
+            display:none;
+        }
+    
+        .button-wrapper {
+            margin-top:25px;
+
+            button {
+                display:block;
+                margin:0 auto;
+            }
+        }
+    }
+
+}

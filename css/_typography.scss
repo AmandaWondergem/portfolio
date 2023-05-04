@@ -112,6 +112,11 @@ p {
         font-size:12px;
     }
 
+    &.large {
+        font-size:22px;
+        line-height:32px;
+    }
+
     &.orange {
         color:$orange;
     }
@@ -129,6 +134,11 @@ p {
     &.stat {
         font-size:28px;
         font-weight:900;
+    }
+
+    &.error {
+        color:$red;
+        font-size:14px;
     }
 }
 
@@ -171,7 +181,7 @@ a {
     align-self:flex-end;
 }
 
-a.primary-button {
+a.primary-button, button.primary-button {
     display:inline-block;
     padding:15px 25px;
     color:$dark-blue;
@@ -182,6 +192,7 @@ a.primary-button {
     font-weight:800;
     text-transform: uppercase;
     border-radius: 50px;
+    border:none;
 
     &:hover {
         background-color:$blue;
@@ -207,4 +218,15 @@ a.primary-button {
 .section-title {
     text-align:center;
     margin-bottom:20px;
+}
+
+form.login {
+    label {
+        color:$light-grey;
+        font-size:18px;
+        line-height:24px;
+        font-family: $nunito;
+        margin-bottom:15px;
+        font-weight:normal;
+    }
 }

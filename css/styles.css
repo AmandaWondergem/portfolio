@@ -402,6 +402,11 @@ p.small {
   font-size: 12px;
 }
 
+p.large {
+  font-size: 22px;
+  line-height: 32px;
+}
+
 p.orange {
   color: #f26414;
 }
@@ -419,6 +424,11 @@ p.image-caption {
 p.stat {
   font-size: 28px;
   font-weight: 900;
+}
+
+p.error {
+  color: #c71c10;
+  font-size: 14px;
 }
 
 ul.bullets {
@@ -458,7 +468,7 @@ a:hover {
       align-self: flex-end;
 }
 
-a.primary-button {
+a.primary-button, button.primary-button {
   display: inline-block;
   padding: 15px 25px;
   color: #1c1d21;
@@ -469,9 +479,10 @@ a.primary-button {
   font-weight: 800;
   text-transform: uppercase;
   border-radius: 50px;
+  border: none;
 }
 
-a.primary-button:hover {
+a.primary-button:hover, button.primary-button:hover {
   background-color: #00AAB2;
   /* Firefox */
   /* WebKit */
@@ -492,6 +503,15 @@ a.primary-button:hover {
 .section-title {
   text-align: center;
   margin-bottom: 20px;
+}
+
+form.login label {
+  color: #58595B;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Nunito Sans", Arial, Helvetica sans-serif;
+  margin-bottom: 15px;
+  font-weight: normal;
 }
 
 .background {
@@ -961,6 +981,60 @@ a.primary-button:hover {
 }
 
 /*page styles*/
+.logo-wrapper {
+  margin-bottom: 20px;
+}
+
+.form-container {
+  width: 100%;
+  padding: 40px;
+  background: #ffffff;
+  -webkit-box-shadow: rgba(28, 29, 33, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(28, 29, 33, 0.2) 0px 2px 8px 0px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-container form.login .input-wrapper {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.form-container form.login .input-wrapper label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.form-container form.login .input-wrapper input {
+  display: inline-block;
+  border: 2px solid #58595B;
+  border-radius: 4px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+}
+
+.form-container form.login .input-wrapper input:focus {
+  border: 2px solid #00AAB2;
+}
+
+.form-container form.login p.error {
+  display: none;
+}
+
+.form-container form.login .button-wrapper {
+  margin-top: 25px;
+}
+
+.form-container form.login .button-wrapper button {
+  display: block;
+  margin: 0 auto;
+}
+
 ul.portfolio-items-list {
   display: -webkit-box;
   display: -ms-flexbox;
