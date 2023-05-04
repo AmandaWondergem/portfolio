@@ -2,10 +2,9 @@
 
 .footer {
     padding:30px 15px 30px 15px;
-    background-color:$white;
+    background-color:$dark-blue;
     background-repeat: repeat;
     text-align:center;
-    border-top:2px solid $grey;
 
     @media #{$md-up} {
         padding-bottom:30px;
@@ -35,7 +34,7 @@
             }
 
             a {
-                color:$dark-grey;
+                color:$white;
                 font-size:14px;
                 text-transform: uppercase;
                 font-weight:bold;

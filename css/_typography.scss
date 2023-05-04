@@ -184,8 +184,8 @@ a {
 a.primary-button, button.primary-button {
     display:inline-block;
     padding:15px 25px;
-    color:$dark-blue;
-    background-color:$orange;
+    color:$white;
+    background-color:$orange-dark;
     text-decoration:none;
     cursor:pointer;
     font-size:16px;
@@ -195,14 +195,9 @@ a.primary-button, button.primary-button {
     border:none;
 
     &:hover {
-        background-color:$blue;
-         /* Firefox */
+        background-color:$blue-medium;
         -moz-transition: all 0.3s ease-in-out;
-        /* WebKit */
         -webkit-transition: all 0.3s ease-in-out;
-        /* Opera */
-        -o-transition: all 0.3s ease-in-out;
-        /* Standard */
         transition: all 0.3s ease-in-out;
     }
 }

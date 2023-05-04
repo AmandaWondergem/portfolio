@@ -90,6 +90,7 @@ body {
   position: relative;
   margin: 0;
   min-height: 100%;
+  background-color: #1c1d21;
 }
 
 .page-wrapper {
@@ -453,7 +454,7 @@ ul.bullets ul li p {
 
 a {
   text-decoration: underline;
-  color: #C24E0A;
+  color: #C74F0A;
   cursor: pointer;
 }
 
@@ -471,8 +472,8 @@ a:hover {
 a.primary-button, button.primary-button {
   display: inline-block;
   padding: 15px 25px;
-  color: #1c1d21;
-  background-color: #f26414;
+  color: #ffffff;
+  background-color: #C74F0A;
   text-decoration: none;
   cursor: pointer;
   font-size: 16px;
@@ -483,12 +484,8 @@ a.primary-button, button.primary-button {
 }
 
 a.primary-button:hover, button.primary-button:hover {
-  background-color: #00AAB2;
-  /* Firefox */
-  /* WebKit */
+  background-color: #00838A;
   -webkit-transition: all 0.3s ease-in-out;
-  /* Opera */
-  /* Standard */
   transition: all 0.3s ease-in-out;
 }
 
@@ -904,10 +901,9 @@ form.login label {
 /*Google font*/
 .footer {
   padding: 30px 15px 30px 15px;
-  background-color: #ffffff;
+  background-color: #1c1d21;
   background-repeat: repeat;
   text-align: center;
-  border-top: 2px solid #F2F2F2;
 }
 
 @media (min-width: 768px) {
@@ -944,7 +940,7 @@ form.login label {
 }
 
 .footer ul.nav li a {
-  color: #414042;
+  color: #ffffff;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: bold;
