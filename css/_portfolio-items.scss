@@ -15,8 +15,12 @@ ul.portfolio-items-list {
         width:100%;
         padding:0px 15px 50px 15px;
 
-        img {
-            margin-bottom:10px;
+        a {
+            margin-bottom:20px;
+
+            @media #{$md-up} {
+                margin-bottom:10px;
+            }
         }
 
         p {
@@ -96,31 +100,6 @@ ul.portfolio-items-list {
                 -webkit-transition: opacity 0.3s ease;
                 -moz-transition: opacity 0.3s ease;
                 transition: opacity 0.3s ease;
-            }
-    
-            h3 {
-                letter-spacing:0.05em;
-                color:#fff;
-                text-transform:uppercase;
-                margin-bottom:10px;
-    
-                &:after {
-                    content: '';
-                    display: block;
-                    height: 3px;
-                    width: 148px;
-                    margin:0 auto;
-                    background-color:#fff;
-                    -webskit-transition: width 0.25s ease-in-out, background-color 0.25s ease;
-                    -moz-transition: width 0.25s ease-in-out, background-color 0.25s ease;
-                    transition: width 0.25s ease-in-out, background-color 0.25s ease;
-                    margin-top:8px;
-    
-                    @media #{$lg-up} {
-                        width: 0;
-                        background-color: transparent;
-                    }
-                  }
             }
     
             p {
