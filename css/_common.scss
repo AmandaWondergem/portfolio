@@ -164,4 +164,9 @@ hr {
 .headshot {
     display:flex;
     justify-content:center;
+    margin-bottom:20px;
+    
+    @media #{$md-up} {
+        margin-bottom:0px;
+    }
 }

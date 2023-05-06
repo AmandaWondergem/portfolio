@@ -27,10 +27,9 @@ h1 {
 h2 {
     color:$dark-grey;
     font-size:30px;
-    line-height:28px;
+    line-height:36px;
     font-weight:900;
     letter-spacing:0.02em;
-    margin-bottom:6px;
     position:relative;
     font-family: $nunito;
     margin-bottom:10px;
@@ -44,15 +43,14 @@ h2 {
 h3 {
     color:$dark-grey;
     font-size:26px;
-    line-height:34px !important;
+    line-height:34px;
     font-weight:900;
-    line-height:29px;
     font-family: $nunito;
     margin-bottom:10px;
 
     @media #{$md-up} {
         font-size:28px;
-        line-height: 36px !important;
+        line-height: 36px;
     }
 }
 
